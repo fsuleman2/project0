@@ -1,16 +1,21 @@
 package com.bank.main;
 
+import java.util.List;
 import java.util.Scanner;
 
 import org.apache.log4j.Logger;
 
 import com.bank.exception.BusinessException;
+import com.bank.model.Account;
 import com.bank.model.Bank;
 import com.bank.model.Customer;
+import com.bank.model.Transaction;
 import com.bank.service.BankCrudService;
 import com.bank.service.BankLoginService;
+import com.bank.service.BankSearchService;
 import com.bank.service.impl.BankCrudServiceImpl;
 import com.bank.service.impl.BankLoginServiceImpl;
+import com.bank.service.impl.BankSearchServiceImpl;
 
 public class BankMain {
 private static Logger log = Logger.getLogger(BankMain.class);
@@ -59,9 +64,10 @@ private static Logger log = Logger.getLogger(BankMain.class);
 											   log.info("\nWelcome "+empUsername+"\n");
 												log.info("\n1)Open Account");
 												log.info("\n2)Approve or Reject an Account");
-												log.info("\n3)View Customer Account Details");
-												log.info("\n4)View Transaction of Customers");
-												log.info("\n5)Logout");
+												log.info("\n3)View All Customer Personal Details");
+												log.info("\n4)View Customer Account Details");
+												log.info("\n5)View Transaction of Customers");
+												log.info("\n6)Logout");
 												log.info("\nEnter Your Choice 1-5");
 												try {
 													ch2 = Integer.parseInt(sc.nextLine());
@@ -95,23 +101,31 @@ private static Logger log = Logger.getLogger(BankMain.class);
 															log.info("\nBank Account Created Successfully...");
 														} catch (BusinessException e) {
 															log.warn(e.getMessage());
-															throw new BusinessException("Bank Account not Creation Failed!!");
+															throw new BusinessException("Bank Account  Creation Failed!!");
 														};
 													break;
-												case 2:
+												case 2: 
 													break;
-												case 3: log.info("Enter Customer Username");
-														log.info("Display data here ");
+												case 3: BankCrudService bankCrudService1 = new BankCrudServiceImpl();
+												try {
+													List<Bank> bankList=bankCrudService1.getAllCustomerDetails();
+													for(Bank b : bankList) {
+														log.info(b);
+													}
+												}catch(BusinessException e) {log.error(e.getMessage());}
+														
+												
 													break;
-												case 4:	log.info("Enter Customer Username");
-														log.info("Display data here ");
+												case 4:
 													break;
-												case 5: 
+												case 5:
+													break;
+												case 6: 
 													log.info("\nLogout Successfully............\n");
 													log.info("\nGoing to Main Menu............");
 													break;
 												}
-										   }while(ch2!=5);
+										   }while(ch2!=6);
 									}
 									else {
 										log.info("Invalid Details");
@@ -127,12 +141,16 @@ private static Logger log = Logger.getLogger(BankMain.class);
 								String custUserName = sc.nextLine();
 								log.info("\n Enter Password:");
 								String custPassword = sc.nextLine();
+//								System.out.println(custUserName);
+//								System.out.println(custPassword);
 								customer = new Customer(custUserName,custPassword);
 								try {
 									 bankLoginService = new BankLoginServiceImpl();
 									  customer =bankLoginService.customerLogin(customer);
+//									  System.out.println(customer.getCustUserName());
+//									  System.out.println(customer.getCustUserName());
 									  if(customer.getCustUserName().equals(custUserName) && customer.getCustPassword().equals(custPassword)){
-										  log.info("Employee Login Successfully");
+										  log.info("Employee Login Successfully\n");
 										  int ch3=0;
 											do {
 												log.info("Welcome "+custUserName);
@@ -175,7 +193,7 @@ private static Logger log = Logger.getLogger(BankMain.class);
 													log.info("\nBank Account Created Successfully...");
 												} catch (BusinessException e) {
 													log.warn(e.getMessage());
-													throw new BusinessException("Bank Account not Creation Failed!!");
+													throw new BusinessException("Bank Account  Creation Failed!!");
 												};
 														break;
 												case 2:log.info("\nEnter Customer Username");
@@ -186,12 +204,75 @@ private static Logger log = Logger.getLogger(BankMain.class);
 														double amountTransfer = Double.parseDouble(sc.nextLine());
 														log.info("\nAmount Transfered SuccessFully!!!"); //valid
 														break;
-												case 3: log.info("\nEnter the Amount to Withdraw(min 500)");
-														double amountWithdraw = Double.parseDouble(sc.nextLine());
+														
+												case 3: BankSearchService bankSearchService1 = new BankSearchServiceImpl();
+														BankCrudService bankCrudService2 = new BankCrudServiceImpl();
+														Transaction transaction1 =new Transaction();
+														Account account1 = new Account();
+														log.info("Enter your Account Number");
+														int accno1 = Integer.parseInt(sc.nextLine());
+														log.info("\nEnter the Amount to Withdraw(min 500)");
+														float amountWithdraw = Float.parseFloat(sc.nextLine());
+														account1 = bankSearchService1.getBalanceByAccountNumber(accno1);
+														float openingBalance1 = account1.getOpeningbalance();
+														String transType1 = "Withdraw";
+														float closingBalance1 = Math.abs(openingBalance1-amountWithdraw);
+														transaction1 = new Transaction(transType1,openingBalance1,amountWithdraw,closingBalance1,accno1);
+														 transaction1 = bankCrudService2.depositAmount(transaction1);
+														 log.info("Amount " + amountWithdraw
+																	+ "Successfully Withdrawed from your Account Number = "
+																	+ accno1);
+															log.info(transaction1);
 														log.info("\nAmount Withdrawed SuccessFully!!!"); //valid
 														break;
-												case 4: log.info("\nEnter the Amount to Deposit(min 500)");
-														double amountDeposit = Double.parseDouble(sc.nextLine());
+												case 4: BankSearchService bankSearchService = new BankSearchServiceImpl();
+														BankCrudService bankCrudService1 = new BankCrudServiceImpl();
+														Transaction transaction =new Transaction();
+														Account account = new Account();
+														log.info("Enter your Account Number");
+														int accno = Integer.parseInt(sc.nextLine());
+														log.info("\nEnter the Amount to Deposit(min 500)");
+														float amountDeposit = Float.parseFloat(sc.nextLine());
+														account = bankSearchService.getBalanceByAccountNumber(accno);
+														float openingBalance = account.getOpeningbalance();
+														//System.out.println("THIS IS MY OPENING BALANCE"+openingBalance);
+														String transType = "Deposit";
+														float closingBalance = openingBalance+amountDeposit;
+														//System.out.println(closingBalance);
+														 transaction = new Transaction(transType,openingBalance,amountDeposit,closingBalance,accno);
+														 transaction = bankCrudService1.depositAmount(transaction);
+														 log.info("Amount " + amountDeposit
+																	+ "Successfully deposited into your Account Number = "
+																	+ accno);
+															log.info(transaction);
+														/*
+														 * BankCrudService bankCrudService2 = new BankCrudServiceImpl();
+											BankSearchService bankSearchService1 = new BankSearchServiceImpl();
+											// Transaction transaction=new Transaction();
+											Account account1 = new Account();
+											log.info("Enter Your 11 Digit Account Number");
+											long accountNumber = Long.parseLong(sc.nextLine());
+											log.info("enter Amount to be deposited");
+											double amount = Double.parseDouble(sc.nextLine());
+											account1 = bankSearchService1.getBalanceByAccountNumber(accountNumber);
+											double balance = account1.getOpeningBalance();
+											String transType = "Deposit";
+											double closingBalance = balance + amount;
+											
+											Transaction transaction = new Transaction(accountNumber, amount, balance,
+													closingBalance, transType);
+											transaction = bankCrudService2.depositAmount(transaction);
+
+											log.info("Amount " + amount
+													+ "Successfully deposited into your Account Number"
+													+ accountNumber);
+											log.info(transaction);
+														 * 
+														 * 
+														 * 
+														 * 
+														 * 
+														 * */
 														log.info("\nAmount Deposited SuccessFully!!!"); //valid
 														break;
 												case 5: log.info("View Statement");
@@ -205,7 +286,7 @@ private static Logger log = Logger.getLogger(BankMain.class);
 											}while(ch3!=6);	
 									  }
 									  else {
-											log.info("Invalid Details");
+											log.info("Invalid Details..");
 										}
 								}catch(BusinessException e) {
 									log.warn(e.getMessage());
@@ -238,15 +319,7 @@ private static Logger log = Logger.getLogger(BankMain.class);
 					throw new BusinessException("Bank Account not Registered!!");
 				};
 					break;
-			case 3:log.info("\nEnter Full name");
-				   String fName = sc.nextLine();
-				   log.info("\nEnter Your Username");
-				   String uName = sc.nextLine();
-					log.info("\nEnter Your Password");
-					String passWord= sc.nextLine();
-					log.info("\n Account Deleted Successfully....\n\n");
-				break;
-			case 4:
+			case 3:
 				log.info("Thanks for using our App.. See you soon. :)");
 				break;
 			default:
