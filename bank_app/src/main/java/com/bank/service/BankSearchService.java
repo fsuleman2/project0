@@ -9,7 +9,8 @@ import com.bank.model.Transaction;
 
 public interface BankSearchService {
 	public List<Bank> getCustomerDetailsByUsername(String username) throws BusinessException;
+	public List<Bank> getCustomerDetailsByFirstName(String fname) throws BusinessException;
+	public List<Bank> getCustomerDetailsByCity(String city) throws BusinessException;
 	public List<Transaction> getTransactionDetailsByTid(int tid) throws BusinessException;
 	public Account getBalanceByAccountNumber(float accountNumber) throws BusinessException;
-
 }

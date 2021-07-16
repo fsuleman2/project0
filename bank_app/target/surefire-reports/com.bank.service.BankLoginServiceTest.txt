@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.bank.service.BankLoginServiceTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.289 s <<< FAILURE! - in com.bank.service.BankLoginServiceTest
+testEmployeeLoginForExisting  Time elapsed: 0.047 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.bank.service.BankLoginServiceTest.testEmployeeLoginForExisting(BankLoginServiceTest.java:26)
+

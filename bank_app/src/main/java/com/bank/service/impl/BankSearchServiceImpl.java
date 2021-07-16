@@ -34,6 +34,18 @@ public class BankSearchServiceImpl implements BankSearchService{
 		return account;
 	}
 
+	@Override
+	public List<Bank> getCustomerDetailsByFirstName(String fname) throws BusinessException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Bank> getCustomerDetailsByCity(String city) throws BusinessException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 
 
 }

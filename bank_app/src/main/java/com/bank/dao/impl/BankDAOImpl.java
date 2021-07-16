@@ -77,8 +77,8 @@ public class BankDAOImpl implements BankDAO{
 	@Override
 	public Bank openCustomerAccount(Bank bank) throws BusinessException {
 		try(Connection connection = PostgresConnection.getConnection()){
-			String sql = "insert into customer_personal_info(custusername,custfname,custlname,custgender,custdob,custmobileno,custpan,custcity,custstate,initialamount)values(?,?,?,?,?,?,?,?,?,?)";
-			String sql1 = "insert into custacctdetails(custfname,custusername,currbalance) values(?,?,?) ";
+			String sql = "insert into customer_personal_info(custusername,custfname,custlname,custgender,custdob,custmobileno,custpan,custcity,custstate,openingbalance)values(?,?,?,?,?,?,?,?,?,?)";
+			String sql1 = "insert into custacctdetails(custfname,custusername,openingbalance) values(?,?,?) ";
 			PreparedStatement preparedStatement1 = connection.prepareCall(sql1);
 			PreparedStatement preparedStatement = connection.prepareCall(sql);
 			preparedStatement.setString(1,bank.getCustUserName());
@@ -90,10 +90,10 @@ public class BankDAOImpl implements BankDAO{
 			preparedStatement.setString(7,bank.getCustPan());
 			preparedStatement.setString(8,bank.getCustCity());
 			preparedStatement.setString(9,bank.getCustState());
-			preparedStatement.setFloat(10, bank.getInitialAmount());
+			preparedStatement.setFloat(10, bank.getOpeningBalance());
 			preparedStatement1.setString(1,bank.getCustUserName());
 			preparedStatement1.setString(2,bank.getCustFname());
-			preparedStatement1.setFloat(3, bank.getInitialAmount());
+			preparedStatement1.setFloat(3, bank.getOpeningBalance());
 			int rowAffected = preparedStatement1.executeUpdate();
 			preparedStatement.executeUpdate();
 			if(rowAffected!=1) {
@@ -111,7 +111,7 @@ public class BankDAOImpl implements BankDAO{
 		//Bank bank = new Bank();
 		List<Bank> bankList=new ArrayList<>();
 		try(Connection connection = PostgresConnection.getConnection()){
-			String sql = "select custusername,custfname,custlname,custgender,custdob,custmobileno,custpan,custcity,custstate,initialamount from customer_personal_info";
+			String sql = "select custusername,custfname,custlname,custgender,custdob,custmobileno,custpan,custcity,custstate,openingbalance from customer_personal_info";
 			PreparedStatement preparedStatement = connection.prepareStatement(sql);
 			ResultSet resultSet=preparedStatement.executeQuery();
 			while(resultSet.next()) {
@@ -125,7 +125,7 @@ public class BankDAOImpl implements BankDAO{
 				bank.setCustPan(resultSet.getString("custpan"));
 				bank.setCustCity(resultSet.getString("custcity"));
 				bank.setCustState(resultSet.getString("custstate"));
-				bank.setInitialAmount(resultSet.getFloat("initialamount"));
+				bank.setOpeningBalance(resultSet.getFloat("openingbalance"));
 				bankList.add(bank);
 			}
 			System.out.println(bankList.size());

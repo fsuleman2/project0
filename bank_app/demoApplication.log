@@ -29501,3 +29501,850 @@ Amount Withdrawed SuccessFully!!!
 6)Logout
 [main] 2021-07-16 00:29:38 INFO  com.bank.main.BankMain  - 
 Enter Your Choice 1-6
+[main] 2021-07-16 08:31:37 INFO  com.bank.main.BankMain  - Welcome to BankApp V1.0
+[main] 2021-07-16 08:31:37 INFO  com.bank.main.BankMain  - ==================================
+[main] 2021-07-16 08:31:37 INFO  com.bank.main.BankMain  - 
+Bank Menu
+[main] 2021-07-16 08:31:37 INFO  com.bank.main.BankMain  - 1)Login
+[main] 2021-07-16 08:31:37 INFO  com.bank.main.BankMain  - 2)Register as a Customer
+[main] 2021-07-16 08:31:37 INFO  com.bank.main.BankMain  - 3)EXIT
+[main] 2021-07-16 08:31:37 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-3
+[main] 2021-07-16 08:31:42 INFO  com.bank.main.BankMain  - 
+Welcome to Cutomer Login Page
+
+[main] 2021-07-16 08:31:42 INFO  com.bank.main.BankMain  - 
+Enter Your Name
+[main] 2021-07-16 08:31:49 INFO  com.bank.main.BankMain  - 
+Enter Your Email
+[main] 2021-07-16 08:31:56 INFO  com.bank.main.BankMain  - 
+Enter Your Username
+[main] 2021-07-16 08:32:03 INFO  com.bank.main.BankMain  - 
+Enter Your Password
+[main] 2021-07-16 08:32:05 INFO  com.bank.main.BankMain  - 
+ Bank Account Registered Successfully...
+
+[main] 2021-07-16 08:32:05 INFO  com.bank.main.BankMain  - Welcome to BankApp V1.0
+[main] 2021-07-16 08:32:05 INFO  com.bank.main.BankMain  - ==================================
+[main] 2021-07-16 08:32:05 INFO  com.bank.main.BankMain  - 
+Bank Menu
+[main] 2021-07-16 08:32:05 INFO  com.bank.main.BankMain  - 1)Login
+[main] 2021-07-16 08:32:05 INFO  com.bank.main.BankMain  - 2)Register as a Customer
+[main] 2021-07-16 08:32:05 INFO  com.bank.main.BankMain  - 3)EXIT
+[main] 2021-07-16 08:32:05 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-3
+[main] 2021-07-16 08:32:10 INFO  com.bank.main.BankMain  - 
+1)Login as Employee
+[main] 2021-07-16 08:32:10 INFO  com.bank.main.BankMain  - 
+2)Login as Customer
+[main] 2021-07-16 08:32:10 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-2
+[main] 2021-07-16 08:32:13 INFO  com.bank.main.BankMain  - 
+Welcome to Customer Login Screen
+[main] 2021-07-16 08:32:13 INFO  com.bank.main.BankMain  - 
+ Enter Username:
+[main] 2021-07-16 08:32:19 INFO  com.bank.main.BankMain  - 
+ Enter Password:
+[main] 2021-07-16 08:32:20 INFO  com.bank.main.BankMain  - Employee Login Successfully
+
+[main] 2021-07-16 08:32:20 INFO  com.bank.main.BankMain  - Welcome mohan123
+[main] 2021-07-16 08:32:20 INFO  com.bank.main.BankMain  - 
+1)Open Account
+[main] 2021-07-16 08:32:20 INFO  com.bank.main.BankMain  - 
+2)Transfer Amount
+[main] 2021-07-16 08:32:20 INFO  com.bank.main.BankMain  - 
+3)Withdraw Amount
+[main] 2021-07-16 08:32:20 INFO  com.bank.main.BankMain  - 
+4)Deposit Amount
+[main] 2021-07-16 08:32:20 INFO  com.bank.main.BankMain  - 
+5)View statement
+[main] 2021-07-16 08:32:20 INFO  com.bank.main.BankMain  - 
+6)Logout
+[main] 2021-07-16 08:32:20 INFO  com.bank.main.BankMain  - 
+Enter Your Choice 1-6
+[main] 2021-07-16 08:32:24 INFO  com.bank.main.BankMain  - Enter Your Username
+[main] 2021-07-16 08:32:28 INFO  com.bank.main.BankMain  - Enter Your First Name
+[main] 2021-07-16 08:32:31 INFO  com.bank.main.BankMain  - Enter Your Last Name
+[main] 2021-07-16 08:32:35 INFO  com.bank.main.BankMain  - Enter Your Gender
+[main] 2021-07-16 08:32:37 INFO  com.bank.main.BankMain  - Enter Your Date of Birth in (yyy-mm-dd)
+[main] 2021-07-16 08:32:49 INFO  com.bank.main.BankMain  - Enter Your Mobile Number(10-Digits)
+[main] 2021-07-16 08:32:57 INFO  com.bank.main.BankMain  - Enter your PanCard Number
+[main] 2021-07-16 08:33:02 INFO  com.bank.main.BankMain  - Enter Your City
+[main] 2021-07-16 08:33:06 INFO  com.bank.main.BankMain  - Enter Your State
+[main] 2021-07-16 08:33:09 INFO  com.bank.main.BankMain  - Set Initial Amount(Min 500)
+[main] 2021-07-16 08:33:15 WARN  com.bank.dao.BankDAO  - ERROR: column "currbalance" of relation "custacctdetails" does not exist
+  Position: 52
+[main] 2021-07-16 08:33:15 WARN  com.bank.main.BankMain  - Internal Error Occured... Kindly contact SysAdmin
+[main] 2021-07-16 08:33:15 WARN  com.bank.main.BankMain  - Bank Account  Creation Failed!!
+[main] 2021-07-16 08:38:09 INFO  com.bank.main.BankMain  - Welcome to BankApp V1.0
+[main] 2021-07-16 08:38:09 INFO  com.bank.main.BankMain  - ==================================
+[main] 2021-07-16 08:38:09 INFO  com.bank.main.BankMain  - 
+Bank Menu
+[main] 2021-07-16 08:38:09 INFO  com.bank.main.BankMain  - 1)Login
+[main] 2021-07-16 08:38:09 INFO  com.bank.main.BankMain  - 2)Register as a Customer
+[main] 2021-07-16 08:38:09 INFO  com.bank.main.BankMain  - 3)EXIT
+[main] 2021-07-16 08:38:09 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-3
+[main] 2021-07-16 08:38:13 INFO  com.bank.main.BankMain  - 
+1)Login as Employee
+[main] 2021-07-16 08:38:13 INFO  com.bank.main.BankMain  - 
+2)Login as Customer
+[main] 2021-07-16 08:38:13 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-2
+[main] 2021-07-16 08:38:14 INFO  com.bank.main.BankMain  - 
+Welcome to Customer Login Screen
+[main] 2021-07-16 08:38:14 INFO  com.bank.main.BankMain  - 
+ Enter Username:
+[main] 2021-07-16 08:38:16 INFO  com.bank.main.BankMain  - 
+ Enter Password:
+[main] 2021-07-16 08:38:18 INFO  com.bank.main.BankMain  - Employee Login Successfully
+
+[main] 2021-07-16 08:38:18 INFO  com.bank.main.BankMain  - Welcome mohan123
+[main] 2021-07-16 08:38:18 INFO  com.bank.main.BankMain  - 
+1)Open Account
+[main] 2021-07-16 08:38:18 INFO  com.bank.main.BankMain  - 
+2)Transfer Amount
+[main] 2021-07-16 08:38:18 INFO  com.bank.main.BankMain  - 
+3)Withdraw Amount
+[main] 2021-07-16 08:38:18 INFO  com.bank.main.BankMain  - 
+4)Deposit Amount
+[main] 2021-07-16 08:38:18 INFO  com.bank.main.BankMain  - 
+5)View statement
+[main] 2021-07-16 08:38:18 INFO  com.bank.main.BankMain  - 
+6)Logout
+[main] 2021-07-16 08:38:18 INFO  com.bank.main.BankMain  - 
+Enter Your Choice 1-6
+[main] 2021-07-16 08:38:20 INFO  com.bank.main.BankMain  - Enter Your Username
+[main] 2021-07-16 08:38:23 INFO  com.bank.main.BankMain  - Enter Your First Name
+[main] 2021-07-16 08:38:26 INFO  com.bank.main.BankMain  - Enter Your Last Name
+[main] 2021-07-16 08:38:28 INFO  com.bank.main.BankMain  - Enter Your Gender
+[main] 2021-07-16 08:38:29 INFO  com.bank.main.BankMain  - Enter Your Date of Birth in (yyy-mm-dd)
+[main] 2021-07-16 08:38:42 INFO  com.bank.main.BankMain  - Enter Your Mobile Number(10-Digits)
+[main] 2021-07-16 08:38:48 INFO  com.bank.main.BankMain  - Enter your PanCard Number
+[main] 2021-07-16 08:38:56 INFO  com.bank.main.BankMain  - Enter Your City
+[main] 2021-07-16 08:38:59 INFO  com.bank.main.BankMain  - Enter Your State
+[main] 2021-07-16 08:39:01 INFO  com.bank.main.BankMain  - Set Initial Amount(Min 500)
+[main] 2021-07-16 08:39:05 WARN  com.bank.dao.BankDAO  - ERROR: column "currbalance" of relation "custacctdetails" does not exist
+  Position: 52
+[main] 2021-07-16 08:39:05 WARN  com.bank.main.BankMain  - Internal Error Occured... Kindly contact SysAdmin
+[main] 2021-07-16 08:39:05 WARN  com.bank.main.BankMain  - Bank Account  Creation Failed!!
+[main] 2021-07-16 08:40:17 INFO  com.bank.main.BankMain  - Welcome to BankApp V1.0
+[main] 2021-07-16 08:40:17 INFO  com.bank.main.BankMain  - ==================================
+[main] 2021-07-16 08:40:17 INFO  com.bank.main.BankMain  - 
+Bank Menu
+[main] 2021-07-16 08:40:17 INFO  com.bank.main.BankMain  - 1)Login
+[main] 2021-07-16 08:40:17 INFO  com.bank.main.BankMain  - 2)Register as a Customer
+[main] 2021-07-16 08:40:17 INFO  com.bank.main.BankMain  - 3)EXIT
+[main] 2021-07-16 08:40:17 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-3
+[main] 2021-07-16 08:40:19 INFO  com.bank.main.BankMain  - 
+1)Login as Employee
+[main] 2021-07-16 08:40:19 INFO  com.bank.main.BankMain  - 
+2)Login as Customer
+[main] 2021-07-16 08:40:19 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-2
+[main] 2021-07-16 08:40:20 INFO  com.bank.main.BankMain  - 
+Welcome to Customer Login Screen
+[main] 2021-07-16 08:40:20 INFO  com.bank.main.BankMain  - 
+ Enter Username:
+[main] 2021-07-16 08:40:23 INFO  com.bank.main.BankMain  - 
+ Enter Password:
+[main] 2021-07-16 08:40:25 INFO  com.bank.main.BankMain  - Employee Login Successfully
+
+[main] 2021-07-16 08:40:25 INFO  com.bank.main.BankMain  - Welcome mohan123
+[main] 2021-07-16 08:40:25 INFO  com.bank.main.BankMain  - 
+1)Open Account
+[main] 2021-07-16 08:40:25 INFO  com.bank.main.BankMain  - 
+2)Transfer Amount
+[main] 2021-07-16 08:40:25 INFO  com.bank.main.BankMain  - 
+3)Withdraw Amount
+[main] 2021-07-16 08:40:25 INFO  com.bank.main.BankMain  - 
+4)Deposit Amount
+[main] 2021-07-16 08:40:25 INFO  com.bank.main.BankMain  - 
+5)View statement
+[main] 2021-07-16 08:40:25 INFO  com.bank.main.BankMain  - 
+6)Logout
+[main] 2021-07-16 08:40:25 INFO  com.bank.main.BankMain  - 
+Enter Your Choice 1-6
+[main] 2021-07-16 08:40:29 INFO  com.bank.main.BankMain  - Enter Your Username
+[main] 2021-07-16 08:40:31 INFO  com.bank.main.BankMain  - Enter Your First Name
+[main] 2021-07-16 08:40:35 INFO  com.bank.main.BankMain  - Enter Your Last Name
+[main] 2021-07-16 08:40:38 INFO  com.bank.main.BankMain  - Enter Your Gender
+[main] 2021-07-16 08:40:39 INFO  com.bank.main.BankMain  - Enter Your Date of Birth in (yyy-mm-dd)
+[main] 2021-07-16 08:40:42 INFO  com.bank.main.BankMain  - Enter Your Mobile Number(10-Digits)
+[main] 2021-07-16 08:40:44 INFO  com.bank.main.BankMain  - Enter your PanCard Number
+[main] 2021-07-16 08:40:47 INFO  com.bank.main.BankMain  - Enter Your City
+[main] 2021-07-16 08:40:48 INFO  com.bank.main.BankMain  - Enter Your State
+[main] 2021-07-16 08:40:50 INFO  com.bank.main.BankMain  - Set Initial Amount(Min 500)
+[main] 2021-07-16 08:40:53 WARN  com.bank.dao.BankDAO  - ERROR: column "openingbalance" of relation "customer_personal_info" does not exist
+  Position: 128
+[main] 2021-07-16 08:40:53 WARN  com.bank.main.BankMain  - Internal Error Occured... Kindly contact SysAdmin
+[main] 2021-07-16 08:40:53 WARN  com.bank.main.BankMain  - Bank Account  Creation Failed!!
+[main] 2021-07-16 08:42:48 INFO  com.bank.main.BankMain  - Welcome to BankApp V1.0
+[main] 2021-07-16 08:42:48 INFO  com.bank.main.BankMain  - ==================================
+[main] 2021-07-16 08:42:48 INFO  com.bank.main.BankMain  - 
+Bank Menu
+[main] 2021-07-16 08:42:48 INFO  com.bank.main.BankMain  - 1)Login
+[main] 2021-07-16 08:42:48 INFO  com.bank.main.BankMain  - 2)Register as a Customer
+[main] 2021-07-16 08:42:48 INFO  com.bank.main.BankMain  - 3)EXIT
+[main] 2021-07-16 08:42:48 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-3
+[main] 2021-07-16 08:42:52 INFO  com.bank.main.BankMain  - 
+1)Login as Employee
+[main] 2021-07-16 08:42:52 INFO  com.bank.main.BankMain  - 
+2)Login as Customer
+[main] 2021-07-16 08:42:52 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-2
+[main] 2021-07-16 08:42:55 INFO  com.bank.main.BankMain  - 
+Welcome to Customer Login Screen
+[main] 2021-07-16 08:42:55 INFO  com.bank.main.BankMain  - 
+ Enter Username:
+[main] 2021-07-16 08:42:58 INFO  com.bank.main.BankMain  - 
+ Enter Password:
+[main] 2021-07-16 08:43:03 INFO  com.bank.main.BankMain  - Employee Login Successfully
+
+[main] 2021-07-16 08:43:03 INFO  com.bank.main.BankMain  - Welcome mohan123
+[main] 2021-07-16 08:43:03 INFO  com.bank.main.BankMain  - 
+1)Open Account
+[main] 2021-07-16 08:43:03 INFO  com.bank.main.BankMain  - 
+2)Transfer Amount
+[main] 2021-07-16 08:43:03 INFO  com.bank.main.BankMain  - 
+3)Withdraw Amount
+[main] 2021-07-16 08:43:03 INFO  com.bank.main.BankMain  - 
+4)Deposit Amount
+[main] 2021-07-16 08:43:03 INFO  com.bank.main.BankMain  - 
+5)View statement
+[main] 2021-07-16 08:43:03 INFO  com.bank.main.BankMain  - 
+6)Logout
+[main] 2021-07-16 08:43:03 INFO  com.bank.main.BankMain  - 
+Enter Your Choice 1-6
+[main] 2021-07-16 08:43:06 INFO  com.bank.main.BankMain  - Enter Your Username
+[main] 2021-07-16 08:43:09 INFO  com.bank.main.BankMain  - Enter Your First Name
+[main] 2021-07-16 08:43:12 INFO  com.bank.main.BankMain  - Enter Your Last Name
+[main] 2021-07-16 08:43:14 INFO  com.bank.main.BankMain  - Enter Your Gender
+[main] 2021-07-16 08:43:17 INFO  com.bank.main.BankMain  - Enter Your Date of Birth in (yyy-mm-dd)
+[main] 2021-07-16 08:43:19 INFO  com.bank.main.BankMain  - Enter Your Mobile Number(10-Digits)
+[main] 2021-07-16 08:43:35 INFO  com.bank.main.BankMain  - Welcome to BankApp V1.0
+[main] 2021-07-16 08:43:35 INFO  com.bank.main.BankMain  - ==================================
+[main] 2021-07-16 08:43:35 INFO  com.bank.main.BankMain  - 
+Bank Menu
+[main] 2021-07-16 08:43:35 INFO  com.bank.main.BankMain  - 1)Login
+[main] 2021-07-16 08:43:35 INFO  com.bank.main.BankMain  - 2)Register as a Customer
+[main] 2021-07-16 08:43:35 INFO  com.bank.main.BankMain  - 3)EXIT
+[main] 2021-07-16 08:43:35 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-3
+[main] 2021-07-16 08:43:37 INFO  com.bank.main.BankMain  - 
+1)Login as Employee
+[main] 2021-07-16 08:43:37 INFO  com.bank.main.BankMain  - 
+2)Login as Customer
+[main] 2021-07-16 08:43:37 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-2
+[main] 2021-07-16 08:43:41 INFO  com.bank.main.BankMain  - 
+Welcome to Customer Login Screen
+[main] 2021-07-16 08:43:41 INFO  com.bank.main.BankMain  - 
+ Enter Username:
+[main] 2021-07-16 08:43:45 INFO  com.bank.main.BankMain  - 
+ Enter Password:
+[main] 2021-07-16 08:43:46 INFO  com.bank.main.BankMain  - Employee Login Successfully
+
+[main] 2021-07-16 08:43:46 INFO  com.bank.main.BankMain  - Welcome mohan123
+[main] 2021-07-16 08:43:46 INFO  com.bank.main.BankMain  - 
+1)Open Account
+[main] 2021-07-16 08:43:46 INFO  com.bank.main.BankMain  - 
+2)Transfer Amount
+[main] 2021-07-16 08:43:46 INFO  com.bank.main.BankMain  - 
+3)Withdraw Amount
+[main] 2021-07-16 08:43:46 INFO  com.bank.main.BankMain  - 
+4)Deposit Amount
+[main] 2021-07-16 08:43:46 INFO  com.bank.main.BankMain  - 
+5)View statement
+[main] 2021-07-16 08:43:46 INFO  com.bank.main.BankMain  - 
+6)Logout
+[main] 2021-07-16 08:43:46 INFO  com.bank.main.BankMain  - 
+Enter Your Choice 1-6
+[main] 2021-07-16 08:43:48 INFO  com.bank.main.BankMain  - Enter Your Username
+[main] 2021-07-16 08:43:51 INFO  com.bank.main.BankMain  - Enter Your First Name
+[main] 2021-07-16 08:43:56 INFO  com.bank.main.BankMain  - Enter Your Last Name
+[main] 2021-07-16 08:43:58 INFO  com.bank.main.BankMain  - Enter Your Gender
+[main] 2021-07-16 08:44:01 INFO  com.bank.main.BankMain  - Enter Your Date of Birth in (yyy-mm-dd)
+[main] 2021-07-16 08:44:04 INFO  com.bank.main.BankMain  - Enter Your Mobile Number(10-Digits)
+[main] 2021-07-16 08:44:06 INFO  com.bank.main.BankMain  - Enter your PanCard Number
+[main] 2021-07-16 08:44:09 INFO  com.bank.main.BankMain  - Enter Your City
+[main] 2021-07-16 08:44:11 INFO  com.bank.main.BankMain  - Enter Your State
+[main] 2021-07-16 08:44:15 INFO  com.bank.main.BankMain  - Set Initial Amount(Min 500)
+[main] 2021-07-16 08:44:18 INFO  com.bank.main.BankMain  - 
+Bank Account Created Successfully...
+[main] 2021-07-16 08:44:18 INFO  com.bank.main.BankMain  - Welcome mohan123
+[main] 2021-07-16 08:44:18 INFO  com.bank.main.BankMain  - 
+1)Open Account
+[main] 2021-07-16 08:44:18 INFO  com.bank.main.BankMain  - 
+2)Transfer Amount
+[main] 2021-07-16 08:44:18 INFO  com.bank.main.BankMain  - 
+3)Withdraw Amount
+[main] 2021-07-16 08:44:18 INFO  com.bank.main.BankMain  - 
+4)Deposit Amount
+[main] 2021-07-16 08:44:18 INFO  com.bank.main.BankMain  - 
+5)View statement
+[main] 2021-07-16 08:44:18 INFO  com.bank.main.BankMain  - 
+6)Logout
+[main] 2021-07-16 08:44:18 INFO  com.bank.main.BankMain  - 
+Enter Your Choice 1-6
+[main] 2021-07-16 08:44:31 INFO  com.bank.main.BankMain  - Enter your Account Number
+[main] 2021-07-16 08:45:16 INFO  com.bank.main.BankMain  - 
+Enter the Amount to Deposit(min 500)
+[main] 2021-07-16 08:45:20 INFO  com.bank.main.BankMain  - Amount 500.0Successfully deposited into your Account Number = 3003
+[main] 2021-07-16 08:45:20 INFO  com.bank.main.BankMain  - Transaction [tid=35, ttype=Deposit, openingbalance=2000.0, tamount=500.0, closingbalance=2500.0, accno=3003]
+[main] 2021-07-16 08:45:20 INFO  com.bank.main.BankMain  - 
+Amount Deposited SuccessFully!!!
+[main] 2021-07-16 08:45:20 INFO  com.bank.main.BankMain  - Welcome mohan123
+[main] 2021-07-16 08:45:20 INFO  com.bank.main.BankMain  - 
+1)Open Account
+[main] 2021-07-16 08:45:20 INFO  com.bank.main.BankMain  - 
+2)Transfer Amount
+[main] 2021-07-16 08:45:20 INFO  com.bank.main.BankMain  - 
+3)Withdraw Amount
+[main] 2021-07-16 08:45:20 INFO  com.bank.main.BankMain  - 
+4)Deposit Amount
+[main] 2021-07-16 08:45:20 INFO  com.bank.main.BankMain  - 
+5)View statement
+[main] 2021-07-16 08:45:20 INFO  com.bank.main.BankMain  - 
+6)Logout
+[main] 2021-07-16 08:45:20 INFO  com.bank.main.BankMain  - 
+Enter Your Choice 1-6
+[main] 2021-07-16 09:03:18 INFO  com.bank.main.BankMain  - Welcome to BankApp V1.0
+[main] 2021-07-16 09:03:18 INFO  com.bank.main.BankMain  - ==================================
+[main] 2021-07-16 09:03:18 INFO  com.bank.main.BankMain  - 
+Bank Menu
+[main] 2021-07-16 09:03:18 INFO  com.bank.main.BankMain  - 1)Login
+[main] 2021-07-16 09:03:18 INFO  com.bank.main.BankMain  - 2)Register as a Customer
+[main] 2021-07-16 09:03:18 INFO  com.bank.main.BankMain  - 3)EXIT
+[main] 2021-07-16 09:03:18 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-3
+[main] 2021-07-16 09:03:21 INFO  com.bank.main.BankMain  - 
+1)Login as Employee
+[main] 2021-07-16 09:03:21 INFO  com.bank.main.BankMain  - 
+2)Login as Customer
+[main] 2021-07-16 09:03:21 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-2
+[main] 2021-07-16 09:03:22 INFO  com.bank.main.BankMain  - 
+Welcome to Employee Login Screen
+[main] 2021-07-16 09:03:22 INFO  com.bank.main.BankMain  - 
+Enter Username:
+[main] 2021-07-16 09:03:25 INFO  com.bank.main.BankMain  - 
+Enter Password:
+[main] 2021-07-16 09:03:27 INFO  com.bank.main.BankMain  - Employee Login Successfully
+[main] 2021-07-16 09:03:27 INFO  com.bank.main.BankMain  - 
+Welcome syed123
+
+[main] 2021-07-16 09:03:27 INFO  com.bank.main.BankMain  - 
+1)Open Account
+[main] 2021-07-16 09:03:27 INFO  com.bank.main.BankMain  - 
+2)Approve or Reject an Account
+[main] 2021-07-16 09:03:27 INFO  com.bank.main.BankMain  - 
+3)View All Customer Personal Details
+[main] 2021-07-16 09:03:27 INFO  com.bank.main.BankMain  - 
+4)View Customer Account Details
+[main] 2021-07-16 09:03:27 INFO  com.bank.main.BankMain  - 
+5)View Transaction of Customers
+[main] 2021-07-16 09:03:27 INFO  com.bank.main.BankMain  - 
+6)Logout
+[main] 2021-07-16 09:03:27 INFO  com.bank.main.BankMain  - 
+Enter Your Choice 1-5
+[main] 2021-07-16 09:03:34 WARN  com.bank.dao.BankDAO  - ERROR: column "initialamount" does not exist
+  Position: 100
+[main] 2021-07-16 09:03:34 ERROR com.bank.main.BankMain  - Internal Error Occured....Kindly Contact SysAdmin
+[main] 2021-07-16 09:03:34 INFO  com.bank.main.BankMain  - 
+Welcome syed123
+
+[main] 2021-07-16 09:03:34 INFO  com.bank.main.BankMain  - 
+1)Open Account
+[main] 2021-07-16 09:03:34 INFO  com.bank.main.BankMain  - 
+2)Approve or Reject an Account
+[main] 2021-07-16 09:03:34 INFO  com.bank.main.BankMain  - 
+3)View All Customer Personal Details
+[main] 2021-07-16 09:03:34 INFO  com.bank.main.BankMain  - 
+4)View Customer Account Details
+[main] 2021-07-16 09:03:34 INFO  com.bank.main.BankMain  - 
+5)View Transaction of Customers
+[main] 2021-07-16 09:03:34 INFO  com.bank.main.BankMain  - 
+6)Logout
+[main] 2021-07-16 09:03:34 INFO  com.bank.main.BankMain  - 
+Enter Your Choice 1-5
+[main] 2021-07-16 09:05:41 INFO  com.bank.main.BankMain  - Welcome to BankApp V1.0
+[main] 2021-07-16 09:05:41 INFO  com.bank.main.BankMain  - ==================================
+[main] 2021-07-16 09:05:41 INFO  com.bank.main.BankMain  - 
+Bank Menu
+[main] 2021-07-16 09:05:41 INFO  com.bank.main.BankMain  - 1)Login
+[main] 2021-07-16 09:05:41 INFO  com.bank.main.BankMain  - 2)Register as a Customer
+[main] 2021-07-16 09:05:41 INFO  com.bank.main.BankMain  - 3)EXIT
+[main] 2021-07-16 09:05:41 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-3
+[main] 2021-07-16 09:05:42 INFO  com.bank.main.BankMain  - 
+1)Login as Employee
+[main] 2021-07-16 09:05:42 INFO  com.bank.main.BankMain  - 
+2)Login as Customer
+[main] 2021-07-16 09:05:42 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-2
+[main] 2021-07-16 09:05:44 INFO  com.bank.main.BankMain  - 
+Welcome to Employee Login Screen
+[main] 2021-07-16 09:05:44 INFO  com.bank.main.BankMain  - 
+Enter Username:
+[main] 2021-07-16 09:05:46 INFO  com.bank.main.BankMain  - 
+Enter Password:
+[main] 2021-07-16 09:05:48 INFO  com.bank.main.BankMain  - Employee Login Successfully
+[main] 2021-07-16 09:05:48 INFO  com.bank.main.BankMain  - 
+Welcome syed123
+
+[main] 2021-07-16 09:05:48 INFO  com.bank.main.BankMain  - 
+1)Open Account
+[main] 2021-07-16 09:05:48 INFO  com.bank.main.BankMain  - 
+2)Approve or Reject an Account
+[main] 2021-07-16 09:05:48 INFO  com.bank.main.BankMain  - 
+3)View All Customer Personal Details
+[main] 2021-07-16 09:05:48 INFO  com.bank.main.BankMain  - 
+4)View Customer Account Details
+[main] 2021-07-16 09:05:48 INFO  com.bank.main.BankMain  - 
+5)View Transaction of Customers
+[main] 2021-07-16 09:05:48 INFO  com.bank.main.BankMain  - 
+6)Logout
+[main] 2021-07-16 09:05:48 INFO  com.bank.main.BankMain  - 
+Enter Your Choice 1-5
+[main] 2021-07-16 09:05:50 INFO  com.bank.main.BankMain  - Bank [custUserName=sul123, custFame=sul, custLname=su, custGender=m, custDob=444ddd, custMobileno=444, custPan=444, custCity=fff, custState=ff, initialAmount=500.0]
+[main] 2021-07-16 09:05:50 INFO  com.bank.main.BankMain  - Bank [custUserName=mohan123, custFame=jfj, custLname=fff, custGender=male, custDob=44, custMobileno=4444, custPan=fff44, custCity=fff, custState=ttt, initialAmount=2000.0]
+[main] 2021-07-16 09:05:50 INFO  com.bank.main.BankMain  - 
+Welcome syed123
+
+[main] 2021-07-16 09:05:50 INFO  com.bank.main.BankMain  - 
+1)Open Account
+[main] 2021-07-16 09:05:50 INFO  com.bank.main.BankMain  - 
+2)Approve or Reject an Account
+[main] 2021-07-16 09:05:50 INFO  com.bank.main.BankMain  - 
+3)View All Customer Personal Details
+[main] 2021-07-16 09:05:50 INFO  com.bank.main.BankMain  - 
+4)View Customer Account Details
+[main] 2021-07-16 09:05:50 INFO  com.bank.main.BankMain  - 
+5)View Transaction of Customers
+[main] 2021-07-16 09:05:50 INFO  com.bank.main.BankMain  - 
+6)Logout
+[main] 2021-07-16 09:05:50 INFO  com.bank.main.BankMain  - 
+Enter Your Choice 1-5
+[main] 2021-07-16 09:07:57 INFO  com.bank.main.BankMain  - Welcome to BankApp V1.0
+[main] 2021-07-16 09:07:57 INFO  com.bank.main.BankMain  - ==================================
+[main] 2021-07-16 09:07:57 INFO  com.bank.main.BankMain  - 
+Bank Menu
+[main] 2021-07-16 09:07:57 INFO  com.bank.main.BankMain  - 1)Login
+[main] 2021-07-16 09:07:57 INFO  com.bank.main.BankMain  - 2)Register as a Customer
+[main] 2021-07-16 09:07:57 INFO  com.bank.main.BankMain  - 3)EXIT
+[main] 2021-07-16 09:07:57 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-3
+[main] 2021-07-16 09:08:02 INFO  com.bank.main.BankMain  - 
+1)Login as Employee
+[main] 2021-07-16 09:08:02 INFO  com.bank.main.BankMain  - 
+2)Login as Customer
+[main] 2021-07-16 09:08:02 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-2
+[main] 2021-07-16 09:08:04 INFO  com.bank.main.BankMain  - 
+Welcome to Employee Login Screen
+[main] 2021-07-16 09:08:04 INFO  com.bank.main.BankMain  - 
+Enter Username:
+[main] 2021-07-16 09:08:09 INFO  com.bank.main.BankMain  - 
+Enter Password:
+[main] 2021-07-16 09:08:11 INFO  com.bank.main.BankMain  - Employee Login Successfully
+[main] 2021-07-16 09:08:11 INFO  com.bank.main.BankMain  - 
+Welcome syed123
+
+[main] 2021-07-16 09:08:11 INFO  com.bank.main.BankMain  - 
+1)Open Account
+[main] 2021-07-16 09:08:11 INFO  com.bank.main.BankMain  - 
+2)Approve or Reject an Account
+[main] 2021-07-16 09:08:11 INFO  com.bank.main.BankMain  - 
+3)View All Customer Personal Details
+[main] 2021-07-16 09:08:11 INFO  com.bank.main.BankMain  - 
+4)View Customer Account Details
+[main] 2021-07-16 09:08:11 INFO  com.bank.main.BankMain  - 
+5)View Transaction of Customers
+[main] 2021-07-16 09:08:11 INFO  com.bank.main.BankMain  - 
+6)Logout
+[main] 2021-07-16 09:08:11 INFO  com.bank.main.BankMain  - 
+Enter Your Choice 1-5
+[main] 2021-07-16 09:08:38 INFO  com.bank.main.BankMain  - 
+Welcome syed123
+
+[main] 2021-07-16 09:08:38 INFO  com.bank.main.BankMain  - 
+1)Open Account
+[main] 2021-07-16 09:08:38 INFO  com.bank.main.BankMain  - 
+2)Approve or Reject an Account
+[main] 2021-07-16 09:08:38 INFO  com.bank.main.BankMain  - 
+3)View All Customer Personal Details
+[main] 2021-07-16 09:08:38 INFO  com.bank.main.BankMain  - 
+4)View Customer Account Details
+[main] 2021-07-16 09:08:38 INFO  com.bank.main.BankMain  - 
+5)View Transaction of Customers
+[main] 2021-07-16 09:08:38 INFO  com.bank.main.BankMain  - 
+6)Logout
+[main] 2021-07-16 09:08:38 INFO  com.bank.main.BankMain  - 
+Enter Your Choice 1-5
+[main] 2021-07-16 09:08:43 INFO  com.bank.main.BankMain  - 
+Logout Successfully............
+
+[main] 2021-07-16 09:08:43 INFO  com.bank.main.BankMain  - 
+Going to Main Menu............
+[main] 2021-07-16 09:08:43 INFO  com.bank.main.BankMain  - Welcome to BankApp V1.0
+[main] 2021-07-16 09:08:43 INFO  com.bank.main.BankMain  - ==================================
+[main] 2021-07-16 09:08:43 INFO  com.bank.main.BankMain  - 
+Bank Menu
+[main] 2021-07-16 09:08:43 INFO  com.bank.main.BankMain  - 1)Login
+[main] 2021-07-16 09:08:43 INFO  com.bank.main.BankMain  - 2)Register as a Customer
+[main] 2021-07-16 09:08:43 INFO  com.bank.main.BankMain  - 3)EXIT
+[main] 2021-07-16 09:08:43 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-3
+[main] 2021-07-16 09:09:14 INFO  com.bank.main.BankMain  - Welcome to BankApp V1.0
+[main] 2021-07-16 09:09:14 INFO  com.bank.main.BankMain  - ==================================
+[main] 2021-07-16 09:09:14 INFO  com.bank.main.BankMain  - 
+Bank Menu
+[main] 2021-07-16 09:09:14 INFO  com.bank.main.BankMain  - 1)Login
+[main] 2021-07-16 09:09:14 INFO  com.bank.main.BankMain  - 2)Register as a Customer
+[main] 2021-07-16 09:09:14 INFO  com.bank.main.BankMain  - 3)EXIT
+[main] 2021-07-16 09:09:14 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-3
+[main] 2021-07-16 09:09:18 INFO  com.bank.main.BankMain  - 
+Welcome to Cutomer Login Page
+
+[main] 2021-07-16 09:09:18 INFO  com.bank.main.BankMain  - 
+Enter Your Name
+[main] 2021-07-16 09:09:23 INFO  com.bank.main.BankMain  - Welcome to BankApp V1.0
+[main] 2021-07-16 09:09:23 INFO  com.bank.main.BankMain  - ==================================
+[main] 2021-07-16 09:09:23 INFO  com.bank.main.BankMain  - 
+Bank Menu
+[main] 2021-07-16 09:09:23 INFO  com.bank.main.BankMain  - 1)Login
+[main] 2021-07-16 09:09:23 INFO  com.bank.main.BankMain  - 2)Register as a Customer
+[main] 2021-07-16 09:09:23 INFO  com.bank.main.BankMain  - 3)EXIT
+[main] 2021-07-16 09:09:23 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-3
+[main] 2021-07-16 09:09:25 INFO  com.bank.main.BankMain  - 
+1)Login as Employee
+[main] 2021-07-16 09:09:25 INFO  com.bank.main.BankMain  - 
+2)Login as Customer
+[main] 2021-07-16 09:09:25 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-2
+[main] 2021-07-16 09:09:26 INFO  com.bank.main.BankMain  - 
+Welcome to Customer Login Screen
+[main] 2021-07-16 09:09:26 INFO  com.bank.main.BankMain  - 
+ Enter Username:
+[main] 2021-07-16 09:09:30 INFO  com.bank.main.BankMain  - 
+ Enter Password:
+[main] 2021-07-16 09:09:32 INFO  com.bank.main.BankMain  - Employee Login Successfully
+
+[main] 2021-07-16 09:09:32 INFO  com.bank.main.BankMain  - Welcome mohan123
+[main] 2021-07-16 09:09:32 INFO  com.bank.main.BankMain  - 
+1)Open Account
+[main] 2021-07-16 09:09:32 INFO  com.bank.main.BankMain  - 
+2)Transfer Amount
+[main] 2021-07-16 09:09:32 INFO  com.bank.main.BankMain  - 
+3)Withdraw Amount
+[main] 2021-07-16 09:09:32 INFO  com.bank.main.BankMain  - 
+4)Deposit Amount
+[main] 2021-07-16 09:09:32 INFO  com.bank.main.BankMain  - 
+5)View statement
+[main] 2021-07-16 09:09:32 INFO  com.bank.main.BankMain  - 
+6)Logout
+[main] 2021-07-16 09:09:32 INFO  com.bank.main.BankMain  - 
+Enter Your Choice 1-6
+[main] 2021-07-16 10:48:16 INFO  com.bank.main.BankMain  - Welcome to BankApp V1.0
+[main] 2021-07-16 10:48:16 INFO  com.bank.main.BankMain  - ==================================
+[main] 2021-07-16 10:48:16 INFO  com.bank.main.BankMain  - 
+Bank Menu
+[main] 2021-07-16 10:48:16 INFO  com.bank.main.BankMain  - 1)Login
+[main] 2021-07-16 10:48:16 INFO  com.bank.main.BankMain  - 2)Register as a Customer
+[main] 2021-07-16 10:48:16 INFO  com.bank.main.BankMain  - 3)EXIT
+[main] 2021-07-16 10:48:16 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-3
+[main] 2021-07-16 10:48:35 INFO  com.bank.main.BankMain  - 
+1)Login as Employee
+[main] 2021-07-16 10:48:35 INFO  com.bank.main.BankMain  - 
+2)Login as Customer
+[main] 2021-07-16 10:48:35 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-2
+[main] 2021-07-16 10:48:38 INFO  com.bank.main.BankMain  - Welcome to BankApp V1.0
+[main] 2021-07-16 10:48:38 INFO  com.bank.main.BankMain  - ==================================
+[main] 2021-07-16 10:48:38 INFO  com.bank.main.BankMain  - 
+Bank Menu
+[main] 2021-07-16 10:48:38 INFO  com.bank.main.BankMain  - 1)Login
+[main] 2021-07-16 10:48:38 INFO  com.bank.main.BankMain  - 2)Register as a Customer
+[main] 2021-07-16 10:48:38 INFO  com.bank.main.BankMain  - 3)EXIT
+[main] 2021-07-16 10:48:38 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-3
+[main] 2021-07-16 10:48:41 INFO  com.bank.main.BankMain  - 
+1)Login as Employee
+[main] 2021-07-16 10:48:41 INFO  com.bank.main.BankMain  - 
+2)Login as Customer
+[main] 2021-07-16 10:48:41 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-2
+[main] 2021-07-16 10:48:42 INFO  com.bank.main.BankMain  - 
+Welcome to Customer Login Screen
+[main] 2021-07-16 10:48:42 INFO  com.bank.main.BankMain  - 
+ Enter Username:
+[main] 2021-07-16 10:48:45 INFO  com.bank.main.BankMain  - 
+ Enter Password:
+[main] 2021-07-16 10:48:46 INFO  com.bank.main.BankMain  - Employee Login Successfully
+
+[main] 2021-07-16 10:48:46 INFO  com.bank.main.BankMain  - Welcome mohan123
+[main] 2021-07-16 10:48:46 INFO  com.bank.main.BankMain  - 
+1)Open Account
+[main] 2021-07-16 10:48:46 INFO  com.bank.main.BankMain  - 
+2)Transfer Amount
+[main] 2021-07-16 10:48:46 INFO  com.bank.main.BankMain  - 
+3)Withdraw Amount
+[main] 2021-07-16 10:48:46 INFO  com.bank.main.BankMain  - 
+4)Deposit Amount
+[main] 2021-07-16 10:48:46 INFO  com.bank.main.BankMain  - 
+5)View statement
+[main] 2021-07-16 10:48:46 INFO  com.bank.main.BankMain  - 
+6)Logout
+[main] 2021-07-16 10:48:46 INFO  com.bank.main.BankMain  - 
+Enter Your Choice 1-6
+[main] 2021-07-16 10:48:48 INFO  com.bank.main.BankMain  - Enter Your Username
+[main] 2021-07-16 10:48:59 INFO  com.bank.main.BankMain  - Enter Your First Name
+[main] 2021-07-16 10:49:02 INFO  com.bank.main.BankMain  - Enter Your Last Name
+[main] 2021-07-16 10:49:12 INFO  com.bank.main.BankMain  - Enter Your Gender
+[main] 2021-07-16 10:49:14 INFO  com.bank.main.BankMain  - Enter Your Date of Birth in (yyy-mm-dd)
+[main] 2021-07-16 10:49:16 INFO  com.bank.main.BankMain  - Enter Your Mobile Number(10-Digits)
+[main] 2021-07-16 10:49:58 INFO  com.bank.main.BankMain  - Welcome to BankApp V1.0
+[main] 2021-07-16 10:49:58 INFO  com.bank.main.BankMain  - ==================================
+[main] 2021-07-16 10:49:58 INFO  com.bank.main.BankMain  - 
+Bank Menu
+[main] 2021-07-16 10:49:58 INFO  com.bank.main.BankMain  - 1)Login
+[main] 2021-07-16 10:49:58 INFO  com.bank.main.BankMain  - 2)Register as a Customer
+[main] 2021-07-16 10:49:58 INFO  com.bank.main.BankMain  - 3)EXIT
+[main] 2021-07-16 10:49:58 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-3
+[main] 2021-07-16 10:50:02 INFO  com.bank.main.BankMain  - 
+1)Login as Employee
+[main] 2021-07-16 10:50:02 INFO  com.bank.main.BankMain  - 
+2)Login as Customer
+[main] 2021-07-16 10:50:02 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-2
+[main] 2021-07-16 10:50:03 INFO  com.bank.main.BankMain  - Welcome to BankApp V1.0
+[main] 2021-07-16 10:50:03 INFO  com.bank.main.BankMain  - ==================================
+[main] 2021-07-16 10:50:03 INFO  com.bank.main.BankMain  - 
+Bank Menu
+[main] 2021-07-16 10:50:03 INFO  com.bank.main.BankMain  - 1)Login
+[main] 2021-07-16 10:50:03 INFO  com.bank.main.BankMain  - 2)Register as a Customer
+[main] 2021-07-16 10:50:03 INFO  com.bank.main.BankMain  - 3)EXIT
+[main] 2021-07-16 10:50:03 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-3
+[main] 2021-07-16 10:50:04 WARN  com.bank.main.BankMain  - Invalid Choice... Please enter input between 1-4
+[main] 2021-07-16 10:50:04 INFO  com.bank.main.BankMain  - Welcome to BankApp V1.0
+[main] 2021-07-16 10:50:04 INFO  com.bank.main.BankMain  - ==================================
+[main] 2021-07-16 10:50:04 INFO  com.bank.main.BankMain  - 
+Bank Menu
+[main] 2021-07-16 10:50:04 INFO  com.bank.main.BankMain  - 1)Login
+[main] 2021-07-16 10:50:04 INFO  com.bank.main.BankMain  - 2)Register as a Customer
+[main] 2021-07-16 10:50:04 INFO  com.bank.main.BankMain  - 3)EXIT
+[main] 2021-07-16 10:50:04 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-3
+[main] 2021-07-16 10:50:07 INFO  com.bank.main.BankMain  - 
+Welcome to Cutomer Login Page
+
+[main] 2021-07-16 10:50:07 INFO  com.bank.main.BankMain  - 
+Enter Your Name
+[main] 2021-07-16 10:50:15 INFO  com.bank.main.BankMain  - Welcome to BankApp V1.0
+[main] 2021-07-16 10:50:15 INFO  com.bank.main.BankMain  - ==================================
+[main] 2021-07-16 10:50:15 INFO  com.bank.main.BankMain  - 
+Bank Menu
+[main] 2021-07-16 10:50:15 INFO  com.bank.main.BankMain  - 1)Login
+[main] 2021-07-16 10:50:15 INFO  com.bank.main.BankMain  - 2)Register as a Customer
+[main] 2021-07-16 10:50:15 INFO  com.bank.main.BankMain  - 3)EXIT
+[main] 2021-07-16 10:50:15 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-3
+[main] 2021-07-16 10:50:19 INFO  com.bank.main.BankMain  - 
+1)Login as Employee
+[main] 2021-07-16 10:50:19 INFO  com.bank.main.BankMain  - 
+2)Login as Customer
+[main] 2021-07-16 10:50:19 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-2
+[main] 2021-07-16 10:50:21 INFO  com.bank.main.BankMain  - 
+Welcome to Employee Login Screen
+[main] 2021-07-16 10:50:21 INFO  com.bank.main.BankMain  - 
+Enter Username:
+[main] 2021-07-16 10:50:26 INFO  com.bank.main.BankMain  - Welcome to BankApp V1.0
+[main] 2021-07-16 10:50:26 INFO  com.bank.main.BankMain  - ==================================
+[main] 2021-07-16 10:50:26 INFO  com.bank.main.BankMain  - 
+Bank Menu
+[main] 2021-07-16 10:50:26 INFO  com.bank.main.BankMain  - 1)Login
+[main] 2021-07-16 10:50:26 INFO  com.bank.main.BankMain  - 2)Register as a Customer
+[main] 2021-07-16 10:50:26 INFO  com.bank.main.BankMain  - 3)EXIT
+[main] 2021-07-16 10:50:26 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-3
+[main] 2021-07-16 11:00:17 INFO  com.bank.main.BankMain  - 
+1)Login as Employee
+[main] 2021-07-16 11:00:17 INFO  com.bank.main.BankMain  - 
+2)Login as Customer
+[main] 2021-07-16 11:00:17 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-2
+[main] 2021-07-16 11:00:20 INFO  com.bank.main.BankMain  - Welcome to BankApp V1.0
+[main] 2021-07-16 11:00:20 INFO  com.bank.main.BankMain  - ==================================
+[main] 2021-07-16 11:00:20 INFO  com.bank.main.BankMain  - 
+Bank Menu
+[main] 2021-07-16 11:00:20 INFO  com.bank.main.BankMain  - 1)Login
+[main] 2021-07-16 11:00:20 INFO  com.bank.main.BankMain  - 2)Register as a Customer
+[main] 2021-07-16 11:00:20 INFO  com.bank.main.BankMain  - 3)EXIT
+[main] 2021-07-16 11:00:20 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-3
+[main] 2021-07-16 12:07:59 INFO  com.bank.main.BankMain  - 
+1)Login as Employee
+[main] 2021-07-16 12:07:59 INFO  com.bank.main.BankMain  - 
+2)Login as Customer
+[main] 2021-07-16 12:07:59 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-2
+[main] 2021-07-16 12:08:07 INFO  com.bank.main.BankMain  - 
+Welcome to Customer Login Screen
+[main] 2021-07-16 12:08:07 INFO  com.bank.main.BankMain  - 
+ Enter Username:
+[main] 2021-07-16 12:08:15 INFO  com.bank.main.BankMain  - 
+ Enter Password:
+[main] 2021-07-16 12:08:18 INFO  com.bank.main.BankMain  - Employee Login Successfully
+
+[main] 2021-07-16 12:08:18 INFO  com.bank.main.BankMain  - Welcome mohan123
+[main] 2021-07-16 12:08:18 INFO  com.bank.main.BankMain  - 
+1)Open Account
+[main] 2021-07-16 12:08:18 INFO  com.bank.main.BankMain  - 
+2)Transfer Amount
+[main] 2021-07-16 12:08:18 INFO  com.bank.main.BankMain  - 
+3)Withdraw Amount
+[main] 2021-07-16 12:08:18 INFO  com.bank.main.BankMain  - 
+4)Deposit Amount
+[main] 2021-07-16 12:08:18 INFO  com.bank.main.BankMain  - 
+5)View statement
+[main] 2021-07-16 12:08:18 INFO  com.bank.main.BankMain  - 
+6)Logout
+[main] 2021-07-16 12:08:18 INFO  com.bank.main.BankMain  - 
+Enter Your Choice 1-6
+[main] 2021-07-16 12:08:20 INFO  com.bank.main.BankMain  - Enter Your Username
+[main] 2021-07-16 12:08:23 INFO  com.bank.main.BankMain  - Enter Your First Name
+[main] 2021-07-16 12:08:28 INFO  com.bank.main.BankMain  - Enter Your Last Name
+[main] 2021-07-16 12:08:29 INFO  com.bank.main.BankMain  - Enter Your Gender
+[main] 2021-07-16 12:08:30 INFO  com.bank.main.BankMain  - Enter Your Date of Birth in (yyy-mm-dd)
+[main] 2021-07-16 12:08:31 INFO  com.bank.main.BankMain  - Enter Your Mobile Number(10-Digits)
+[main] 2021-07-16 12:10:56 INFO  com.bank.main.BankMain  - Welcome to BankApp V1.0
+[main] 2021-07-16 12:10:56 INFO  com.bank.main.BankMain  - ==================================
+[main] 2021-07-16 12:10:56 INFO  com.bank.main.BankMain  - 
+Bank Menu
+[main] 2021-07-16 12:10:56 INFO  com.bank.main.BankMain  - 1)Login
+[main] 2021-07-16 12:10:56 INFO  com.bank.main.BankMain  - 2)Register as a Customer
+[main] 2021-07-16 12:10:56 INFO  com.bank.main.BankMain  - 3)EXIT
+[main] 2021-07-16 12:10:56 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-3
+[main] 2021-07-16 12:10:58 INFO  com.bank.main.BankMain  - 
+1)Login as Employee
+[main] 2021-07-16 12:10:58 INFO  com.bank.main.BankMain  - 
+2)Login as Customer
+[main] 2021-07-16 12:10:58 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-2
+[main] 2021-07-16 12:10:59 INFO  com.bank.main.BankMain  - 
+Welcome to Employee Login Screen
+[main] 2021-07-16 12:10:59 INFO  com.bank.main.BankMain  - 
+Enter Username:
+[main] 2021-07-16 12:11:02 INFO  com.bank.main.BankMain  - 
+Enter Password:
+[main] 2021-07-16 12:11:04 INFO  com.bank.main.BankMain  - Invalid Details
+[main] 2021-07-16 12:11:04 INFO  com.bank.main.BankMain  - Welcome to BankApp V1.0
+[main] 2021-07-16 12:11:04 INFO  com.bank.main.BankMain  - ==================================
+[main] 2021-07-16 12:11:04 INFO  com.bank.main.BankMain  - 
+Bank Menu
+[main] 2021-07-16 12:11:04 INFO  com.bank.main.BankMain  - 1)Login
+[main] 2021-07-16 12:11:04 INFO  com.bank.main.BankMain  - 2)Register as a Customer
+[main] 2021-07-16 12:11:04 INFO  com.bank.main.BankMain  - 3)EXIT
+[main] 2021-07-16 12:11:04 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-3
+[main] 2021-07-16 12:11:10 INFO  com.bank.main.BankMain  - 
+1)Login as Employee
+[main] 2021-07-16 12:11:10 INFO  com.bank.main.BankMain  - 
+2)Login as Customer
+[main] 2021-07-16 12:11:10 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-2
+[main] 2021-07-16 12:11:13 INFO  com.bank.main.BankMain  - 
+Welcome to Employee Login Screen
+[main] 2021-07-16 12:11:13 INFO  com.bank.main.BankMain  - 
+Enter Username:
+[main] 2021-07-16 12:11:16 INFO  com.bank.main.BankMain  - 
+Enter Password:
+[main] 2021-07-16 12:11:17 INFO  com.bank.main.BankMain  - Employee Login Successfully
+[main] 2021-07-16 12:11:17 INFO  com.bank.main.BankMain  - 
+Welcome syed123
+
+[main] 2021-07-16 12:11:17 INFO  com.bank.main.BankMain  - 
+1)Open Account
+[main] 2021-07-16 12:11:17 INFO  com.bank.main.BankMain  - 
+2)Approve or Reject an Account
+[main] 2021-07-16 12:11:17 INFO  com.bank.main.BankMain  - 
+3)View All Customer Personal Details
+[main] 2021-07-16 12:11:17 INFO  com.bank.main.BankMain  - 
+4)View Customer Account Details
+[main] 2021-07-16 12:11:17 INFO  com.bank.main.BankMain  - 
+5)View Transaction of Customers
+[main] 2021-07-16 12:11:17 INFO  com.bank.main.BankMain  - 
+6)Logout
+[main] 2021-07-16 12:11:17 INFO  com.bank.main.BankMain  - 
+Enter Your Choice 1-5
+[main] 2021-07-16 12:11:20 INFO  com.bank.main.BankMain  - Enter Your First Name
+[main] 2021-07-16 12:11:30 INFO  com.bank.main.BankMain  - Enter Your Last Name
+[main] 2021-07-16 12:11:37 INFO  com.bank.main.BankMain  - Enter Your Gender
+[main] 2021-07-16 12:11:39 INFO  com.bank.main.BankMain  - Enter Your Date of Birth in (yyy-mm-dd)
+[main] 2021-07-16 12:11:44 INFO  com.bank.main.BankMain  - Enter Your Mobile Number(10-Digits)
+[main] 2021-07-16 12:15:14 INFO  com.bank.main.BankMain  - Welcome to BankApp V1.0
+[main] 2021-07-16 12:15:14 INFO  com.bank.main.BankMain  - ==================================
+[main] 2021-07-16 12:15:14 INFO  com.bank.main.BankMain  - 
+Bank Menu
+[main] 2021-07-16 12:15:14 INFO  com.bank.main.BankMain  - 1)Login
+[main] 2021-07-16 12:15:14 INFO  com.bank.main.BankMain  - 2)Register as a Customer
+[main] 2021-07-16 12:15:14 INFO  com.bank.main.BankMain  - 3)EXIT
+[main] 2021-07-16 12:15:14 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-3
+[main] 2021-07-16 12:15:17 INFO  com.bank.main.BankMain  - 
+1)Login as Employee
+[main] 2021-07-16 12:15:17 INFO  com.bank.main.BankMain  - 
+2)Login as Customer
+[main] 2021-07-16 12:15:17 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-2
+[main] 2021-07-16 12:24:04 INFO  com.bank.main.BankMain  - 
+Welcome to Employee Login Screen
+[main] 2021-07-16 12:24:04 INFO  com.bank.main.BankMain  - 
+Enter Username:
+[main] 2021-07-16 12:24:07 INFO  com.bank.main.BankMain  - 
+Enter Password:
+[main] 2021-07-16 12:24:08 INFO  com.bank.main.BankMain  - Invalid Details
+[main] 2021-07-16 12:24:08 INFO  com.bank.main.BankMain  - Welcome to BankApp V1.0
+[main] 2021-07-16 12:24:08 INFO  com.bank.main.BankMain  - ==================================
+[main] 2021-07-16 12:24:08 INFO  com.bank.main.BankMain  - 
+Bank Menu
+[main] 2021-07-16 12:24:08 INFO  com.bank.main.BankMain  - 1)Login
+[main] 2021-07-16 12:24:08 INFO  com.bank.main.BankMain  - 2)Register as a Customer
+[main] 2021-07-16 12:24:08 INFO  com.bank.main.BankMain  - 3)EXIT
+[main] 2021-07-16 12:24:08 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-3
+[main] 2021-07-16 12:24:15 INFO  com.bank.main.BankMain  - 
+1)Login as Employee
+[main] 2021-07-16 12:24:15 INFO  com.bank.main.BankMain  - 
+2)Login as Customer
+[main] 2021-07-16 12:24:15 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-2
+[main] 2021-07-16 12:24:18 INFO  com.bank.main.BankMain  - Welcome to BankApp V1.0
+[main] 2021-07-16 12:24:18 INFO  com.bank.main.BankMain  - ==================================
+[main] 2021-07-16 12:24:18 INFO  com.bank.main.BankMain  - 
+Bank Menu
+[main] 2021-07-16 12:24:18 INFO  com.bank.main.BankMain  - 1)Login
+[main] 2021-07-16 12:24:18 INFO  com.bank.main.BankMain  - 2)Register as a Customer
+[main] 2021-07-16 12:24:18 INFO  com.bank.main.BankMain  - 3)EXIT
+[main] 2021-07-16 12:24:18 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-3
+[main] 2021-07-16 12:24:26 WARN  com.bank.main.BankMain  - Invalid Choice... Please enter input between 1-4
+[main] 2021-07-16 12:24:26 INFO  com.bank.main.BankMain  - Welcome to BankApp V1.0
+[main] 2021-07-16 12:24:26 INFO  com.bank.main.BankMain  - ==================================
+[main] 2021-07-16 12:24:26 INFO  com.bank.main.BankMain  - 
+Bank Menu
+[main] 2021-07-16 12:24:26 INFO  com.bank.main.BankMain  - 1)Login
+[main] 2021-07-16 12:24:26 INFO  com.bank.main.BankMain  - 2)Register as a Customer
+[main] 2021-07-16 12:24:26 INFO  com.bank.main.BankMain  - 3)EXIT
+[main] 2021-07-16 12:24:26 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-3

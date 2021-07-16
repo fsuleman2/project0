@@ -10,7 +10,7 @@ public class Bank {
 	private String custPan;
 	private String custCity;
 	private String custState;
-	private float initialAmount;
+	private float openingbalance;
 //	for registration
 	private String name;
 	private String email;
@@ -24,7 +24,7 @@ public class Bank {
 		// TODO Auto-generated constructor stub
 	}
 	public Bank(String custUserName, String custFname, String custLname, String custGender, String custDob,
-			long custMobileno, String custPan, String custCity, String custState, float initialAmount) {
+			long custMobileno, String custPan, String custCity, String custState, float openingbalance) {
 		super();
 		this.custUserName = custUserName;
 		this.custFname = custFname;
@@ -35,7 +35,7 @@ public class Bank {
 		this.custPan = custPan;
 		this.custCity = custCity;
 		this.custState = custState;
-		this.initialAmount = initialAmount;
+		this.openingbalance = openingbalance;
 	}
 	public Bank(String name, String email, String username, String password) {
 		super();
@@ -103,11 +103,11 @@ public class Bank {
 	public void setCustState(String custState) {
 		this.custState = custState;
 	}
-	public float getInitialAmount() {
-		return initialAmount;
+	public float getOpeningBalance() {
+		return openingbalance;
 	}
-	public void setInitialAmount(float initialAmount) {
-		this.initialAmount = initialAmount;
+	public void setOpeningBalance(float openingbalance) {
+		this.openingbalance = openingbalance;
 	}
 	public String getName() {
 		return name;
@@ -146,11 +146,40 @@ public class Bank {
 		this.empPassword = empPassword;
 	}
 	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + ((empPassword == null) ? 0 : empPassword.hashCode());
+		result = prime * result + ((empUsername == null) ? 0 : empUsername.hashCode());
+		return result;
+	}
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Bank other = (Bank) obj;
+		if (empPassword == null) {
+			if (other.empPassword != null)
+				return false;
+		} else if (!empPassword.equals(other.empPassword))
+			return false;
+		if (empUsername == null) {
+			if (other.empUsername != null)
+				return false;
+		} else if (!empUsername.equals(other.empUsername))
+			return false;
+		return true;
+	}
+	@Override
 	public String toString() {
 		return "Bank [custUserName=" + custUserName + ", custFame=" + custFname + ", custLname=" + custLname
 				+ ", custGender=" + custGender + ", custDob=" + custDob + ", custMobileno=" + custMobileno
 				+ ", custPan=" + custPan + ", custCity=" + custCity + ", custState=" + custState + ", initialAmount="
-				+ initialAmount + "]";
+				+ openingbalance + "]";
 	}
 	
 }

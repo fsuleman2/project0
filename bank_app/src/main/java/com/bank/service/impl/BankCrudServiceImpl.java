@@ -28,7 +28,7 @@ public class BankCrudServiceImpl implements BankCrudService {
 	public Bank openCustomerAccount(Bank bank) throws BusinessException {
 		if(bank.getCustUserName()!=null && bank.getCustFname()!=null && bank.getCustLname()!=null
 				&& bank.getCustGender()!=null && bank.getCustDob()!=null && bank.getCustMobileno()!=0
-				&& bank.getCustPan()!=null && bank.getCustCity()!=null && bank.getCustState()!=null && bank.getInitialAmount()>=0.0) {
+				&& bank.getCustPan()!=null && bank.getCustCity()!=null && bank.getCustState()!=null && bank.getOpeningBalance()>=0.0) {
 			bank = bankDAO.openCustomerAccount(bank);
 		}
 		else {
