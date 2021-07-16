@@ -72,7 +72,7 @@ public class BankMain {
 									log.info("\n4)View Customer Account Details");
 									log.info("\n5)View Transaction of Customers");
 									log.info("\n6)Logout");
-									log.info("\nEnter Your Choice 1-5");
+									log.info("\nEnter Your Choice 1-6");
 									try {
 										ch2 = Integer.parseInt(sc.nextLine());
 									} catch (NumberFormatException e) {
@@ -127,8 +127,8 @@ public class BankMain {
 									case 3:
 										BankCrudService bankCrudService1 = new BankCrudServiceImpl();
 										try {
-											List<Bank> bankList = bankCrudService1.getAllCustomerDetails();
-											for (Bank b : bankList) {
+											List<Account> accountList = bankCrudService1.getAllCustomerAccountDetails();
+											for (Account b : accountList) {
 												log.info(b);
 											}
 										} catch (BusinessException e) {
@@ -138,6 +138,13 @@ public class BankMain {
 										break;
 									case 4: int s=0;
 											BankSearchService bankSearchService = new BankSearchServiceImpl();
+											BankCrudService bankCrudService2 = new BankCrudServiceImpl();
+											try {
+												List<Bank> bankList = bankCrudService2.getAllCustomerDetails();
+												for(Bank b : bankList) {
+													log.info(b);
+												}
+											}catch(BusinessException e) {log.error(e.getMessage());}
 										break;
 									case 5:
 										break;

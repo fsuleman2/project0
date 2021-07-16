@@ -268,4 +268,30 @@ public class BankDAOImpl implements BankDAO{
 		return account;
 	}
 
+	@Override
+	public List<Account> getAllCustomerAccountDetails() throws BusinessException {
+		List<Account> accountList=new ArrayList<>();
+		try(Connection connection = PostgresConnection.getConnection()){
+			String sql = "select custfname,custusernamename,openingdetails from custacctdetails";
+			PreparedStatement preparedStatement = connection.prepareStatement(sql);
+			ResultSet resultSet=preparedStatement.executeQuery();
+			while(resultSet.next()) {
+				Account account = new Account();
+				account.setCustFname(resultSet.getString("custfname"));
+				account.setCustUserName(resultSet.getString("custusername"));
+				account.setOpeningbalance(resultSet.getFloat("openingbalance"));
+				accountList.add(account);
+			}
+			if(accountList.size()==0) {
+				throw new BusinessException("No Customer details exists as of now");
+			}
+			
+			
+	
+	} catch (ClassNotFoundException | SQLException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
+		return accountList;
+}
 }

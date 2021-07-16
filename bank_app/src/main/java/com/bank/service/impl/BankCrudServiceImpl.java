@@ -6,7 +6,9 @@ import java.util.List;
 import com.bank.dao.BankDAO;
 import com.bank.dao.impl.BankDAOImpl;
 import com.bank.exception.BusinessException;
+import com.bank.model.Account;
 import com.bank.model.Bank;
+import com.bank.model.Customer;
 import com.bank.model.Transaction;
 import com.bank.service.BankCrudService;
 
@@ -63,6 +65,14 @@ public class BankCrudServiceImpl implements BankCrudService {
 	public Transaction withDrawAmount(Transaction transaction1) {
 		// TODO Auto-generated method stub
 		return null;
+	}
+
+	@Override
+	public List<Account> getAllCustomerAccountDetails() throws BusinessException {
+		Bank bank =new Bank();
+		List<Account> accountList = new ArrayList<>();
+		accountList = bankDAO.getAllCustomerAccountDetails();
+		return accountList;
 	}
 
 }

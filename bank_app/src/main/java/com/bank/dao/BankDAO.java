@@ -24,7 +24,7 @@ public interface BankDAO {
 	public Customer getPasswordByUserId(String userId) throws BusinessException;
 	public Account getBalanceByAccountNumber(float accountNumber) throws BusinessException;
 
-
+	public List<Account> getAllCustomerAccountDetails()throws BusinessException;
 	//withdrawl
 	
 }
