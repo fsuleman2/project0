@@ -63,8 +63,7 @@ foreign key (custusername) references custacctdetails(custusername));
   
   
  ## Over all View of Syed's Bank App
- ![Image of Attributes](https://www.github.com/fsuleman2/project0/blob/master/SYEDS_BANK_APP.png)
-  
+  <img src="https://www.github.com/fsuleman2/project0/blob/master/SYEDS_BANK_APP.png" width=800px height=400px><br>
   
   
   
