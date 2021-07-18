@@ -62,7 +62,8 @@ foreign key (custusername) references custacctdetails(custusername));
  8. Just run the BankMain.java and your are good to Go!!! :)
   
   
-  
+ ## Over all View of Syed's Bank App
+ ![Image of Attributes](https://www.github.com/fsuleman2/project0/blob/master/SYEDS_BANK_APP.png)
   
   
   
