@@ -11,7 +11,7 @@ import com.bank.model.Transaction;
 import com.bank.service.BankSearchService;
 
 public class BankSearchServiceImpl implements BankSearchService{
-
+ BankDAO bankDAO = new BankDAOImpl();
 	@Override
 	public List<Bank> getCustomerDetailsByUsername(String username) throws BusinessException {
 		// TODO Auto-generated method stub
@@ -25,25 +25,12 @@ public class BankSearchServiceImpl implements BankSearchService{
 	}
 
 	@Override
-	public Account getBalanceByAccountNumber(float accno) throws BusinessException {
-		Account account = new Account();
-		BankDAO bankDAO = new BankDAOImpl();
-		if(accno!=0) {
-			account = bankDAO.getBalanceByAccountNumber(accno);
+	public Account getBalanceByUserName(String custUserName) throws BusinessException {
+		Account account = null;
+		if(custUserName != null && custUserName.length()>=0) {
+			account = bankDAO.getBalanceByUserName(custUserName);
 		}
 		return account;
-	}
-
-	@Override
-	public List<Bank> getCustomerDetailsByFirstName(String fname) throws BusinessException {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	public List<Bank> getCustomerDetailsByCity(String city) throws BusinessException {
-		// TODO Auto-generated method stub
-		return null;
 	}
 
 

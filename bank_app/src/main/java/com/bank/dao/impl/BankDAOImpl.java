@@ -23,37 +23,6 @@ public class BankDAOImpl implements BankDAO{
 	private static Logger log = Logger.getLogger(BankDAO.class);
 
 	@Override
-	public List<Bank> getCustomerDetailsByUsername(String username) throws BusinessException {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	public List<Transaction> getTransactionDetailsByTid(int tid) throws BusinessException {
-		try(Connection connection = PostgresConnection.getConnection()){
-			String sql = "select ttype,openingbalance,tamount,closingbalance,accno from custtransaction where tid = ?";
-			PreparedStatement preparedStatement = connection.prepareStatement(sql);
-			preparedStatement.setInt(1, tid);
-			ResultSet resultSet = preparedStatement.executeQuery();
-			while(resultSet.next()) {
-				Transaction transaction = new Transaction();
-				transaction.setTid(tid);
-				transaction.setTtype(resultSet.getString("ttype"));
-				transaction.setOpeningbalance(resultSet.getFloat("closingbalance"));
-				transaction.setTamount(resultSet.getFloat("tamount"));
-				transaction.setTamount(resultSet.getFloat("tamount"));
-				
-				
-			}
-		} catch (ClassNotFoundException | SQLException e) {
-			// TODO Auto-generated catch block
-			log.warn(e.getMessage());
-			throw new BusinessException("Internal Error Occured... Kindly contact SysAdmin");
-		}
-		return null;
-	}
-
-	@Override
 	public Bank registerCustomer(Bank bank) throws BusinessException {
 		try(Connection connection = PostgresConnection.getConnection()){
 			String sql = "insert into custlogindetails(name,email,username,password) values(?,?,?,?)";
@@ -91,8 +60,8 @@ public class BankDAOImpl implements BankDAO{
 			preparedStatement.setString(8,bank.getCustCity());
 			preparedStatement.setString(9,bank.getCustState());
 			preparedStatement.setFloat(10, bank.getOpeningBalance());
-			preparedStatement1.setString(1,bank.getCustUserName());
-			preparedStatement1.setString(2,bank.getCustFname());
+			preparedStatement1.setString(1,bank.getCustFname());
+			preparedStatement1.setString(2,bank.getCustUserName());
 			preparedStatement1.setFloat(3, bank.getOpeningBalance());
 			int rowAffected = preparedStatement1.executeUpdate();
 			preparedStatement.executeUpdate();
@@ -117,7 +86,7 @@ public class BankDAOImpl implements BankDAO{
 			while(resultSet.next()) {
 				Bank bank = new Bank();
 				bank.setCustUserName(resultSet.getString("custusername"));
-				bank.setCustFame(resultSet.getString("custfname"));
+				bank.setCustFname(resultSet.getString("custfname"));
 				bank.setCustLname(resultSet.getString("custlname"));
 				bank.setCustGender(resultSet.getString("custgender"));
 				bank.setCustDob(resultSet.getString("custdob"));
@@ -176,19 +145,19 @@ public class BankDAOImpl implements BankDAO{
 	@Override
 	public Transaction depositAmount(Transaction transaction) throws BusinessException {
 		try(Connection connection = PostgresConnection.getConnection()){
-			String sql = "insert into bank_schema.custtransaction(ttype,openingbalance,tamount,closingbalance,accno) values(?,?,?,?,?)";
-			String sql1 = "update bank_schema.custacctdetails set openingbalance= ? where accno = ?";
+			String sql = "insert into custtransaction(ttype,openingbalance,tamount,closingbalance,custusername) values(?,?,?,?,?)";
+			String sql1 = "update custacctdetails set openingbalance= ? where custusername = ?";
 			PreparedStatement preparedStatement = connection.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);
 			PreparedStatement preparedStatement1 = connection.prepareStatement(sql1);
 			preparedStatement.setString(1,transaction.getTtype());
 			preparedStatement.setFloat(2, transaction.getOpeningbalance());
 			preparedStatement.setFloat(3, transaction.getTamount());
 			preparedStatement.setFloat(4,transaction.getClosingbalance());
-			preparedStatement.setInt(5, transaction.getAccno());
+			preparedStatement.setString(5, transaction.getCustUserName());
 			preparedStatement1.setFloat(1, transaction.getClosingbalance());
-			preparedStatement1.setInt(2, transaction.getAccno());
+			preparedStatement1.setString(2, transaction.getCustUserName());
 			int c = preparedStatement.executeUpdate();
-			int c1  = preparedStatement.executeUpdate();
+			int c1  = preparedStatement1.executeUpdate();
 			if(c== 1 && c1 == 1) {
 				ResultSet resultSet = preparedStatement.getGeneratedKeys();
 				if(resultSet.next()) {
@@ -202,77 +171,14 @@ public class BankDAOImpl implements BankDAO{
 		}
 		return transaction;
 	}
-	/*
-	 * public Transaction depositAmount(Transaction transaction) throws BankException {
-		try (Connection connection = PostgresConnection.getConnection()) {
-			String sql = "insert into bank_schema.transactions(transtype,balance,\"d/w/t(amount)\",updatedbalance,accountnumber) values(?,?,?,?,?)";
-			String sql1 = "update bank_schema.accountdetails set balance=? where accountnumber = ? ";
-			PreparedStatement preparedStatement = connection.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);
-			PreparedStatement preparedStatement1 = connection.prepareStatement(sql1);
-			preparedStatement.setString(1, transaction.getTransType());
-			preparedStatement.setDouble(2, transaction.getOpeningBalance1());
-			preparedStatement.setDouble(3, transaction.getAmount());
-			preparedStatement.setDouble(4, transaction.getClosingBalance());
-			preparedStatement.setDouble(5, transaction.getAccountNumber());
-			preparedStatement1.setDouble(1, transaction.getClosingBalance());
-			preparedStatement1.setDouble(2, transaction.getAccountNumber());
 
-			int c = preparedStatement.executeUpdate();
-			int c1 = preparedStatement1.executeUpdate();
 
-			if (c == 1 && c1 == 1) {
-				ResultSet resultSet = preparedStatement.getGeneratedKeys();
-				if (resultSet.next()) {
-					transaction.setTransId(resultSet.getInt(1));
-				}
-			}
-		} catch (ClassNotFoundException | SQLException e) {
-			log.warn(e);
-			throw new BankException("Internal error occured... Kindly conatct SYSADMIN........");
-		}
-		return transaction;
-	}*/
-
-	@Override
-	public Customer getPasswordByUserId(String userId) throws BusinessException {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	public Account getBalanceByAccountNumber(float accno) throws BusinessException {
-		Account account = new Account();
-		//System.out.println("hi");
-		try (Connection connection = PostgresConnection.getConnection()) {
-			//System.out.println("hi");
-			String sql = "select accno,custFname,custUserName,openingbalance from bank_schema.custacctdetails where accno =?";
-			String sql1 = "select ";
-			PreparedStatement preparedStatement = connection.prepareStatement(sql);
-			preparedStatement.setFloat(1, accno);
-			ResultSet resultSet = preparedStatement.executeQuery();
-
-			if (resultSet.next()) {
-				account.setAccno(resultSet.getInt("accno"));
-				account.setCustFname(resultSet.getString("custFname"));
-				account.setCustUserName(resultSet.getString("custUserName"));
-				account.setOpeningbalance(resultSet.getFloat("openingbalance"));
-				//System.out.println(resultSet.getFloat(1));
-				System.out.println(account);
-			} else {
-				throw new BusinessException("Invalid Account Number ");
-			}
-		} catch (ClassNotFoundException | SQLException e) {
-			log.warn(e);
-			throw new BusinessException("Internal error occured... Kindly conatct SYSADMIN........");
-		}
-		return account;
-	}
 
 	@Override
 	public List<Account> getAllCustomerAccountDetails() throws BusinessException {
 		List<Account> accountList=new ArrayList<>();
 		try(Connection connection = PostgresConnection.getConnection()){
-			String sql = "select custfname,custusernamename,openingdetails from custacctdetails";
+			String sql = "select custfname,custusername,openingbalance,acctcreatdate from custacctdetails";
 			PreparedStatement preparedStatement = connection.prepareStatement(sql);
 			ResultSet resultSet=preparedStatement.executeQuery();
 			while(resultSet.next()) {
@@ -280,18 +186,146 @@ public class BankDAOImpl implements BankDAO{
 				account.setCustFname(resultSet.getString("custfname"));
 				account.setCustUserName(resultSet.getString("custusername"));
 				account.setOpeningbalance(resultSet.getFloat("openingbalance"));
+				account.setDate(resultSet.getDate("acctcreatdate"));
 				accountList.add(account);
 			}
 			if(accountList.size()==0) {
 				throw new BusinessException("No Customer details exists as of now");
 			}
-			
-			
 	
 	} catch (ClassNotFoundException | SQLException e) {
-		// TODO Auto-generated catch block
-		e.printStackTrace();
+		log.warn(e.getMessage());
+		throw new BusinessException("Internal error occured... Kindly conatct SYSADMIN........");
 	}
 		return accountList;
 }
+
+	@Override
+	public Account getBalanceByUserName(String custUserName) throws BusinessException {
+		Account account = new Account();
+		try(Connection connection = PostgresConnection.getConnection()){
+			String sql = "select custFname,custUserName,openingbalance from custacctdetails where custusername =?";
+			PreparedStatement preparedStatement = connection.prepareStatement(sql);
+			preparedStatement.setString(1, custUserName);
+			ResultSet resultSet = preparedStatement.executeQuery();
+			if (resultSet.next()) {
+				
+				account.setCustFname(resultSet.getString("custFname"));
+				account.setCustUserName(resultSet.getString("custUserName"));
+				account.setOpeningbalance(resultSet.getFloat("openingbalance"));
+				//System.out.println(account);
+			} else {
+				throw new BusinessException("Invalid UserName ");
+			}
+			
+		} catch (ClassNotFoundException | SQLException e) {
+			log.warn(e.getMessage());
+			throw new BusinessException("Internal Error Occured... Kindly contact SysAdmin");
+		}
+		return account;
+	}
+
+	@Override
+	public Transaction withDrawAmount(Transaction transaction) throws BusinessException {
+			try(Connection connection = PostgresConnection.getConnection()){
+				
+				String sql = "insert into custtransaction(ttype,openingbalance,tamount,closingbalance,custusername) values(?,?,?,?,?)";
+				PreparedStatement preparedStatement = connection.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);
+				preparedStatement.setString(1,transaction.getTtype());
+				preparedStatement.setFloat(2, transaction.getOpeningbalance());
+				preparedStatement.setFloat(3, transaction.getTamount());
+				preparedStatement.setFloat(4,transaction.getClosingbalance());
+				preparedStatement.setString(5, transaction.getCustUserName());
+				String sql1 = "update custacctdetails set openingbalance= ? where custusername = ?";
+				PreparedStatement preparedStatement1 = connection.prepareStatement(sql1);
+				preparedStatement1.setFloat(1, transaction.getClosingbalance());
+				preparedStatement1.setString(2, transaction.getCustUserName());
+				int c = preparedStatement.executeUpdate();
+				int c1  = preparedStatement1.executeUpdate();
+				if(c== 1 && c1 == 1) {
+					ResultSet resultSet = preparedStatement.getGeneratedKeys();
+					if(resultSet.next()) {
+						transaction.setTid(resultSet.getInt(1));
+						//transaction.setTdate(resultSet.getDate(5));
+					}
+				}
+
+			}catch (ClassNotFoundException | SQLException e) {
+				log.warn(e.getMessage());
+				throw new BusinessException("Internal Error Occured... Kindly contact SysAdmin");
+			}
+			return transaction;
+	}
+
+	@Override
+	public List<Transaction> getCustomerTransactionByUserName(String custUserName) throws BusinessException {
+		List<Transaction> transactionList = new ArrayList<>();
+		try(Connection connection = PostgresConnection.getConnection()){
+			String sql = "select tid,ttype,openingbalance,tamount,closingbalance,custusername from custtransaction where custusername = ? order by tid desc";
+			PreparedStatement preparedStatement = connection.prepareStatement(sql);
+			preparedStatement.setString(1, custUserName);
+			ResultSet resultSet = preparedStatement.executeQuery();
+			while(resultSet.next()) {
+				Transaction transaction = new Transaction();
+				transaction.setTid(resultSet.getInt("tid"));
+				transaction.setTtype(resultSet.getString("ttype"));
+				transaction.setOpeningbalance(resultSet.getFloat("openingbalance"));
+				transaction.setTamount(resultSet.getFloat("tamount"));
+				transaction.setClosingbalance(resultSet.getFloat("closingbalance"));
+				transaction.setCustUserName(resultSet.getString("custusername"));
+				transactionList.add(transaction);
+			}
+			if(transactionList.size()==0) {
+				throw new BusinessException("No Transaction Statements exists as of now by Customer with User Name : "+custUserName);
+			}
+		} catch (ClassNotFoundException | SQLException e) {
+			// TODO Auto-generated catch block
+			log.warn(e.getMessage());
+			throw new BusinessException("Internal Error Occured... Kindly contact SysAdmin");
+		}
+		return transactionList;
+	}
+
+
+
+	@Override
+	public List<Transaction> getAllCustomerTransactionDetails() throws BusinessException {
+		List<Transaction> transactionList = new ArrayList<>();
+		try(Connection connection = PostgresConnection.getConnection()){
+			String sql = "select tid,ttype,openingbalance,tamount,tdate,closingbalance,custusername from custtransaction";
+			PreparedStatement preparedStatement = connection.prepareStatement(sql);
+			ResultSet resultSet = preparedStatement.executeQuery();
+			while(resultSet.next()) {
+				Transaction transaction = new Transaction();
+				transaction.setTid(resultSet.getInt("tid"));
+				transaction.setTtype(resultSet.getString("ttype"));
+				transaction.setOpeningbalance(resultSet.getFloat("openingbalance"));
+				transaction.setTamount(resultSet.getFloat("tamount"));
+				transaction.setTdate(resultSet.getDate("tdate"));
+				transaction.setClosingbalance(resultSet.getFloat("closingbalance"));
+				transaction.setCustUserName(resultSet.getString("custusername"));
+				transactionList.add(transaction);
+			}
+			if(transactionList.size()==0) {
+				throw new BusinessException("No Transaction Statements exist");
+			}
+		} catch (ClassNotFoundException | SQLException e) {
+			// TODO Auto-generated catch block
+			log.warn(e.getMessage());
+			throw new BusinessException("Internal Error Occured... Kindly contact SysAdmin");
+		}
+		return transactionList;
+	}
+
+	@Override
+	public List<Bank> getCustomerDetailsByUsername(String username) throws BusinessException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Customer getPasswordByUserId(String userId) throws BusinessException {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }

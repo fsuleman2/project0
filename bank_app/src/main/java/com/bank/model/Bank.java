@@ -58,7 +58,7 @@ public class Bank {
 	public String getCustFname() {
 		return custFname;
 	}
-	public void setCustFame(String custFname) {
+	public void setCustFname(String custFname) {
 		this.custFname = custFname;
 	}
 	public String getCustLname() {

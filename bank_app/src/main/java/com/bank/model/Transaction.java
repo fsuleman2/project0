@@ -1,20 +1,36 @@
 package com.bank.model;
 
+import java.sql.Date;
+
 public class Transaction {
 private int tid;
 private String ttype;
 private float openingbalance;
 private float tamount;
+private Date tdate;
+public Date getTdate() {
+	return tdate;
+}
+public void setTdate(Date tdate) {
+	this.tdate = tdate;
+}
 private float closingbalance;
-private int accno;
-public Transaction(int tid, String ttype, float openingbalance, float tamount, float closingbalance, int accno) {
+private String custUserName;
+
+public Transaction(int tid, String ttype, float openingbalance, float tamount, float closingbalance, String custUserName) {
 	super();
 	this.tid = tid;
 	this.ttype = ttype;
 	this.openingbalance = openingbalance;
 	this.tamount = tamount;
 	this.closingbalance = closingbalance;
-	this.accno = accno;
+	this.custUserName = custUserName;
+}
+public String getCustUserName() {
+	return custUserName;
+}
+public void setCustUserName(String custUserName) {
+	this.custUserName = custUserName;
 }
 public Transaction() {
 	// TODO Auto-generated constructor stub
@@ -49,24 +65,20 @@ public float getClosingbalance() {
 public void setClosingbalance(float closingbalance) {
 	this.closingbalance = closingbalance;
 }
-public int getAccno() {
-	return accno;
-}
-public void setAccno(int accno) {
-	this.accno = accno;
-}
-public Transaction(String ttype,float openingbalance,float tamount,float closingbalance,int accno) {
+public Transaction(String ttype,float openingbalance,float tamount,float closingbalance,String custUserName) {
 	this.ttype = ttype;
 	this.tamount = tamount;
 	this.closingbalance = closingbalance;
-	this.accno = accno;
 	this.openingbalance = openingbalance;
+	this.custUserName = custUserName;
 }
 @Override
 public String toString() {
-	return "Transaction [tid=" + tid + ", ttype=" + ttype + ", openingbalance=" + openingbalance + ", tamount="
-			+ tamount + ", closingbalance=" + closingbalance + ", accno=" + accno + "]";
+	return "Transaction [Transaction Id = " + tid + ", Transaction Type = " + ttype + ", Opening Balance = " + openingbalance + ", Transfer Amount = "
+			+ tamount + ", Transaction Date = " + tdate+", Closing Balance = " + closingbalance + ", Customer User Name = " + custUserName
+			+ "]";
 }
 
+//", tdate=" + tdate+
 
 }

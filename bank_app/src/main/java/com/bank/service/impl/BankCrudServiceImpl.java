@@ -8,7 +8,6 @@ import com.bank.dao.impl.BankDAOImpl;
 import com.bank.exception.BusinessException;
 import com.bank.model.Account;
 import com.bank.model.Bank;
-import com.bank.model.Customer;
 import com.bank.model.Transaction;
 import com.bank.service.BankCrudService;
 
@@ -41,17 +40,8 @@ public class BankCrudServiceImpl implements BankCrudService {
 
 	@Override
 	public List<Bank> getAllCustomerDetails() throws BusinessException {
-		Bank bank =new Bank();
 		List<Bank> bankList = new ArrayList<>();
-//		if(bank.getCustUserName()!=null && bank.getCustFname()!=null && bank.getCustLname()!=null
-//				&& bank.getCustGender()!=null && bank.getCustDob()!=null && bank.getCustMobileno()!=0
-//				&& bank.getCustPan()!=null&& bank.getCustCity()!=null && bank.getCustState()!=null && bank.getInitialAmount()!=0.0) {
-				bankList = bankDAO.getAllCustomerDetails();
-			//bankList = bankDAO.getAllCustomerDetails();
-		//}
-		//else {
-			//throw new BusinessException("Invalid Details...");
-		//}
+		bankList = bankDAO.getAllCustomerDetails();
 		return bankList;
 	}
 
@@ -61,18 +51,35 @@ public class BankCrudServiceImpl implements BankCrudService {
 		return transaction;
 	}
 
-	@Override
-	public Transaction withDrawAmount(Transaction transaction1) {
-		// TODO Auto-generated method stub
-		return null;
-	}
+	
 
 	@Override
 	public List<Account> getAllCustomerAccountDetails() throws BusinessException {
-		Bank bank =new Bank();
-		List<Account> accountList = new ArrayList<>();
+		List<Account> accountList = null;
 		accountList = bankDAO.getAllCustomerAccountDetails();
 		return accountList;
+	}
+
+	@Override
+	public List<Transaction> getAllCustomerTransactionDetails() throws BusinessException {
+		List<Transaction> transactionList = null;
+		transactionList = bankDAO.getAllCustomerTransactionDetails();
+		return transactionList;
+	}
+
+	@Override
+	public Transaction withDrawAmount(Transaction transaction) throws BusinessException {
+		transaction =bankDAO.withDrawAmount(transaction);
+		return transaction;
+	}
+
+	@Override
+	public List<Transaction> getCustomerTransactionByUserName(String custUserName) throws BusinessException {
+		List<Transaction> transactionList = null;
+		if(custUserName != null && custUserName.length()>=0) {
+			transactionList = bankDAO.getCustomerTransactionByUserName(custUserName);
+		}
+		return transactionList;
 	}
 
 }

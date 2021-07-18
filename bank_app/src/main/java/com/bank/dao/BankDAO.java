@@ -10,7 +10,6 @@ import com.bank.model.Transaction;
 
 public interface BankDAO {
 	public List<Bank> getCustomerDetailsByUsername(String username) throws BusinessException;
-	public List<Transaction> getTransactionDetailsByTid(int tid) throws BusinessException;
 	///Bank crud service
 	public Bank registerCustomer(Bank bank) throws BusinessException;
 	public Bank openCustomerAccount(Bank bank) throws BusinessException;
@@ -22,9 +21,15 @@ public interface BankDAO {
 	//deposit
 	public Transaction depositAmount(Transaction transaction) throws BusinessException;
 	public Customer getPasswordByUserId(String userId) throws BusinessException;
-	public Account getBalanceByAccountNumber(float accountNumber) throws BusinessException;
-
+	
+	public Account getBalanceByUserName(String custUserName) throws BusinessException;
 	public List<Account> getAllCustomerAccountDetails()throws BusinessException;
 	//withdrawl
-	
+	public Transaction withDrawAmount(Transaction transaction) throws BusinessException;
+	//view statement
+	public List<Transaction> getCustomerTransactionByUserName(String custUserName) throws BusinessException;
+	//get all transaction details
+	public List<Transaction> getAllCustomerTransactionDetails() throws BusinessException;
+	//transfer amount
+	//public Transaction transferAmountByCustDetails(String creditorUserName,long custMobileNo,float creditAmount)throws BusinessException;
 }

@@ -1,30 +1,34 @@
 package com.bank.model;
 
+import java.sql.Date;
+
 public class Account {
-private int accno;
+
 private String custFname;
 private String custUserName;
 private float openingbalance;
+private Date date;
+
 @Override
 public String toString() {
-	return "Account [accno=" + accno + ", custFname=" + custFname + ", custUserName=" + custUserName
-			+ ", openingBalance=" + openingbalance + "]";
+	return "Account [custFname = " + custFname + ", custUserName = " + custUserName + ", openingbalance = " + openingbalance
+			+ ", Account Creation Date = " + date + "]";
 }
 public Account() {
 	// TODO Auto-generated constructor stub
 }
-public Account(int accno, String custFname, String custUserName, float openingBalance) {
+public Account(String custFname, String custUserName, float openingBalance) {
 	super();
-	this.accno = accno;
 	this.custFname = custFname;
 	this.custUserName = custUserName;
 	this.openingbalance = openingBalance;
 }
-public int getAccno() {
-	return accno;
+
+public Date getDate() {
+	return date;
 }
-public void setAccno(int accno) {
-	this.accno = accno;
+public void setDate(Date date) {
+	this.date = date;
 }
 public String getCustFname() {
 	return custFname;
