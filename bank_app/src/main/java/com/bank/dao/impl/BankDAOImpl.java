@@ -162,6 +162,7 @@ public class BankDAOImpl implements BankDAO{
 				ResultSet resultSet = preparedStatement.getGeneratedKeys();
 				if(resultSet.next()) {
 					transaction.setTid(resultSet.getInt(1));
+					transaction.setTdate(resultSet.getString("tdate"));
 				}
 			}
 
@@ -246,7 +247,7 @@ public class BankDAOImpl implements BankDAO{
 					ResultSet resultSet = preparedStatement.getGeneratedKeys();
 					if(resultSet.next()) {
 						transaction.setTid(resultSet.getInt(1));
-						//transaction.setTdate(resultSet.getDate(5));
+						transaction.setTdate(resultSet.getString("tdate"));
 					}
 				}
 
@@ -261,7 +262,7 @@ public class BankDAOImpl implements BankDAO{
 	public List<Transaction> getCustomerTransactionByUserName(String custUserName) throws BusinessException {
 		List<Transaction> transactionList = new ArrayList<>();
 		try(Connection connection = PostgresConnection.getConnection()){
-			String sql = "select tid,ttype,openingbalance,tamount,closingbalance,custusername from custtransaction where custusername = ? order by tid desc";
+			String sql = "select tid,ttype,openingbalance,tamount,tdate,closingbalance,custusername from custtransaction where custusername = ? order by tid desc";
 			PreparedStatement preparedStatement = connection.prepareStatement(sql);
 			preparedStatement.setString(1, custUserName);
 			ResultSet resultSet = preparedStatement.executeQuery();
@@ -271,6 +272,7 @@ public class BankDAOImpl implements BankDAO{
 				transaction.setTtype(resultSet.getString("ttype"));
 				transaction.setOpeningbalance(resultSet.getFloat("openingbalance"));
 				transaction.setTamount(resultSet.getFloat("tamount"));
+				transaction.setTdate(resultSet.getString("tdate"));
 				transaction.setClosingbalance(resultSet.getFloat("closingbalance"));
 				transaction.setCustUserName(resultSet.getString("custusername"));
 				transactionList.add(transaction);
@@ -301,7 +303,7 @@ public class BankDAOImpl implements BankDAO{
 				transaction.setTtype(resultSet.getString("ttype"));
 				transaction.setOpeningbalance(resultSet.getFloat("openingbalance"));
 				transaction.setTamount(resultSet.getFloat("tamount"));
-				transaction.setTdate(resultSet.getDate("tdate"));
+				transaction.setTdate(resultSet.getString("tdate"));
 				transaction.setClosingbalance(resultSet.getFloat("closingbalance"));
 				transaction.setCustUserName(resultSet.getString("custusername"));
 				transactionList.add(transaction);
@@ -325,6 +327,12 @@ public class BankDAOImpl implements BankDAO{
 
 	@Override
 	public Customer getPasswordByUserId(String userId) throws BusinessException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Transaction transferAmountByCustDetails(String creditorUsername) throws BusinessException {
 		// TODO Auto-generated method stub
 		return null;
 	}

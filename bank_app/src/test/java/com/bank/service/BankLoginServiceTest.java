@@ -9,6 +9,7 @@ import com.bank.dao.BankDAO;
 import com.bank.dao.impl.BankDAOImpl;
 import com.bank.exception.BusinessException;
 import com.bank.model.Bank;
+import com.bank.model.Customer;
 import com.bank.service.impl.BankLoginServiceImpl;
 
 class BankLoginServiceTest {
@@ -20,11 +21,12 @@ class BankLoginServiceTest {
 	}
 	@Test
 	void testEmployeeLoginForExisting() {
-		String empUserName = "syed123";
-		String empPassword = "123";
-		Bank bank = new Bank(empUserName,empPassword);
-		//bank.setEmpUsername(empUserName);
-		//bank.setPassword(empPassword);
+		//String empUserName = "syed123";
+		//String empPassword = "123";
+		Bank bank = new Bank("syed123","123");
+		
+//		bank.setEmpUsername("syed123");
+//		bank.setEmpPassword("123");
 		try {
 			
 			assertEquals(bank,bankLoginService.employeeLogin(bank));
@@ -36,7 +38,14 @@ class BankLoginServiceTest {
 	}
 	@Test
 	void testCustomerLogin() {
-		//fail("Not yet implemented");
+		Customer c = new Customer("saif123","123");
+		try {
+			assertEquals(c,bankLoginService.customerLogin(c));
+		}catch(BusinessException e) {
+			log.error(e.getMessage());
+			fail("Not yet implemented");
+		}
+		
 	}
 
 }

@@ -31,5 +31,5 @@ public interface BankDAO {
 	//get all transaction details
 	public List<Transaction> getAllCustomerTransactionDetails() throws BusinessException;
 	//transfer amount
-	//public Transaction transferAmountByCustDetails(String creditorUserName,long custMobileNo,float creditAmount)throws BusinessException;
+	public Transaction transferAmountByCustDetails(String creditorUsername)throws BusinessException;
 }

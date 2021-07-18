@@ -24,7 +24,7 @@ public class BankMain {
 		Scanner sc = new Scanner(System.in);
 		int ch = 0;
 		do {
-			log.info("Welcome to BankApp V1.0");
+			log.info("Welcome to Syed's Banking App");
 			log.info("==================================");
 			log.info("\nBank Menu");
 			log.info("1)Login");
@@ -52,6 +52,7 @@ public class BankMain {
 						Bank bank = null;
 						BankLoginService bankLoginService = null;
 						log.info("\nWelcome to Employee Login Screen");
+						log.info("==================================");
 						log.info("\nEnter Username:");
 						String empUsername = sc.nextLine();
 						log.info("\nEnter Password:");
@@ -93,17 +94,6 @@ public class BankMain {
 										log.info("Enter Your Mobile Number(10-Digits)");
 										String mobilenoString = sc.nextLine();
 										long mobileno = Long.parseLong(mobilenoString);
-//										try{
-//											if(mobilenoString.length()<=10) {
-//												log.warn("Please enter 10 digit mobile number only");
-//											}
-//											else {
-//												continue;
-//											}
-//										}
-//										catch(NumberFormatException e) {
-//											log.info(e.getMessage());
-//										}
 										log.info("Enter your pan");
 										String panNumber = sc.nextLine();
 										log.info("Enter Your City");
@@ -237,46 +227,80 @@ public class BankMain {
 										;
 										break;
 									case 2:
-										log.info("\nEnter Customer Username");
-										String customerUsername = sc.nextLine();
-										log.info("\nEnter Customer Mobile Number");
-										long customerMobileNumber = Long.parseLong(sc.nextLine());
-										log.info("\nEnter the Amount to Transfer(min 500)");
-										double amountTransfer = Double.parseDouble(sc.nextLine());
+										BankSearchService bankSearchServiceforTransfer = new BankSearchServiceImpl();
+										BankCrudService bankCrudServiceforTransfer = new BankCrudServiceImpl();
+										Transaction transaction = new Transaction();
+										Account accountobj = new Account();
+										String customerUserName = customer.getCustUserName();
+										log.info("Hello "+customerUserName+"\n");
+										log.info("Enter Creditor Username");
+										String creditorUsername = sc.nextLine();
+										log.info("Enter the Amount to Transfer");
+										float transferAmount  = Float.parseFloat(sc.nextLine());
+										accountobj =  bankSearchServiceforTransfer.getBalanceByUserName(customerUserName);
 										
-										log.info("\nAmount Transfered SuccessFully!!!"); // valid
-										break;
+										float openingBalance9 = accountobj.getOpeningbalance();
+										if(openingBalance9<transferAmount) {
+											System.out.println("You have Insufficient Balance, Transfer Failed!!!");
+										}
+										else {
+											String transType = "Withdraw";
+											float closingBalance = Math.abs(openingBalance9 - transferAmount);
+											transaction = new Transaction(transType, openingBalance9, transferAmount,
+													closingBalance,customerUserName);
+											transaction = bankCrudServiceforTransfer.withDrawAmount(transaction);
+											log.info("\nAmount " + transferAmount
+													+ " Successfully Withdrawed from your Account with UserName  = " + customerUserName);
+											log.info(transaction);
+											log.info("\n");
+											accountobj = bankSearchServiceforTransfer.getBalanceByUserName(creditorUsername);
+											float openingBalOfCreditor = accountobj.getOpeningbalance();
+											String transTypeOfCreditor = "credited";
+											float closingBalOfCreditor = Math.abs(transferAmount+openingBalOfCreditor);
+											transaction = new Transaction(transTypeOfCreditor, openingBalOfCreditor, transferAmount,
+													closingBalOfCreditor,creditorUsername);
+											transaction = bankCrudServiceforTransfer.depositAmount(transaction);
+											System.out.println(transaction);
+											log.info("\nAmount " + transferAmount
+													+ " Successfully Transfered from your Account to UserName  = " + creditorUsername);
+											log.info("\n Amount Transfered SuccessFully!!!"); // valid
+											System.out.println();
+											break;
+										}
+									
 
 									case 3:
+										
 										BankSearchService bankSearchService = new BankSearchServiceImpl();
 										BankCrudService bankCrudService1 = new BankCrudServiceImpl();
-										Transaction transaction = new Transaction();
+										Transaction transactionforDepo = new Transaction();
 										Account account = new Account();
-										String customerUserName = customer.getCustUserName();
-										log.info("Hello "+customerUserName+ " please Enter the Amount to Withdraw (min 500)\n");
+										String depoUserName = customer.getCustUserName();
+										log.info("Hello "+depoUserName+ " please Enter the Amount to Withdraw (min 500)\n");
 										float amountWithdraw = Float.parseFloat(sc.nextLine());
-										account = bankSearchService.getBalanceByUserName(customerUserName);
+										account = bankSearchService.getBalanceByUserName(depoUserName);
 										float openingBalance = account.getOpeningbalance();
 										String transType = "Withdraw";
 										float closingBalance = Math.abs(openingBalance - amountWithdraw);
-										transaction = new Transaction(transType, openingBalance, amountWithdraw,
-												closingBalance,customerUserName);
-										transaction = bankCrudService1.withDrawAmount(transaction);
+										transactionforDepo  = new Transaction(transType, openingBalance, amountWithdraw,
+												closingBalance,depoUserName);
+										transactionforDepo  = bankCrudService1.withDrawAmount(transactionforDepo );
 										log.info("\nAmount " + amountWithdraw
-												+ " Successfully Withdrawed from your Account with UserName  = " + customerUserName);
-										log.info(transaction);
+												+ " Successfully Withdrawed from your Account with UserName  = " + depoUserName);
+										log.info(transactionforDepo );
 										log.info("\n");
 										break;
 									case 4:
+										
 										BankSearchService bankSearchService1 = new BankSearchServiceImpl();
 										BankCrudService bankCrudService2 = new BankCrudServiceImpl();
 										Transaction transaction1 = new Transaction();
-										Account account1 = new Account();
+										Account account6 = new Account();
 										String customerUserName1 = customer.getCustUserName();
 										log.info("Hello "+customerUserName1+ " please Enter the Amount to Deposit(min 500)\n");
 										float amountDeposit1 = Float.parseFloat(sc.nextLine());
-										account = bankSearchService1.getBalanceByUserName(customerUserName1);
-										float openingBalance1 = account.getOpeningbalance();
+										account6 = bankSearchService1.getBalanceByUserName(customerUserName1);
+										float openingBalance1 = account6.getOpeningbalance();
 										String transType1 = "Deposit";
 										float closingBalance1 = openingBalance1 + amountDeposit1;
 										transaction = new Transaction(transType1, openingBalance1, amountDeposit1,
@@ -307,7 +331,7 @@ public class BankMain {
 								log.info("Invalid Details..");
 							}
 						} catch (BusinessException e) {
-							log.warn(e.getMessage());
+							log.info(e.getMessage());
 							throw new BusinessException("Customer Login Failed!!!");
 						}
 						;

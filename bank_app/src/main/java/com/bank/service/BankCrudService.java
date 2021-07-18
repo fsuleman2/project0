@@ -18,7 +18,7 @@ public interface BankCrudService {
 	public List<Transaction> getAllCustomerTransactionDetails() throws BusinessException;
 	
 	
-	
+	public Transaction transferAmountByCustDetails(String creditorUsername)throws BusinessException;
 	
 	
 	/*Future Improvising

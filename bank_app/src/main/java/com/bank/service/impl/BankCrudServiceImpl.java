@@ -82,4 +82,10 @@ public class BankCrudServiceImpl implements BankCrudService {
 		return transactionList;
 	}
 
+	@Override
+	public Transaction transferAmountByCustDetails(String creditorUsername) throws BusinessException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }

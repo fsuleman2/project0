@@ -151,6 +151,8 @@ public class Bank {
 		int result = 1;
 		result = prime * result + ((empPassword == null) ? 0 : empPassword.hashCode());
 		result = prime * result + ((empUsername == null) ? 0 : empUsername.hashCode());
+		result = prime * result + ((password == null) ? 0 : password.hashCode());
+		result = prime * result + ((username == null) ? 0 : username.hashCode());
 		return result;
 	}
 	@Override
@@ -171,6 +173,16 @@ public class Bank {
 			if (other.empUsername != null)
 				return false;
 		} else if (!empUsername.equals(other.empUsername))
+			return false;
+		if (password == null) {
+			if (other.password != null)
+				return false;
+		} else if (!password.equals(other.password))
+			return false;
+		if (username == null) {
+			if (other.username != null)
+				return false;
+		} else if (!username.equals(other.username))
 			return false;
 		return true;
 	}

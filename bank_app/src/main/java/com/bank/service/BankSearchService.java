@@ -12,7 +12,6 @@ public interface BankSearchService {
 	
 	public List<Transaction> getTransactionDetailsByTid(int tid) throws BusinessException;
 	public Account getBalanceByUserName(String custUserName) throws BusinessException;
-	
 	/*Future Improvising
 	 * 1) public List<Bank> getCustomerDetailsByFirstName(String fname) throws BusinessException;
 	 * 2) public List<Bank> getCustomerDetailsByCity(String city) throws BusinessException;
