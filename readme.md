@@ -73,7 +73,7 @@ For those who would like to discuss further development, my email is
 ```
 sydsulmn7@gmail.com
 ```
-Also i am aware that the application is yet to be properly optimized and the tests to be written. I will update the application soon along with all the appropiate features that i want to integrate in the application in future.
+Also i am aware that the application is yet to be properly optimized. I will update the application soon along with all the appropiate features that i want to integrate in the application in future.
 
   # License
 [MIT](https://choosealicense.com/licenses/mit/)
