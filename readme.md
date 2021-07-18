@@ -26,6 +26,7 @@ Syed's Banking Management App is an Console Based Java Application Which allows 
   -- creating 1)employeedetails table
 create table employeedetails(empusername varchar primary key,emppassword varchar not null , empname varchar not null);
 insert into employeedetails (empusername,emppassword,empname) values('syed123','123','Syed');
+  
 -- creating 2) custlogindetails table
 create table custlogindetails(name varchar not null,email varchar not null,username varchar primary key,password varchar not null);
 
@@ -37,6 +38,8 @@ custpan varchar not null unique,
 custcity varchar not null,
 custstate varchar not null,
 openingbalance float4 not null);
+  
+
  -- creating 4) custacctdetails
 create table custacctdetails(custfname varchar not null,
 custusername varchar primary key,
@@ -53,7 +56,7 @@ closingbalance float4,
 custusername varchar not null,
 foreign key (custusername) references custacctdetails(custusername));
 
-  ```
+```
  
  6. After Succesfully creation of schema and running the quries.
  7. Go to the Project
