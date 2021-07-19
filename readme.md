@@ -1,6 +1,6 @@
 # Revatute Project  0
 ## Syed's Banking Management App
-Syed's Banking Management App is an Console Based Java Application Which allows Users to Open an account, Transfer funds to Different Accounts, Deposit Amount, Withdraw Amount and also provide facility to View Previous transactions.
+Syed's Banking Management App is an Console Based Java Application Which allows Users to Open an account, Transfer funds to Different Accounts, Deposit Amount, Withdraw Amount and also provide facility to view previous transactions.
 
 <h3>Technologies & Tools Used <h3>
   1. Java <br>
@@ -8,7 +8,7 @@ Syed's Banking Management App is an Console Based Java Application Which allows 
   3. MAVEN <br>
   4. JUNIT <br>
   5. POSTGRESQL <br>
-  6. SPRING BOOT as an IDE
+  6. SPRING BOOT as an IDE <br>
   7. DBEAVER
   
   # Installation
@@ -26,6 +26,7 @@ Syed's Banking Management App is an Console Based Java Application Which allows 
   -- creating 1)employeedetails table
 create table employeedetails(empusername varchar primary key,emppassword varchar not null , empname varchar not null);
 insert into employeedetails (empusername,emppassword,empname) values('syed123','123','Syed');
+  
 -- creating 2) custlogindetails table
 create table custlogindetails(name varchar not null,email varchar not null,username varchar primary key,password varchar not null);
 
@@ -37,6 +38,8 @@ custpan varchar not null unique,
 custcity varchar not null,
 custstate varchar not null,
 openingbalance float4 not null);
+  
+
  -- creating 4) custacctdetails
 create table custacctdetails(custfname varchar not null,
 custusername varchar primary key,
@@ -53,7 +56,7 @@ closingbalance float4,
 custusername varchar not null,
 foreign key (custusername) references custacctdetails(custusername));
 
-  ```
+```
  
  6. After Succesfully creation of schema and running the quries.
  7. Go to the Project
@@ -62,8 +65,8 @@ foreign key (custusername) references custacctdetails(custusername));
  8. Just run the BankMain.java and your are good to Go!!! :)
   
   
-  
-  
+ ## Over all View of Syed's Bank App
+  <img src="https://github.com/fsuleman2/project0/blob/master/SYEDS_BANK_APP.png" width=800px height=400px><br>
   
   
   
@@ -73,7 +76,7 @@ For those who would like to discuss further development, my email is
 ```
 sydsulmn7@gmail.com
 ```
-Also i am aware that the application is yet to be properly optimized and the tests to be written. I will update the application soon along with all the appropiate features that i want to integrate in the application in future.
+Also i am aware that the application is yet to be properly optimized. I will update the application soon along with all the appropiate features that i want to integrate in the application in future.
 
   # License
 [MIT](https://choosealicense.com/licenses/mit/)
