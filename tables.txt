@@ -1,0 +1,40 @@
+tables
+1) employeelogin
+empusername(varchar)
+emppassword(varchar)
+empname(varchar)
+---------------------
+2) custlogindetails
+name(varchar)
+email(varchar)
+username(varchar)
+password(varchar)
+------------------
+3) customer_personal_info
+custusername(varchar)
+custfname(varchar)
+custlname(varchar)
+custgender(varchar)
+custdob(varchar)
+custmobileno(int8)
+custpan(varchar)
+custcity(varchar)
+custstate(varchar)
+openingbalance(float4)
+----------------------
+4) custacctdetails
+custfname(varchar)
+custusername(varchar)
+openingbalance(float4)
+acctcreatdate(date) CURRENT_DATE
+-----------------------------
+5) Transaction
+tid(bigserial)
+ttype(varchar)
+openingbalance(float4)
+tamount(float4)
+tdate(date)
+closingbalance(float4)
+custusername(varchar)
+----------------------
+

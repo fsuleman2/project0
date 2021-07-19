@@ -265,10 +265,10 @@ public class BankMain {
 													+ " Successfully Transfered from your Account to UserName  = " + creditorUsername);
 											log.info("\n Amount Transfered SuccessFully!!!"); // valid
 											System.out.println();
-											break;
+											
 										}
 									
-
+										break;
 									case 3:
 										
 										BankSearchService bankSearchService = new BankSearchServiceImpl();
@@ -280,7 +280,14 @@ public class BankMain {
 										float amountWithdraw = Float.parseFloat(sc.nextLine());
 										account = bankSearchService.getBalanceByUserName(depoUserName);
 										float openingBalance = account.getOpeningbalance();
+										if(openingBalance<amountWithdraw) {
+											log.info("You have Insufficient Balance, Transfer Failed!!!");
+										}
+										else if(amountWithdraw<500){log.info("Minimum Withdrawal Amount should be 500/-");}
+										else {	
+											
 										String transType = "Withdraw";
+										
 										float closingBalance = Math.abs(openingBalance - amountWithdraw);
 										transactionforDepo  = new Transaction(transType, openingBalance, amountWithdraw,
 												closingBalance,depoUserName);
@@ -289,6 +296,8 @@ public class BankMain {
 												+ " Successfully Withdrawed from your Account with UserName  = " + depoUserName);
 										log.info(transactionforDepo );
 										log.info("\n");
+										}//else block
+									
 										break;
 									case 4:
 										
@@ -301,15 +310,22 @@ public class BankMain {
 										float amountDeposit1 = Float.parseFloat(sc.nextLine());
 										account6 = bankSearchService1.getBalanceByUserName(customerUserName1);
 										float openingBalance1 = account6.getOpeningbalance();
-										String transType1 = "Deposit";
-										float closingBalance1 = openingBalance1 + amountDeposit1;
-										transaction = new Transaction(transType1, openingBalance1, amountDeposit1,
-												closingBalance1,customerUserName1);
-										transaction = bankCrudService2.depositAmount(transaction);
-										log.info("\nAmount " + amountDeposit1
-												+ " Successfully deposited into your Account with UserName  = " + customerUserName1);
-										log.info(transaction);
+										if(amountDeposit1<500) {log.info("Minimum Amount to Deposit is 500/-");}
+										else if(amountDeposit1>=100000) {log.info("Maximum limit to Deposit is One Lakh only");}
+										else {
+											String transType1 = "Deposit";
+											float closingBalance1 = openingBalance1 + amountDeposit1;
+											transaction = new Transaction(transType1, openingBalance1, amountDeposit1,
+													closingBalance1,customerUserName1);
+											transaction = bankCrudService2.depositAmount(transaction);
+											log.info("\nAmount " + amountDeposit1
+													+ " Successfully deposited into your Account with UserName  = " + customerUserName1);
+											log.info(transaction);
+											
+										}
+										
 										break;
+										
 									case 5: BankCrudService bankCrudServiceforViewStatement = new BankCrudServiceImpl();
 									try {
 										List<Transaction> transactionList = bankCrudServiceforViewStatement.getCustomerTransactionByUserName(custUserName);
