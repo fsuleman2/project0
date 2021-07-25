@@ -50,7 +50,7 @@ public class BankMain {
 					switch (ch1) {
 					case 1:
 						Bank bank = null;
-						BankLoginService bankLoginService = null;
+						BankLoginService bankLoginServiceForEmp = null;
 						log.info("\nWelcome to Employee Login Screen");
 						log.info("==================================");
 						log.info("\nEnter Username:");
@@ -59,10 +59,8 @@ public class BankMain {
 						String empPassword = sc.nextLine();
 						bank = new Bank(empUsername, empPassword);
 						try {
-							bankLoginService = new BankLoginServiceImpl();
-							bank = bankLoginService.employeeLogin(bank);
-							if (bank.getEmpUsername().equals(empUsername)
-									&& bank.getEmpPassword().equals(empPassword)) {
+							bankLoginServiceForEmp = new BankLoginServiceImpl();
+							if (bankLoginServiceForEmp.isValidemployeeCredentials(bank)) {
 								log.info("Employee Login Successfully");
 								int ch2 = 0;
 								do {
@@ -160,7 +158,7 @@ public class BankMain {
 						}
 						;
 						break;
-					case 2:
+					case 2: BankLoginService bankLoginServiceForCust = new BankLoginServiceImpl();
 						Customer customer = null;
 						log.info("\nWelcome to Customer Login Screen");
 						log.info("\n Enter Username:");
@@ -171,12 +169,7 @@ public class BankMain {
 //								System.out.println(custPassword);
 						customer = new Customer(custUserName, custPassword);
 						try {
-							bankLoginService = new BankLoginServiceImpl();
-							customer = bankLoginService.customerLogin(customer);
-//									  System.out.println(customer.getCustUserName());
-//									  System.out.println(customer.getCustUserName());
-							if (customer.getCustUserName().equals(custUserName)
-									&& customer.getCustPassword().equals(custPassword)) {
+							if (bankLoginServiceForCust.isValidCustomerCredentials(customer)) {
 								log.info("Employee Customer Successfully\n");
 								int ch3 = 0;
 								do {

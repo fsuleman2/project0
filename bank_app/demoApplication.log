@@ -39807,3 +39807,1330 @@ Amount 500.0 Successfully deposited into your Account with UserName  = neha5121
 6)Logout
 [main] 2021-07-19 11:37:16 INFO  com.bank.main.BankMain  - 
 Enter Your Choice 1-6
+[main] 2021-07-22 10:36:57 INFO  com.bank.main.BankMain  - Welcome to Syed's Banking App
+[main] 2021-07-22 10:36:57 INFO  com.bank.main.BankMain  - ==================================
+[main] 2021-07-22 10:36:57 INFO  com.bank.main.BankMain  - 
+Bank Menu
+[main] 2021-07-22 10:36:57 INFO  com.bank.main.BankMain  - 1)Login
+[main] 2021-07-22 10:36:57 INFO  com.bank.main.BankMain  - 2)Register as a Customer
+[main] 2021-07-22 10:36:57 INFO  com.bank.main.BankMain  - 3)EXIT
+[main] 2021-07-22 10:36:57 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-3
+[main] 2021-07-22 10:37:01 INFO  com.bank.main.BankMain  - 
+1)Login as Employee
+[main] 2021-07-22 10:37:01 INFO  com.bank.main.BankMain  - 
+2)Login as Customer
+[main] 2021-07-22 10:37:01 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-2
+[main] 2021-07-22 10:37:03 INFO  com.bank.main.BankMain  - 
+Welcome to Employee Login Screen
+[main] 2021-07-22 10:37:03 INFO  com.bank.main.BankMain  - ==================================
+[main] 2021-07-22 10:37:03 INFO  com.bank.main.BankMain  - 
+Enter Username:
+[main] 2021-07-22 10:37:05 INFO  com.bank.main.BankMain  - 
+Enter Password:
+[main] 2021-07-22 10:37:07 INFO  com.bank.main.BankMain  - Invalid Details
+[main] 2021-07-22 10:37:07 INFO  com.bank.main.BankMain  - Welcome to Syed's Banking App
+[main] 2021-07-22 10:37:07 INFO  com.bank.main.BankMain  - ==================================
+[main] 2021-07-22 10:37:07 INFO  com.bank.main.BankMain  - 
+Bank Menu
+[main] 2021-07-22 10:37:07 INFO  com.bank.main.BankMain  - 1)Login
+[main] 2021-07-22 10:37:07 INFO  com.bank.main.BankMain  - 2)Register as a Customer
+[main] 2021-07-22 10:37:07 INFO  com.bank.main.BankMain  - 3)EXIT
+[main] 2021-07-22 10:37:07 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-3
+[main] 2021-07-22 10:37:10 INFO  com.bank.main.BankMain  - 
+1)Login as Employee
+[main] 2021-07-22 10:37:10 INFO  com.bank.main.BankMain  - 
+2)Login as Customer
+[main] 2021-07-22 10:37:10 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-2
+[main] 2021-07-22 10:37:11 INFO  com.bank.main.BankMain  - 
+Welcome to Employee Login Screen
+[main] 2021-07-22 10:37:11 INFO  com.bank.main.BankMain  - ==================================
+[main] 2021-07-22 10:37:11 INFO  com.bank.main.BankMain  - 
+Enter Username:
+[main] 2021-07-22 10:37:13 INFO  com.bank.main.BankMain  - 
+Enter Password:
+[main] 2021-07-22 10:37:15 INFO  com.bank.main.BankMain  - Employee Login Successfully
+[main] 2021-07-22 10:37:15 INFO  com.bank.main.BankMain  - 
+Welcome syed123
+
+[main] 2021-07-22 10:37:15 INFO  com.bank.main.BankMain  - 
+1)Open Account
+[main] 2021-07-22 10:37:15 INFO  com.bank.main.BankMain  - 
+2)Approve or Reject an Account
+[main] 2021-07-22 10:37:15 INFO  com.bank.main.BankMain  - 
+3)View All Customer Personal Details
+[main] 2021-07-22 10:37:15 INFO  com.bank.main.BankMain  - 
+4)View Customer Account Details
+[main] 2021-07-22 10:37:15 INFO  com.bank.main.BankMain  - 
+5)View Transaction of Customers
+[main] 2021-07-22 10:37:15 INFO  com.bank.main.BankMain  - 
+6)Logout
+[main] 2021-07-22 10:37:15 INFO  com.bank.main.BankMain  - 
+Enter Your Choice 1-6
+[main] 2021-07-22 10:37:27 INFO  com.bank.main.BankMain  - Transaction [tid=1, ttype=Deposit, openingbalance=500.0, tamount=500.0, tdate=2021-07-18, closingbalance=1000.0, custUserName=saif123]
+[main] 2021-07-22 10:37:27 INFO  com.bank.main.BankMain  - Transaction [tid=2, ttype=Withdraw, openingbalance=1000.0, tamount=100.0, tdate=2021-07-18, closingbalance=900.0, custUserName=saif123]
+[main] 2021-07-22 10:37:27 INFO  com.bank.main.BankMain  - Transaction [tid=3, ttype=Deposit, openingbalance=900.0, tamount=500.0, tdate=2021-07-18, closingbalance=1400.0, custUserName=saif123]
+[main] 2021-07-22 10:37:27 INFO  com.bank.main.BankMain  - Transaction [tid=4, ttype=Deposit, openingbalance=1400.0, tamount=500.0, tdate=2021-07-18, closingbalance=1900.0, custUserName=saif123]
+[main] 2021-07-22 10:37:27 INFO  com.bank.main.BankMain  - Transaction [tid=5, ttype=Withdraw, openingbalance=1900.0, tamount=100.0, tdate=2021-07-18, closingbalance=1800.0, custUserName=saif123]
+[main] 2021-07-22 10:37:27 INFO  com.bank.main.BankMain  - Transaction [tid=6, ttype=Withdraw, openingbalance=1800.0, tamount=100.0, tdate=2021-07-18, closingbalance=1700.0, custUserName=saif123]
+[main] 2021-07-22 10:37:27 INFO  com.bank.main.BankMain  - Transaction [tid=7, ttype=Deposit, openingbalance=1200.0, tamount=300.0, tdate=2021-07-18, closingbalance=1500.0, custUserName=zayn123]
+[main] 2021-07-22 10:37:27 INFO  com.bank.main.BankMain  - Transaction [tid=8, ttype=Withdraw, openingbalance=1500.0, tamount=300.0, tdate=2021-07-18, closingbalance=1200.0, custUserName=zayn123]
+[main] 2021-07-22 10:37:27 INFO  com.bank.main.BankMain  - Transaction [tid=9, ttype=credited, openingbalance=1700.0, tamount=300.0, tdate=2021-07-18, closingbalance=2000.0, custUserName=saif123]
+[main] 2021-07-22 10:37:27 INFO  com.bank.main.BankMain  - Transaction [tid=10, ttype=credited, openingbalance=2000.0, tamount=2.0E7, tdate=2021-07-18, closingbalance=2.0002E7, custUserName=saif123]
+[main] 2021-07-22 10:37:27 INFO  com.bank.main.BankMain  - Transaction [tid=11, ttype=Deposit, openingbalance=700.0, tamount=300.0, tdate=2021-07-18, closingbalance=1000.0, custUserName=neha5121]
+[main] 2021-07-22 10:37:27 INFO  com.bank.main.BankMain  - Transaction [tid=12, ttype=Withdraw, openingbalance=1000.0, tamount=200.0, tdate=2021-07-18, closingbalance=800.0, custUserName=neha5121]
+[main] 2021-07-22 10:37:27 INFO  com.bank.main.BankMain  - Transaction [tid=13, ttype=Withdraw, openingbalance=800.0, tamount=100.0, tdate=2021-07-18, closingbalance=700.0, custUserName=neha5121]
+[main] 2021-07-22 10:37:27 INFO  com.bank.main.BankMain  - Transaction [tid=14, ttype=Withdraw, openingbalance=700.0, tamount=500.0, tdate=2021-07-18, closingbalance=200.0, custUserName=neha5121]
+[main] 2021-07-22 10:37:27 INFO  com.bank.main.BankMain  - Transaction [tid=15, ttype=credited, openingbalance=2.0002E7, tamount=500.0, tdate=2021-07-18, closingbalance=2.00025E7, custUserName=saif123]
+[main] 2021-07-22 10:37:27 INFO  com.bank.main.BankMain  - Transaction [tid=16, ttype=Deposit, openingbalance=200.0, tamount=500.0, tdate=2021-07-19, closingbalance=700.0, custUserName=neha5121]
+[main] 2021-07-22 10:37:27 INFO  com.bank.main.BankMain  - Transaction [tid=17, ttype=Withdraw, openingbalance=700.0, tamount=500.0, tdate=2021-07-19, closingbalance=200.0, custUserName=neha5121]
+[main] 2021-07-22 10:37:27 INFO  com.bank.main.BankMain  - Transaction [tid=18, ttype=Withdraw, openingbalance=200.0, tamount=-1.0, tdate=2021-07-19, closingbalance=201.0, custUserName=neha5121]
+[main] 2021-07-22 10:37:27 INFO  com.bank.main.BankMain  - Transaction [tid=19, ttype=Withdraw, openingbalance=201.0, tamount=7000.0, tdate=2021-07-19, closingbalance=6799.0, custUserName=neha5121]
+[main] 2021-07-22 10:37:27 INFO  com.bank.main.BankMain  - Transaction [tid=20, ttype=credited, openingbalance=2.00025E7, tamount=7000.0, tdate=2021-07-19, closingbalance=2.00095E7, custUserName=saif123]
+[main] 2021-07-22 10:37:27 INFO  com.bank.main.BankMain  - Transaction [tid=21, ttype=Withdraw, openingbalance=6799.0, tamount=10000.0, tdate=2021-07-19, closingbalance=3201.0, custUserName=neha5121]
+[main] 2021-07-22 10:37:27 INFO  com.bank.main.BankMain  - Transaction [tid=22, ttype=credited, openingbalance=2.00095E7, tamount=10000.0, tdate=2021-07-19, closingbalance=2.00195E7, custUserName=saif123]
+[main] 2021-07-22 10:37:27 INFO  com.bank.main.BankMain  - Transaction [tid=23, ttype=Withdraw, openingbalance=3201.0, tamount=200000.0, tdate=2021-07-19, closingbalance=196799.0, custUserName=neha5121]
+[main] 2021-07-22 10:37:27 INFO  com.bank.main.BankMain  - Transaction [tid=24, ttype=Withdraw, openingbalance=1000.0, tamount=500.0, tdate=2021-07-19, closingbalance=500.0, custUserName=neha5121]
+[main] 2021-07-22 10:37:27 INFO  com.bank.main.BankMain  - Transaction [tid=25, ttype=credited, openingbalance=1200.0, tamount=500.0, tdate=2021-07-19, closingbalance=1700.0, custUserName=zayn123]
+[main] 2021-07-22 10:37:27 INFO  com.bank.main.BankMain  - Transaction [tid=26, ttype=Deposit, openingbalance=500.0, tamount=200.0, tdate=2021-07-19, closingbalance=700.0, custUserName=neha5121]
+[main] 2021-07-22 10:37:27 INFO  com.bank.main.BankMain  - Transaction [tid=27, ttype=Withdraw, openingbalance=700.0, tamount=100.0, tdate=2021-07-19, closingbalance=600.0, custUserName=neha5121]
+[main] 2021-07-22 10:37:27 INFO  com.bank.main.BankMain  - Transaction [tid=28, ttype=Withdraw, openingbalance=600.0, tamount=700.0, tdate=2021-07-19, closingbalance=100.0, custUserName=neha5121]
+[main] 2021-07-22 10:37:27 INFO  com.bank.main.BankMain  - Transaction [tid=29, ttype=Deposit, openingbalance=100.0, tamount=100.0, tdate=2021-07-19, closingbalance=200.0, custUserName=neha5121]
+[main] 2021-07-22 10:37:27 INFO  com.bank.main.BankMain  - Transaction [tid=30, ttype=Deposit, openingbalance=200.0, tamount=500.0, tdate=2021-07-19, closingbalance=700.0, custUserName=neha5121]
+[main] 2021-07-22 10:37:27 INFO  com.bank.main.BankMain  - Transaction [tid=31, ttype=Withdraw, openingbalance=700.0, tamount=300.0, tdate=2021-07-19, closingbalance=400.0, custUserName=neha5121]
+[main] 2021-07-22 10:37:27 INFO  com.bank.main.BankMain  - Transaction [tid=32, ttype=Deposit, openingbalance=400.0, tamount=500.0, tdate=2021-07-19, closingbalance=900.0, custUserName=neha5121]
+[main] 2021-07-22 10:37:27 INFO  com.bank.main.BankMain  - Transaction [tid=33, ttype=Withdraw, openingbalance=900.0, tamount=500.0, tdate=2021-07-19, closingbalance=400.0, custUserName=neha5121]
+[main] 2021-07-22 10:37:27 INFO  com.bank.main.BankMain  - Transaction [tid=34, ttype=Deposit, openingbalance=400.0, tamount=500.0, tdate=2021-07-19, closingbalance=900.0, custUserName=neha5121]
+[main] 2021-07-22 10:37:27 INFO  com.bank.main.BankMain  - 
+Welcome syed123
+
+[main] 2021-07-22 10:37:27 INFO  com.bank.main.BankMain  - 
+1)Open Account
+[main] 2021-07-22 10:37:27 INFO  com.bank.main.BankMain  - 
+2)Approve or Reject an Account
+[main] 2021-07-22 10:37:27 INFO  com.bank.main.BankMain  - 
+3)View All Customer Personal Details
+[main] 2021-07-22 10:37:27 INFO  com.bank.main.BankMain  - 
+4)View Customer Account Details
+[main] 2021-07-22 10:37:27 INFO  com.bank.main.BankMain  - 
+5)View Transaction of Customers
+[main] 2021-07-22 10:37:27 INFO  com.bank.main.BankMain  - 
+6)Logout
+[main] 2021-07-22 10:37:27 INFO  com.bank.main.BankMain  - 
+Enter Your Choice 1-6
+[main] 2021-07-23 22:12:02 INFO  com.bank.main.BankMain  - Welcome to Syed's Banking App
+[main] 2021-07-23 22:12:02 INFO  com.bank.main.BankMain  - ==================================
+[main] 2021-07-23 22:12:02 INFO  com.bank.main.BankMain  - 
+Bank Menu
+[main] 2021-07-23 22:12:02 INFO  com.bank.main.BankMain  - 1)Login
+[main] 2021-07-23 22:12:02 INFO  com.bank.main.BankMain  - 2)Register as a Customer
+[main] 2021-07-23 22:12:02 INFO  com.bank.main.BankMain  - 3)EXIT
+[main] 2021-07-23 22:12:02 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-3
+[main] 2021-07-23 22:12:16 INFO  com.bank.main.BankMain  - 
+Welcome to Cutomer Registration Page
+
+[main] 2021-07-23 22:12:16 INFO  com.bank.main.BankMain  - 
+Enter Your Name
+[main] 2021-07-23 22:12:24 INFO  com.bank.main.BankMain  - 
+Enter Your Email
+[main] 2021-07-23 22:12:34 INFO  com.bank.main.BankMain  - 
+Enter Your Username
+[main] 2021-07-23 22:12:50 INFO  com.bank.main.BankMain  - 
+Enter Your Password
+[main] 2021-07-23 22:13:00 INFO  com.bank.main.BankMain  - 
+ Bank Account Registered Successfully...
+
+[main] 2021-07-23 22:13:00 INFO  com.bank.main.BankMain  - Welcome to Syed's Banking App
+[main] 2021-07-23 22:13:00 INFO  com.bank.main.BankMain  - ==================================
+[main] 2021-07-23 22:13:00 INFO  com.bank.main.BankMain  - 
+Bank Menu
+[main] 2021-07-23 22:13:00 INFO  com.bank.main.BankMain  - 1)Login
+[main] 2021-07-23 22:13:00 INFO  com.bank.main.BankMain  - 2)Register as a Customer
+[main] 2021-07-23 22:13:00 INFO  com.bank.main.BankMain  - 3)EXIT
+[main] 2021-07-23 22:13:00 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-3
+[main] 2021-07-23 22:13:06 INFO  com.bank.main.BankMain  - 
+1)Login as Employee
+[main] 2021-07-23 22:13:06 INFO  com.bank.main.BankMain  - 
+2)Login as Customer
+[main] 2021-07-23 22:13:06 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-2
+[main] 2021-07-23 22:13:09 INFO  com.bank.main.BankMain  - 
+Welcome to Customer Login Screen
+[main] 2021-07-23 22:13:09 INFO  com.bank.main.BankMain  - 
+ Enter Username:
+[main] 2021-07-23 22:13:13 INFO  com.bank.main.BankMain  - 
+ Enter Password:
+[main] 2021-07-23 22:13:15 INFO  com.bank.main.BankMain  - Employee Customer Successfully
+
+[main] 2021-07-23 22:13:15 INFO  com.bank.main.BankMain  - Welcome mud4
+[main] 2021-07-23 22:13:15 INFO  com.bank.main.BankMain  - 
+1)Open Account
+[main] 2021-07-23 22:13:15 INFO  com.bank.main.BankMain  - 
+2)Transfer Amount
+[main] 2021-07-23 22:13:15 INFO  com.bank.main.BankMain  - 
+3)Withdraw Amount
+[main] 2021-07-23 22:13:15 INFO  com.bank.main.BankMain  - 
+4)Deposit Amount
+[main] 2021-07-23 22:13:15 INFO  com.bank.main.BankMain  - 
+5)View statement
+[main] 2021-07-23 22:13:15 INFO  com.bank.main.BankMain  - 
+6)Logout
+[main] 2021-07-23 22:13:15 INFO  com.bank.main.BankMain  - 
+Enter Your Choice 1-6
+[main] 2021-07-23 22:13:22 INFO  com.bank.main.BankMain  - Hello mud4 please Enter the Amount to Deposit(min 500)
+
+[main] 2021-07-23 22:13:34 INFO  com.bank.main.BankMain  - Welcome to Syed's Banking App
+[main] 2021-07-23 22:13:34 INFO  com.bank.main.BankMain  - ==================================
+[main] 2021-07-23 22:13:34 INFO  com.bank.main.BankMain  - 
+Bank Menu
+[main] 2021-07-23 22:13:34 INFO  com.bank.main.BankMain  - 1)Login
+[main] 2021-07-23 22:13:34 INFO  com.bank.main.BankMain  - 2)Register as a Customer
+[main] 2021-07-23 22:13:34 INFO  com.bank.main.BankMain  - 3)EXIT
+[main] 2021-07-23 22:13:34 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-3
+[main] 2021-07-23 22:13:37 INFO  com.bank.main.BankMain  - 
+1)Login as Employee
+[main] 2021-07-23 22:13:37 INFO  com.bank.main.BankMain  - 
+2)Login as Customer
+[main] 2021-07-23 22:13:37 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-2
+[main] 2021-07-23 22:13:38 INFO  com.bank.main.BankMain  - 
+Welcome to Customer Login Screen
+[main] 2021-07-23 22:13:38 INFO  com.bank.main.BankMain  - 
+ Enter Username:
+[main] 2021-07-23 22:13:42 INFO  com.bank.main.BankMain  - 
+ Enter Password:
+[main] 2021-07-23 22:13:44 INFO  com.bank.main.BankMain  - Employee Customer Successfully
+
+[main] 2021-07-23 22:13:44 INFO  com.bank.main.BankMain  - Welcome mud4
+[main] 2021-07-23 22:13:44 INFO  com.bank.main.BankMain  - 
+1)Open Account
+[main] 2021-07-23 22:13:44 INFO  com.bank.main.BankMain  - 
+2)Transfer Amount
+[main] 2021-07-23 22:13:44 INFO  com.bank.main.BankMain  - 
+3)Withdraw Amount
+[main] 2021-07-23 22:13:44 INFO  com.bank.main.BankMain  - 
+4)Deposit Amount
+[main] 2021-07-23 22:13:44 INFO  com.bank.main.BankMain  - 
+5)View statement
+[main] 2021-07-23 22:13:44 INFO  com.bank.main.BankMain  - 
+6)Logout
+[main] 2021-07-23 22:13:44 INFO  com.bank.main.BankMain  - 
+Enter Your Choice 1-6
+[main] 2021-07-23 22:14:00 INFO  com.bank.main.BankMain  - Enter Your Username
+[main] 2021-07-23 22:14:03 INFO  com.bank.main.BankMain  - Enter Your First Name
+[main] 2021-07-23 22:14:06 INFO  com.bank.main.BankMain  - Enter Your Last Name
+[main] 2021-07-23 22:14:08 INFO  com.bank.main.BankMain  - Enter Your Gender
+[main] 2021-07-23 22:14:12 INFO  com.bank.main.BankMain  - Enter Your Date of Birth in (yyy-mm-dd)
+[main] 2021-07-23 22:14:23 INFO  com.bank.main.BankMain  - Enter Your Mobile Number(10-Digits)
+[main] 2021-07-23 22:14:27 INFO  com.bank.main.BankMain  - Enter your PanCard Number
+[main] 2021-07-23 22:14:30 INFO  com.bank.main.BankMain  - Enter Your City
+[main] 2021-07-23 22:14:32 INFO  com.bank.main.BankMain  - Enter Your State
+[main] 2021-07-23 22:14:34 INFO  com.bank.main.BankMain  - Set Initial Amount(Min 500)
+[main] 2021-07-23 22:14:53 INFO  com.bank.main.BankMain  - 
+Bank Account Created Successfully...
+[main] 2021-07-23 22:14:53 INFO  com.bank.main.BankMain  - Welcome mud4
+[main] 2021-07-23 22:14:53 INFO  com.bank.main.BankMain  - 
+1)Open Account
+[main] 2021-07-23 22:14:53 INFO  com.bank.main.BankMain  - 
+2)Transfer Amount
+[main] 2021-07-23 22:14:53 INFO  com.bank.main.BankMain  - 
+3)Withdraw Amount
+[main] 2021-07-23 22:14:53 INFO  com.bank.main.BankMain  - 
+4)Deposit Amount
+[main] 2021-07-23 22:14:53 INFO  com.bank.main.BankMain  - 
+5)View statement
+[main] 2021-07-23 22:14:53 INFO  com.bank.main.BankMain  - 
+6)Logout
+[main] 2021-07-23 22:14:53 INFO  com.bank.main.BankMain  - 
+Enter Your Choice 1-6
+[main] 2021-07-23 22:14:57 ERROR com.bank.main.BankMain  - No Transaction Statements exists as of now by Customer with User Name : mud4
+[main] 2021-07-23 22:14:57 INFO  com.bank.main.BankMain  - Welcome mud4
+[main] 2021-07-23 22:14:57 INFO  com.bank.main.BankMain  - 
+1)Open Account
+[main] 2021-07-23 22:14:57 INFO  com.bank.main.BankMain  - 
+2)Transfer Amount
+[main] 2021-07-23 22:14:57 INFO  com.bank.main.BankMain  - 
+3)Withdraw Amount
+[main] 2021-07-23 22:14:57 INFO  com.bank.main.BankMain  - 
+4)Deposit Amount
+[main] 2021-07-23 22:14:57 INFO  com.bank.main.BankMain  - 
+5)View statement
+[main] 2021-07-23 22:14:57 INFO  com.bank.main.BankMain  - 
+6)Logout
+[main] 2021-07-23 22:14:57 INFO  com.bank.main.BankMain  - 
+Enter Your Choice 1-6
+[main] 2021-07-23 22:15:04 INFO  com.bank.main.BankMain  - Hello mud4 please Enter the Amount to Deposit(min 500)
+
+[main] 2021-07-23 22:15:09 INFO  com.bank.main.BankMain  - 
+Amount 3000.0 Successfully deposited into your Account with UserName  = mud4
+[main] 2021-07-23 22:15:09 INFO  com.bank.main.BankMain  - Transaction [tid=35, ttype=Deposit, openingbalance=1000.0, tamount=3000.0, tdate=2021-07-23, closingbalance=4000.0, custUserName=mud4]
+[main] 2021-07-23 22:15:09 INFO  com.bank.main.BankMain  - Welcome mud4
+[main] 2021-07-23 22:15:09 INFO  com.bank.main.BankMain  - 
+1)Open Account
+[main] 2021-07-23 22:15:09 INFO  com.bank.main.BankMain  - 
+2)Transfer Amount
+[main] 2021-07-23 22:15:09 INFO  com.bank.main.BankMain  - 
+3)Withdraw Amount
+[main] 2021-07-23 22:15:09 INFO  com.bank.main.BankMain  - 
+4)Deposit Amount
+[main] 2021-07-23 22:15:09 INFO  com.bank.main.BankMain  - 
+5)View statement
+[main] 2021-07-23 22:15:09 INFO  com.bank.main.BankMain  - 
+6)Logout
+[main] 2021-07-23 22:15:09 INFO  com.bank.main.BankMain  - 
+Enter Your Choice 1-6
+[main] 2021-07-23 22:15:32 INFO  com.bank.main.BankMain  - Hello mud4 please Enter the Amount to Withdraw (min 500)
+
+[main] 2021-07-23 22:15:36 INFO  com.bank.main.BankMain  - 
+Amount 3000.0 Successfully Withdrawed from your Account with UserName  = mud4
+[main] 2021-07-23 22:15:36 INFO  com.bank.main.BankMain  - Transaction [tid=36, ttype=Withdraw, openingbalance=4000.0, tamount=3000.0, tdate=2021-07-23, closingbalance=1000.0, custUserName=mud4]
+[main] 2021-07-23 22:15:36 INFO  com.bank.main.BankMain  - 
+
+[main] 2021-07-23 22:15:36 INFO  com.bank.main.BankMain  - Welcome mud4
+[main] 2021-07-23 22:15:36 INFO  com.bank.main.BankMain  - 
+1)Open Account
+[main] 2021-07-23 22:15:36 INFO  com.bank.main.BankMain  - 
+2)Transfer Amount
+[main] 2021-07-23 22:15:36 INFO  com.bank.main.BankMain  - 
+3)Withdraw Amount
+[main] 2021-07-23 22:15:36 INFO  com.bank.main.BankMain  - 
+4)Deposit Amount
+[main] 2021-07-23 22:15:36 INFO  com.bank.main.BankMain  - 
+5)View statement
+[main] 2021-07-23 22:15:36 INFO  com.bank.main.BankMain  - 
+6)Logout
+[main] 2021-07-23 22:15:36 INFO  com.bank.main.BankMain  - 
+Enter Your Choice 1-6
+[main] 2021-07-23 22:16:18 INFO  com.bank.main.BankMain  - Transaction [tid=36, ttype=Withdraw, openingbalance=4000.0, tamount=3000.0, tdate=2021-07-23, closingbalance=1000.0, custUserName=mud4]
+[main] 2021-07-23 22:16:18 INFO  com.bank.main.BankMain  - Transaction [tid=35, ttype=Deposit, openingbalance=1000.0, tamount=3000.0, tdate=2021-07-23, closingbalance=4000.0, custUserName=mud4]
+[main] 2021-07-23 22:16:18 INFO  com.bank.main.BankMain  - Welcome mud4
+[main] 2021-07-23 22:16:18 INFO  com.bank.main.BankMain  - 
+1)Open Account
+[main] 2021-07-23 22:16:18 INFO  com.bank.main.BankMain  - 
+2)Transfer Amount
+[main] 2021-07-23 22:16:18 INFO  com.bank.main.BankMain  - 
+3)Withdraw Amount
+[main] 2021-07-23 22:16:18 INFO  com.bank.main.BankMain  - 
+4)Deposit Amount
+[main] 2021-07-23 22:16:18 INFO  com.bank.main.BankMain  - 
+5)View statement
+[main] 2021-07-23 22:16:18 INFO  com.bank.main.BankMain  - 
+6)Logout
+[main] 2021-07-23 22:16:18 INFO  com.bank.main.BankMain  - 
+Enter Your Choice 1-6
+[main] 2021-07-23 22:16:33 INFO  com.bank.main.BankMain  - Hello mud4
+
+[main] 2021-07-23 22:16:33 INFO  com.bank.main.BankMain  - Enter Creditor Username
+[main] 2021-07-23 22:16:38 INFO  com.bank.main.BankMain  - Enter the Amount to Transfer
+[main] 2021-07-23 22:16:41 INFO  com.bank.main.BankMain  - 
+Amount 500.0 Successfully Withdrawed from your Account with UserName  = mud4
+[main] 2021-07-23 22:16:41 INFO  com.bank.main.BankMain  - Transaction [tid=37, ttype=Withdraw, openingbalance=1000.0, tamount=500.0, tdate=2021-07-23, closingbalance=500.0, custUserName=mud4]
+[main] 2021-07-23 22:16:41 INFO  com.bank.main.BankMain  - 
+
+[main] 2021-07-23 22:16:41 INFO  com.bank.main.BankMain  - 
+Amount 500.0 Successfully Transfered from your Account to UserName  = saif123
+[main] 2021-07-23 22:16:41 INFO  com.bank.main.BankMain  - 
+ Amount Transfered SuccessFully!!!
+[main] 2021-07-23 22:16:41 INFO  com.bank.main.BankMain  - Welcome mud4
+[main] 2021-07-23 22:16:41 INFO  com.bank.main.BankMain  - 
+1)Open Account
+[main] 2021-07-23 22:16:41 INFO  com.bank.main.BankMain  - 
+2)Transfer Amount
+[main] 2021-07-23 22:16:41 INFO  com.bank.main.BankMain  - 
+3)Withdraw Amount
+[main] 2021-07-23 22:16:41 INFO  com.bank.main.BankMain  - 
+4)Deposit Amount
+[main] 2021-07-23 22:16:41 INFO  com.bank.main.BankMain  - 
+5)View statement
+[main] 2021-07-23 22:16:41 INFO  com.bank.main.BankMain  - 
+6)Logout
+[main] 2021-07-23 22:16:41 INFO  com.bank.main.BankMain  - 
+Enter Your Choice 1-6
+[main] 2021-07-23 22:17:19 INFO  com.bank.main.BankMain  - Hello mud4 please Enter the Amount to Deposit(min 500)
+
+[main] 2021-07-23 22:17:23 INFO  com.bank.main.BankMain  - 
+Amount 5000.0 Successfully deposited into your Account with UserName  = mud4
+[main] 2021-07-23 22:17:23 INFO  com.bank.main.BankMain  - Transaction [tid=39, ttype=Deposit, openingbalance=500.0, tamount=5000.0, tdate=2021-07-23, closingbalance=5500.0, custUserName=mud4]
+[main] 2021-07-23 22:17:23 INFO  com.bank.main.BankMain  - Welcome mud4
+[main] 2021-07-23 22:17:23 INFO  com.bank.main.BankMain  - 
+1)Open Account
+[main] 2021-07-23 22:17:23 INFO  com.bank.main.BankMain  - 
+2)Transfer Amount
+[main] 2021-07-23 22:17:23 INFO  com.bank.main.BankMain  - 
+3)Withdraw Amount
+[main] 2021-07-23 22:17:23 INFO  com.bank.main.BankMain  - 
+4)Deposit Amount
+[main] 2021-07-23 22:17:23 INFO  com.bank.main.BankMain  - 
+5)View statement
+[main] 2021-07-23 22:17:23 INFO  com.bank.main.BankMain  - 
+6)Logout
+[main] 2021-07-23 22:17:23 INFO  com.bank.main.BankMain  - 
+Enter Your Choice 1-6
+[main] 2021-07-23 22:17:28 INFO  com.bank.main.BankMain  - Hello mud4
+
+[main] 2021-07-23 22:17:28 INFO  com.bank.main.BankMain  - Enter Creditor Username
+[main] 2021-07-23 22:17:34 INFO  com.bank.main.BankMain  - Enter the Amount to Transfer
+[main] 2021-07-23 22:17:40 INFO  com.bank.main.BankMain  - 
+Amount 700.0 Successfully Withdrawed from your Account with UserName  = mud4
+[main] 2021-07-23 22:17:40 INFO  com.bank.main.BankMain  - Transaction [tid=40, ttype=Withdraw, openingbalance=5500.0, tamount=700.0, tdate=2021-07-23, closingbalance=4800.0, custUserName=mud4]
+[main] 2021-07-23 22:17:40 INFO  com.bank.main.BankMain  - 
+
+[main] 2021-07-23 22:17:40 INFO  com.bank.main.BankMain  - 
+Amount 700.0 Successfully Transfered from your Account to UserName  = neha5121
+[main] 2021-07-23 22:17:40 INFO  com.bank.main.BankMain  - 
+ Amount Transfered SuccessFully!!!
+[main] 2021-07-23 22:17:40 INFO  com.bank.main.BankMain  - Welcome mud4
+[main] 2021-07-23 22:17:40 INFO  com.bank.main.BankMain  - 
+1)Open Account
+[main] 2021-07-23 22:17:40 INFO  com.bank.main.BankMain  - 
+2)Transfer Amount
+[main] 2021-07-23 22:17:40 INFO  com.bank.main.BankMain  - 
+3)Withdraw Amount
+[main] 2021-07-23 22:17:40 INFO  com.bank.main.BankMain  - 
+4)Deposit Amount
+[main] 2021-07-23 22:17:40 INFO  com.bank.main.BankMain  - 
+5)View statement
+[main] 2021-07-23 22:17:40 INFO  com.bank.main.BankMain  - 
+6)Logout
+[main] 2021-07-23 22:17:40 INFO  com.bank.main.BankMain  - 
+Enter Your Choice 1-6
+[main] 2021-07-23 22:18:24 INFO  com.bank.main.BankMain  - Transaction [tid=40, ttype=Withdraw, openingbalance=5500.0, tamount=700.0, tdate=2021-07-23, closingbalance=4800.0, custUserName=mud4]
+[main] 2021-07-23 22:18:24 INFO  com.bank.main.BankMain  - Transaction [tid=39, ttype=Deposit, openingbalance=500.0, tamount=5000.0, tdate=2021-07-23, closingbalance=5500.0, custUserName=mud4]
+[main] 2021-07-23 22:18:24 INFO  com.bank.main.BankMain  - Transaction [tid=37, ttype=Withdraw, openingbalance=1000.0, tamount=500.0, tdate=2021-07-23, closingbalance=500.0, custUserName=mud4]
+[main] 2021-07-23 22:18:24 INFO  com.bank.main.BankMain  - Transaction [tid=36, ttype=Withdraw, openingbalance=4000.0, tamount=3000.0, tdate=2021-07-23, closingbalance=1000.0, custUserName=mud4]
+[main] 2021-07-23 22:18:24 INFO  com.bank.main.BankMain  - Transaction [tid=35, ttype=Deposit, openingbalance=1000.0, tamount=3000.0, tdate=2021-07-23, closingbalance=4000.0, custUserName=mud4]
+[main] 2021-07-23 22:18:24 INFO  com.bank.main.BankMain  - Welcome mud4
+[main] 2021-07-23 22:18:24 INFO  com.bank.main.BankMain  - 
+1)Open Account
+[main] 2021-07-23 22:18:24 INFO  com.bank.main.BankMain  - 
+2)Transfer Amount
+[main] 2021-07-23 22:18:24 INFO  com.bank.main.BankMain  - 
+3)Withdraw Amount
+[main] 2021-07-23 22:18:24 INFO  com.bank.main.BankMain  - 
+4)Deposit Amount
+[main] 2021-07-23 22:18:24 INFO  com.bank.main.BankMain  - 
+5)View statement
+[main] 2021-07-23 22:18:24 INFO  com.bank.main.BankMain  - 
+6)Logout
+[main] 2021-07-23 22:18:24 INFO  com.bank.main.BankMain  - 
+Enter Your Choice 1-6
+[main] 2021-07-23 22:18:41 INFO  com.bank.main.BankMain  - 
+Logout Successfully............
+[main] 2021-07-23 22:18:41 INFO  com.bank.main.BankMain  - 
+Going to Main Menu............
+
+[main] 2021-07-23 22:18:41 INFO  com.bank.main.BankMain  - Welcome to Syed's Banking App
+[main] 2021-07-23 22:18:41 INFO  com.bank.main.BankMain  - ==================================
+[main] 2021-07-23 22:18:41 INFO  com.bank.main.BankMain  - 
+Bank Menu
+[main] 2021-07-23 22:18:41 INFO  com.bank.main.BankMain  - 1)Login
+[main] 2021-07-23 22:18:41 INFO  com.bank.main.BankMain  - 2)Register as a Customer
+[main] 2021-07-23 22:18:41 INFO  com.bank.main.BankMain  - 3)EXIT
+[main] 2021-07-23 22:18:41 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-3
+[main] 2021-07-23 22:19:05 INFO  com.bank.main.BankMain  - 
+1)Login as Employee
+[main] 2021-07-23 22:19:05 INFO  com.bank.main.BankMain  - 
+2)Login as Customer
+[main] 2021-07-23 22:19:05 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-2
+[main] 2021-07-23 22:19:08 INFO  com.bank.main.BankMain  - 
+Welcome to Employee Login Screen
+[main] 2021-07-23 22:19:08 INFO  com.bank.main.BankMain  - ==================================
+[main] 2021-07-23 22:19:08 INFO  com.bank.main.BankMain  - 
+Enter Username:
+[main] 2021-07-23 22:19:10 INFO  com.bank.main.BankMain  - 
+Enter Password:
+[main] 2021-07-23 22:19:12 INFO  com.bank.main.BankMain  - Employee Login Successfully
+[main] 2021-07-23 22:19:12 INFO  com.bank.main.BankMain  - 
+Welcome syed123
+
+[main] 2021-07-23 22:19:12 INFO  com.bank.main.BankMain  - 
+1)Open Account
+[main] 2021-07-23 22:19:12 INFO  com.bank.main.BankMain  - 
+2)Approve or Reject an Account
+[main] 2021-07-23 22:19:12 INFO  com.bank.main.BankMain  - 
+3)View All Customer Personal Details
+[main] 2021-07-23 22:19:12 INFO  com.bank.main.BankMain  - 
+4)View Customer Account Details
+[main] 2021-07-23 22:19:12 INFO  com.bank.main.BankMain  - 
+5)View Transaction of Customers
+[main] 2021-07-23 22:19:12 INFO  com.bank.main.BankMain  - 
+6)Logout
+[main] 2021-07-23 22:19:12 INFO  com.bank.main.BankMain  - 
+Enter Your Choice 1-6
+[main] 2021-07-23 22:19:45 INFO  com.bank.main.BankMain  - Bank [custUserName=saif123, custFame=Saif, custLname=Ahmed, custGender=male, custDob=1997-09-07, custMobileno=814277101, custPan=JKHS111L, custCity=Hyd, custState=TS, initialAmount=500.0]
+[main] 2021-07-23 22:19:45 INFO  com.bank.main.BankMain  - Bank [custUserName=zayn123, custFame=zayn, custLname=malik, custGender=male, custDob=1998-09-09, custMobileno=870121101, custPan=HHHH543L, custCity=Hyd, custState=TS, initialAmount=1200.0]
+[main] 2021-07-23 22:19:45 INFO  com.bank.main.BankMain  - Bank [custUserName=neha5121, custFame=neha, custLname=khan, custGender=female, custDob=1995-09-12, custMobileno=8282882121, custPan=kfjdkfj, custCity=fdfdf, custState=fdfd, initialAmount=700.0]
+[main] 2021-07-23 22:19:45 INFO  com.bank.main.BankMain  - Bank [custUserName=mud4, custFame=Muddassir, custLname=Hussain, custGender=Male, custDob=1999-05-22, custMobileno=89237237, custPan=fkdfjdkf, custCity=Hyd, custState=TS, initialAmount=1000.0]
+[main] 2021-07-23 22:19:45 INFO  com.bank.main.BankMain  - 
+Welcome syed123
+
+[main] 2021-07-23 22:19:45 INFO  com.bank.main.BankMain  - 
+1)Open Account
+[main] 2021-07-23 22:19:45 INFO  com.bank.main.BankMain  - 
+2)Approve or Reject an Account
+[main] 2021-07-23 22:19:45 INFO  com.bank.main.BankMain  - 
+3)View All Customer Personal Details
+[main] 2021-07-23 22:19:45 INFO  com.bank.main.BankMain  - 
+4)View Customer Account Details
+[main] 2021-07-23 22:19:45 INFO  com.bank.main.BankMain  - 
+5)View Transaction of Customers
+[main] 2021-07-23 22:19:45 INFO  com.bank.main.BankMain  - 
+6)Logout
+[main] 2021-07-23 22:19:45 INFO  com.bank.main.BankMain  - 
+Enter Your Choice 1-6
+[main] 2021-07-23 22:20:11 INFO  com.bank.main.BankMain  - Account [custFname = zayn, custUserName = zayn123, openingbalance = 1700.0, Account Creation Date = 2021-07-18]
+[main] 2021-07-23 22:20:11 INFO  com.bank.main.BankMain  - Account [custFname = Saif, custUserName = saif123, openingbalance = 2.002E7, Account Creation Date = 2021-07-18]
+[main] 2021-07-23 22:20:11 INFO  com.bank.main.BankMain  - Account [custFname = Muddassir, custUserName = mud4, openingbalance = 4800.0, Account Creation Date = 2021-07-23]
+[main] 2021-07-23 22:20:11 INFO  com.bank.main.BankMain  - Account [custFname = neha, custUserName = neha5121, openingbalance = 1600.0, Account Creation Date = 2021-07-18]
+[main] 2021-07-23 22:20:11 INFO  com.bank.main.BankMain  - 
+Welcome syed123
+
+[main] 2021-07-23 22:20:11 INFO  com.bank.main.BankMain  - 
+1)Open Account
+[main] 2021-07-23 22:20:11 INFO  com.bank.main.BankMain  - 
+2)Approve or Reject an Account
+[main] 2021-07-23 22:20:11 INFO  com.bank.main.BankMain  - 
+3)View All Customer Personal Details
+[main] 2021-07-23 22:20:11 INFO  com.bank.main.BankMain  - 
+4)View Customer Account Details
+[main] 2021-07-23 22:20:11 INFO  com.bank.main.BankMain  - 
+5)View Transaction of Customers
+[main] 2021-07-23 22:20:11 INFO  com.bank.main.BankMain  - 
+6)Logout
+[main] 2021-07-23 22:20:11 INFO  com.bank.main.BankMain  - 
+Enter Your Choice 1-6
+[main] 2021-07-23 22:20:36 INFO  com.bank.main.BankMain  - Transaction [tid=1, ttype=Deposit, openingbalance=500.0, tamount=500.0, tdate=2021-07-18, closingbalance=1000.0, custUserName=saif123]
+[main] 2021-07-23 22:20:36 INFO  com.bank.main.BankMain  - Transaction [tid=2, ttype=Withdraw, openingbalance=1000.0, tamount=100.0, tdate=2021-07-18, closingbalance=900.0, custUserName=saif123]
+[main] 2021-07-23 22:20:36 INFO  com.bank.main.BankMain  - Transaction [tid=3, ttype=Deposit, openingbalance=900.0, tamount=500.0, tdate=2021-07-18, closingbalance=1400.0, custUserName=saif123]
+[main] 2021-07-23 22:20:36 INFO  com.bank.main.BankMain  - Transaction [tid=4, ttype=Deposit, openingbalance=1400.0, tamount=500.0, tdate=2021-07-18, closingbalance=1900.0, custUserName=saif123]
+[main] 2021-07-23 22:20:36 INFO  com.bank.main.BankMain  - Transaction [tid=5, ttype=Withdraw, openingbalance=1900.0, tamount=100.0, tdate=2021-07-18, closingbalance=1800.0, custUserName=saif123]
+[main] 2021-07-23 22:20:36 INFO  com.bank.main.BankMain  - Transaction [tid=6, ttype=Withdraw, openingbalance=1800.0, tamount=100.0, tdate=2021-07-18, closingbalance=1700.0, custUserName=saif123]
+[main] 2021-07-23 22:20:36 INFO  com.bank.main.BankMain  - Transaction [tid=7, ttype=Deposit, openingbalance=1200.0, tamount=300.0, tdate=2021-07-18, closingbalance=1500.0, custUserName=zayn123]
+[main] 2021-07-23 22:20:36 INFO  com.bank.main.BankMain  - Transaction [tid=8, ttype=Withdraw, openingbalance=1500.0, tamount=300.0, tdate=2021-07-18, closingbalance=1200.0, custUserName=zayn123]
+[main] 2021-07-23 22:20:36 INFO  com.bank.main.BankMain  - Transaction [tid=9, ttype=credited, openingbalance=1700.0, tamount=300.0, tdate=2021-07-18, closingbalance=2000.0, custUserName=saif123]
+[main] 2021-07-23 22:20:36 INFO  com.bank.main.BankMain  - Transaction [tid=10, ttype=credited, openingbalance=2000.0, tamount=2.0E7, tdate=2021-07-18, closingbalance=2.0002E7, custUserName=saif123]
+[main] 2021-07-23 22:20:36 INFO  com.bank.main.BankMain  - Transaction [tid=11, ttype=Deposit, openingbalance=700.0, tamount=300.0, tdate=2021-07-18, closingbalance=1000.0, custUserName=neha5121]
+[main] 2021-07-23 22:20:36 INFO  com.bank.main.BankMain  - Transaction [tid=12, ttype=Withdraw, openingbalance=1000.0, tamount=200.0, tdate=2021-07-18, closingbalance=800.0, custUserName=neha5121]
+[main] 2021-07-23 22:20:36 INFO  com.bank.main.BankMain  - Transaction [tid=13, ttype=Withdraw, openingbalance=800.0, tamount=100.0, tdate=2021-07-18, closingbalance=700.0, custUserName=neha5121]
+[main] 2021-07-23 22:20:36 INFO  com.bank.main.BankMain  - Transaction [tid=14, ttype=Withdraw, openingbalance=700.0, tamount=500.0, tdate=2021-07-18, closingbalance=200.0, custUserName=neha5121]
+[main] 2021-07-23 22:20:36 INFO  com.bank.main.BankMain  - Transaction [tid=15, ttype=credited, openingbalance=2.0002E7, tamount=500.0, tdate=2021-07-18, closingbalance=2.00025E7, custUserName=saif123]
+[main] 2021-07-23 22:20:36 INFO  com.bank.main.BankMain  - Transaction [tid=16, ttype=Deposit, openingbalance=200.0, tamount=500.0, tdate=2021-07-19, closingbalance=700.0, custUserName=neha5121]
+[main] 2021-07-23 22:20:36 INFO  com.bank.main.BankMain  - Transaction [tid=17, ttype=Withdraw, openingbalance=700.0, tamount=500.0, tdate=2021-07-19, closingbalance=200.0, custUserName=neha5121]
+[main] 2021-07-23 22:20:36 INFO  com.bank.main.BankMain  - Transaction [tid=18, ttype=Withdraw, openingbalance=200.0, tamount=-1.0, tdate=2021-07-19, closingbalance=201.0, custUserName=neha5121]
+[main] 2021-07-23 22:20:36 INFO  com.bank.main.BankMain  - Transaction [tid=19, ttype=Withdraw, openingbalance=201.0, tamount=7000.0, tdate=2021-07-19, closingbalance=6799.0, custUserName=neha5121]
+[main] 2021-07-23 22:20:36 INFO  com.bank.main.BankMain  - Transaction [tid=20, ttype=credited, openingbalance=2.00025E7, tamount=7000.0, tdate=2021-07-19, closingbalance=2.00095E7, custUserName=saif123]
+[main] 2021-07-23 22:20:36 INFO  com.bank.main.BankMain  - Transaction [tid=21, ttype=Withdraw, openingbalance=6799.0, tamount=10000.0, tdate=2021-07-19, closingbalance=3201.0, custUserName=neha5121]
+[main] 2021-07-23 22:20:36 INFO  com.bank.main.BankMain  - Transaction [tid=22, ttype=credited, openingbalance=2.00095E7, tamount=10000.0, tdate=2021-07-19, closingbalance=2.00195E7, custUserName=saif123]
+[main] 2021-07-23 22:20:36 INFO  com.bank.main.BankMain  - Transaction [tid=23, ttype=Withdraw, openingbalance=3201.0, tamount=200000.0, tdate=2021-07-19, closingbalance=196799.0, custUserName=neha5121]
+[main] 2021-07-23 22:20:36 INFO  com.bank.main.BankMain  - Transaction [tid=24, ttype=Withdraw, openingbalance=1000.0, tamount=500.0, tdate=2021-07-19, closingbalance=500.0, custUserName=neha5121]
+[main] 2021-07-23 22:20:36 INFO  com.bank.main.BankMain  - Transaction [tid=25, ttype=credited, openingbalance=1200.0, tamount=500.0, tdate=2021-07-19, closingbalance=1700.0, custUserName=zayn123]
+[main] 2021-07-23 22:20:36 INFO  com.bank.main.BankMain  - Transaction [tid=26, ttype=Deposit, openingbalance=500.0, tamount=200.0, tdate=2021-07-19, closingbalance=700.0, custUserName=neha5121]
+[main] 2021-07-23 22:20:36 INFO  com.bank.main.BankMain  - Transaction [tid=27, ttype=Withdraw, openingbalance=700.0, tamount=100.0, tdate=2021-07-19, closingbalance=600.0, custUserName=neha5121]
+[main] 2021-07-23 22:20:36 INFO  com.bank.main.BankMain  - Transaction [tid=28, ttype=Withdraw, openingbalance=600.0, tamount=700.0, tdate=2021-07-19, closingbalance=100.0, custUserName=neha5121]
+[main] 2021-07-23 22:20:36 INFO  com.bank.main.BankMain  - Transaction [tid=29, ttype=Deposit, openingbalance=100.0, tamount=100.0, tdate=2021-07-19, closingbalance=200.0, custUserName=neha5121]
+[main] 2021-07-23 22:20:36 INFO  com.bank.main.BankMain  - Transaction [tid=30, ttype=Deposit, openingbalance=200.0, tamount=500.0, tdate=2021-07-19, closingbalance=700.0, custUserName=neha5121]
+[main] 2021-07-23 22:20:36 INFO  com.bank.main.BankMain  - Transaction [tid=31, ttype=Withdraw, openingbalance=700.0, tamount=300.0, tdate=2021-07-19, closingbalance=400.0, custUserName=neha5121]
+[main] 2021-07-23 22:20:36 INFO  com.bank.main.BankMain  - Transaction [tid=32, ttype=Deposit, openingbalance=400.0, tamount=500.0, tdate=2021-07-19, closingbalance=900.0, custUserName=neha5121]
+[main] 2021-07-23 22:20:36 INFO  com.bank.main.BankMain  - Transaction [tid=33, ttype=Withdraw, openingbalance=900.0, tamount=500.0, tdate=2021-07-19, closingbalance=400.0, custUserName=neha5121]
+[main] 2021-07-23 22:20:36 INFO  com.bank.main.BankMain  - Transaction [tid=34, ttype=Deposit, openingbalance=400.0, tamount=500.0, tdate=2021-07-19, closingbalance=900.0, custUserName=neha5121]
+[main] 2021-07-23 22:20:36 INFO  com.bank.main.BankMain  - Transaction [tid=35, ttype=Deposit, openingbalance=1000.0, tamount=3000.0, tdate=2021-07-23, closingbalance=4000.0, custUserName=mud4]
+[main] 2021-07-23 22:20:36 INFO  com.bank.main.BankMain  - Transaction [tid=36, ttype=Withdraw, openingbalance=4000.0, tamount=3000.0, tdate=2021-07-23, closingbalance=1000.0, custUserName=mud4]
+[main] 2021-07-23 22:20:36 INFO  com.bank.main.BankMain  - Transaction [tid=37, ttype=Withdraw, openingbalance=1000.0, tamount=500.0, tdate=2021-07-23, closingbalance=500.0, custUserName=mud4]
+[main] 2021-07-23 22:20:36 INFO  com.bank.main.BankMain  - Transaction [tid=38, ttype=credited, openingbalance=2.00195E7, tamount=500.0, tdate=2021-07-23, closingbalance=2.002E7, custUserName=saif123]
+[main] 2021-07-23 22:20:36 INFO  com.bank.main.BankMain  - Transaction [tid=39, ttype=Deposit, openingbalance=500.0, tamount=5000.0, tdate=2021-07-23, closingbalance=5500.0, custUserName=mud4]
+[main] 2021-07-23 22:20:36 INFO  com.bank.main.BankMain  - Transaction [tid=40, ttype=Withdraw, openingbalance=5500.0, tamount=700.0, tdate=2021-07-23, closingbalance=4800.0, custUserName=mud4]
+[main] 2021-07-23 22:20:36 INFO  com.bank.main.BankMain  - Transaction [tid=41, ttype=credited, openingbalance=900.0, tamount=700.0, tdate=2021-07-23, closingbalance=1600.0, custUserName=neha5121]
+[main] 2021-07-23 22:20:36 INFO  com.bank.main.BankMain  - 
+Welcome syed123
+
+[main] 2021-07-23 22:20:36 INFO  com.bank.main.BankMain  - 
+1)Open Account
+[main] 2021-07-23 22:20:36 INFO  com.bank.main.BankMain  - 
+2)Approve or Reject an Account
+[main] 2021-07-23 22:20:36 INFO  com.bank.main.BankMain  - 
+3)View All Customer Personal Details
+[main] 2021-07-23 22:20:36 INFO  com.bank.main.BankMain  - 
+4)View Customer Account Details
+[main] 2021-07-23 22:20:36 INFO  com.bank.main.BankMain  - 
+5)View Transaction of Customers
+[main] 2021-07-23 22:20:36 INFO  com.bank.main.BankMain  - 
+6)Logout
+[main] 2021-07-23 22:20:36 INFO  com.bank.main.BankMain  - 
+Enter Your Choice 1-6
+[main] 2021-07-23 22:21:09 INFO  com.bank.main.BankMain  - 
+Logout Successfully............
+
+[main] 2021-07-23 22:21:09 INFO  com.bank.main.BankMain  - 
+Going to Main Menu............
+[main] 2021-07-23 22:21:09 INFO  com.bank.main.BankMain  - Welcome to Syed's Banking App
+[main] 2021-07-23 22:21:09 INFO  com.bank.main.BankMain  - ==================================
+[main] 2021-07-23 22:21:09 INFO  com.bank.main.BankMain  - 
+Bank Menu
+[main] 2021-07-23 22:21:09 INFO  com.bank.main.BankMain  - 1)Login
+[main] 2021-07-23 22:21:09 INFO  com.bank.main.BankMain  - 2)Register as a Customer
+[main] 2021-07-23 22:21:09 INFO  com.bank.main.BankMain  - 3)EXIT
+[main] 2021-07-23 22:21:09 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-3
+[main] 2021-07-23 22:21:12 INFO  com.bank.main.BankMain  - 
+1)Login as Employee
+[main] 2021-07-23 22:21:12 INFO  com.bank.main.BankMain  - 
+2)Login as Customer
+[main] 2021-07-23 22:21:12 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-2
+[main] 2021-07-23 22:21:15 INFO  com.bank.main.BankMain  - 
+Welcome to Customer Login Screen
+[main] 2021-07-23 22:21:15 INFO  com.bank.main.BankMain  - 
+ Enter Username:
+[main] 2021-07-23 22:21:16 INFO  com.bank.main.BankMain  - 
+ Enter Password:
+[main] 2021-07-23 22:21:18 INFO  com.bank.main.BankMain  - Employee Customer Successfully
+
+[main] 2021-07-23 22:21:18 INFO  com.bank.main.BankMain  - Welcome mud4
+[main] 2021-07-23 22:21:18 INFO  com.bank.main.BankMain  - 
+1)Open Account
+[main] 2021-07-23 22:21:18 INFO  com.bank.main.BankMain  - 
+2)Transfer Amount
+[main] 2021-07-23 22:21:18 INFO  com.bank.main.BankMain  - 
+3)Withdraw Amount
+[main] 2021-07-23 22:21:18 INFO  com.bank.main.BankMain  - 
+4)Deposit Amount
+[main] 2021-07-23 22:21:18 INFO  com.bank.main.BankMain  - 
+5)View statement
+[main] 2021-07-23 22:21:18 INFO  com.bank.main.BankMain  - 
+6)Logout
+[main] 2021-07-23 22:21:18 INFO  com.bank.main.BankMain  - 
+Enter Your Choice 1-6
+[main] 2021-07-23 22:21:20 INFO  com.bank.main.BankMain  - Hello mud4 please Enter the Amount to Deposit(min 500)
+
+[main] 2021-07-23 22:21:24 INFO  com.bank.main.BankMain  - Minimum Amount to Deposit is 500/-
+[main] 2021-07-23 22:21:24 INFO  com.bank.main.BankMain  - Welcome mud4
+[main] 2021-07-23 22:21:24 INFO  com.bank.main.BankMain  - 
+1)Open Account
+[main] 2021-07-23 22:21:24 INFO  com.bank.main.BankMain  - 
+2)Transfer Amount
+[main] 2021-07-23 22:21:24 INFO  com.bank.main.BankMain  - 
+3)Withdraw Amount
+[main] 2021-07-23 22:21:24 INFO  com.bank.main.BankMain  - 
+4)Deposit Amount
+[main] 2021-07-23 22:21:24 INFO  com.bank.main.BankMain  - 
+5)View statement
+[main] 2021-07-23 22:21:24 INFO  com.bank.main.BankMain  - 
+6)Logout
+[main] 2021-07-23 22:21:24 INFO  com.bank.main.BankMain  - 
+Enter Your Choice 1-6
+[main] 2021-07-23 22:21:29 INFO  com.bank.main.BankMain  - Hello mud4 please Enter the Amount to Deposit(min 500)
+
+[main] 2021-07-23 22:21:31 INFO  com.bank.main.BankMain  - Minimum Amount to Deposit is 500/-
+[main] 2021-07-23 22:21:31 INFO  com.bank.main.BankMain  - Welcome mud4
+[main] 2021-07-23 22:21:31 INFO  com.bank.main.BankMain  - 
+1)Open Account
+[main] 2021-07-23 22:21:31 INFO  com.bank.main.BankMain  - 
+2)Transfer Amount
+[main] 2021-07-23 22:21:31 INFO  com.bank.main.BankMain  - 
+3)Withdraw Amount
+[main] 2021-07-23 22:21:31 INFO  com.bank.main.BankMain  - 
+4)Deposit Amount
+[main] 2021-07-23 22:21:31 INFO  com.bank.main.BankMain  - 
+5)View statement
+[main] 2021-07-23 22:21:31 INFO  com.bank.main.BankMain  - 
+6)Logout
+[main] 2021-07-23 22:21:31 INFO  com.bank.main.BankMain  - 
+Enter Your Choice 1-6
+[main] 2021-07-23 22:21:38 WARN  com.bank.main.BankMain  - Invalid Choice... Please enter input between 1-6
+[main] 2021-07-23 22:21:38 INFO  com.bank.main.BankMain  - Welcome mud4
+[main] 2021-07-23 22:21:38 INFO  com.bank.main.BankMain  - 
+1)Open Account
+[main] 2021-07-23 22:21:38 INFO  com.bank.main.BankMain  - 
+2)Transfer Amount
+[main] 2021-07-23 22:21:38 INFO  com.bank.main.BankMain  - 
+3)Withdraw Amount
+[main] 2021-07-23 22:21:38 INFO  com.bank.main.BankMain  - 
+4)Deposit Amount
+[main] 2021-07-23 22:21:38 INFO  com.bank.main.BankMain  - 
+5)View statement
+[main] 2021-07-23 22:21:38 INFO  com.bank.main.BankMain  - 
+6)Logout
+[main] 2021-07-23 22:21:38 INFO  com.bank.main.BankMain  - 
+Enter Your Choice 1-6
+[main] 2021-07-23 22:21:42 INFO  com.bank.main.BankMain  - Hello mud4 please Enter the Amount to Deposit(min 500)
+
+[main] 2021-07-23 22:21:45 INFO  com.bank.main.BankMain  - Minimum Amount to Deposit is 500/-
+[main] 2021-07-23 22:21:45 INFO  com.bank.main.BankMain  - Welcome mud4
+[main] 2021-07-23 22:21:45 INFO  com.bank.main.BankMain  - 
+1)Open Account
+[main] 2021-07-23 22:21:45 INFO  com.bank.main.BankMain  - 
+2)Transfer Amount
+[main] 2021-07-23 22:21:45 INFO  com.bank.main.BankMain  - 
+3)Withdraw Amount
+[main] 2021-07-23 22:21:45 INFO  com.bank.main.BankMain  - 
+4)Deposit Amount
+[main] 2021-07-23 22:21:45 INFO  com.bank.main.BankMain  - 
+5)View statement
+[main] 2021-07-23 22:21:45 INFO  com.bank.main.BankMain  - 
+6)Logout
+[main] 2021-07-23 22:21:45 INFO  com.bank.main.BankMain  - 
+Enter Your Choice 1-6
+[main] 2021-07-23 22:21:52 INFO  com.bank.main.BankMain  - Hello mud4 please Enter the Amount to Deposit(min 500)
+
+[main] 2021-07-23 22:21:56 INFO  com.bank.main.BankMain  - Maximum limit to Deposit is One Lakh only
+[main] 2021-07-23 22:21:56 INFO  com.bank.main.BankMain  - Welcome mud4
+[main] 2021-07-23 22:21:56 INFO  com.bank.main.BankMain  - 
+1)Open Account
+[main] 2021-07-23 22:21:56 INFO  com.bank.main.BankMain  - 
+2)Transfer Amount
+[main] 2021-07-23 22:21:56 INFO  com.bank.main.BankMain  - 
+3)Withdraw Amount
+[main] 2021-07-23 22:21:56 INFO  com.bank.main.BankMain  - 
+4)Deposit Amount
+[main] 2021-07-23 22:21:56 INFO  com.bank.main.BankMain  - 
+5)View statement
+[main] 2021-07-23 22:21:56 INFO  com.bank.main.BankMain  - 
+6)Logout
+[main] 2021-07-23 22:21:56 INFO  com.bank.main.BankMain  - 
+Enter Your Choice 1-6
+[main] 2021-07-23 22:22:08 INFO  com.bank.main.BankMain  - Hello mud4 please Enter the Amount to Withdraw (min 500)
+
+[main] 2021-07-23 22:22:12 INFO  com.bank.main.BankMain  - Minimum Withdrawal Amount should be 500/-
+[main] 2021-07-23 22:22:12 INFO  com.bank.main.BankMain  - Welcome mud4
+[main] 2021-07-23 22:22:12 INFO  com.bank.main.BankMain  - 
+1)Open Account
+[main] 2021-07-23 22:22:12 INFO  com.bank.main.BankMain  - 
+2)Transfer Amount
+[main] 2021-07-23 22:22:12 INFO  com.bank.main.BankMain  - 
+3)Withdraw Amount
+[main] 2021-07-23 22:22:12 INFO  com.bank.main.BankMain  - 
+4)Deposit Amount
+[main] 2021-07-23 22:22:12 INFO  com.bank.main.BankMain  - 
+5)View statement
+[main] 2021-07-23 22:22:12 INFO  com.bank.main.BankMain  - 
+6)Logout
+[main] 2021-07-23 22:22:12 INFO  com.bank.main.BankMain  - 
+Enter Your Choice 1-6
+[main] 2021-07-23 22:22:18 INFO  com.bank.main.BankMain  - Hello mud4 please Enter the Amount to Withdraw (min 500)
+
+[main] 2021-07-23 22:22:39 INFO  com.bank.main.BankMain  - Minimum Withdrawal Amount should be 500/-
+[main] 2021-07-23 22:22:39 INFO  com.bank.main.BankMain  - Welcome mud4
+[main] 2021-07-23 22:22:39 INFO  com.bank.main.BankMain  - 
+1)Open Account
+[main] 2021-07-23 22:22:39 INFO  com.bank.main.BankMain  - 
+2)Transfer Amount
+[main] 2021-07-23 22:22:39 INFO  com.bank.main.BankMain  - 
+3)Withdraw Amount
+[main] 2021-07-23 22:22:39 INFO  com.bank.main.BankMain  - 
+4)Deposit Amount
+[main] 2021-07-23 22:22:39 INFO  com.bank.main.BankMain  - 
+5)View statement
+[main] 2021-07-23 22:22:39 INFO  com.bank.main.BankMain  - 
+6)Logout
+[main] 2021-07-23 22:22:39 INFO  com.bank.main.BankMain  - 
+Enter Your Choice 1-6
+[main] 2021-07-23 22:22:42 INFO  com.bank.main.BankMain  - Hello mud4 please Enter the Amount to Withdraw (min 500)
+
+[main] 2021-07-23 22:22:48 INFO  com.bank.main.BankMain  - You have Insufficient Balance, Transfer Failed!!!
+[main] 2021-07-23 22:22:48 INFO  com.bank.main.BankMain  - Welcome mud4
+[main] 2021-07-23 22:22:48 INFO  com.bank.main.BankMain  - 
+1)Open Account
+[main] 2021-07-23 22:22:48 INFO  com.bank.main.BankMain  - 
+2)Transfer Amount
+[main] 2021-07-23 22:22:48 INFO  com.bank.main.BankMain  - 
+3)Withdraw Amount
+[main] 2021-07-23 22:22:48 INFO  com.bank.main.BankMain  - 
+4)Deposit Amount
+[main] 2021-07-23 22:22:48 INFO  com.bank.main.BankMain  - 
+5)View statement
+[main] 2021-07-23 22:22:48 INFO  com.bank.main.BankMain  - 
+6)Logout
+[main] 2021-07-23 22:22:48 INFO  com.bank.main.BankMain  - 
+Enter Your Choice 1-6
+[main] 2021-07-23 22:24:12 INFO  com.bank.main.BankMain  - 
+Logout Successfully............
+[main] 2021-07-23 22:24:12 INFO  com.bank.main.BankMain  - 
+Going to Main Menu............
+
+[main] 2021-07-23 22:24:12 INFO  com.bank.main.BankMain  - Welcome to Syed's Banking App
+[main] 2021-07-23 22:24:12 INFO  com.bank.main.BankMain  - ==================================
+[main] 2021-07-23 22:24:12 INFO  com.bank.main.BankMain  - 
+Bank Menu
+[main] 2021-07-23 22:24:12 INFO  com.bank.main.BankMain  - 1)Login
+[main] 2021-07-23 22:24:12 INFO  com.bank.main.BankMain  - 2)Register as a Customer
+[main] 2021-07-23 22:24:12 INFO  com.bank.main.BankMain  - 3)EXIT
+[main] 2021-07-23 22:24:12 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-3
+[main] 2021-07-23 22:24:16 INFO  com.bank.main.BankMain  - Thanks for using our App.. See you soon. :)
+[main] 2021-07-24 23:36:23 INFO  com.bank.main.BankMain  - Welcome to Syed's Banking App
+[main] 2021-07-24 23:36:23 INFO  com.bank.main.BankMain  - ==================================
+[main] 2021-07-24 23:36:23 INFO  com.bank.main.BankMain  - 
+Bank Menu
+[main] 2021-07-24 23:36:23 INFO  com.bank.main.BankMain  - 1)Login
+[main] 2021-07-24 23:36:23 INFO  com.bank.main.BankMain  - 2)Register as a Customer
+[main] 2021-07-24 23:36:23 INFO  com.bank.main.BankMain  - 3)EXIT
+[main] 2021-07-24 23:36:23 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-3
+[main] 2021-07-24 23:36:26 INFO  com.bank.main.BankMain  - 
+1)Login as Employee
+[main] 2021-07-24 23:36:26 INFO  com.bank.main.BankMain  - 
+2)Login as Customer
+[main] 2021-07-24 23:36:26 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-2
+[main] 2021-07-24 23:36:27 INFO  com.bank.main.BankMain  - 
+Welcome to Customer Login Screen
+[main] 2021-07-24 23:36:27 INFO  com.bank.main.BankMain  - 
+ Enter Username:
+[main] 2021-07-24 23:36:41 INFO  com.bank.main.BankMain  - 
+ Enter Password:
+[main] 2021-07-24 23:36:43 WARN  com.bank.dao.BankDAO  - ERROR: column "usernamefrom" does not exist
+  Position: 8
+[main] 2021-07-24 23:36:43 INFO  com.bank.main.BankMain  - Internal Error Occured... Kindly contact SysAdmin
+[main] 2021-07-24 23:37:13 INFO  com.bank.main.BankMain  - Welcome to Syed's Banking App
+[main] 2021-07-24 23:37:13 INFO  com.bank.main.BankMain  - ==================================
+[main] 2021-07-24 23:37:13 INFO  com.bank.main.BankMain  - 
+Bank Menu
+[main] 2021-07-24 23:37:13 INFO  com.bank.main.BankMain  - 1)Login
+[main] 2021-07-24 23:37:13 INFO  com.bank.main.BankMain  - 2)Register as a Customer
+[main] 2021-07-24 23:37:13 INFO  com.bank.main.BankMain  - 3)EXIT
+[main] 2021-07-24 23:37:13 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-3
+[main] 2021-07-24 23:37:15 INFO  com.bank.main.BankMain  - 
+1)Login as Employee
+[main] 2021-07-24 23:37:15 INFO  com.bank.main.BankMain  - 
+2)Login as Customer
+[main] 2021-07-24 23:37:15 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-2
+[main] 2021-07-24 23:37:16 INFO  com.bank.main.BankMain  - 
+Welcome to Customer Login Screen
+[main] 2021-07-24 23:37:16 INFO  com.bank.main.BankMain  - 
+ Enter Username:
+[main] 2021-07-24 23:37:19 INFO  com.bank.main.BankMain  - 
+ Enter Password:
+[main] 2021-07-24 23:37:21 WARN  com.bank.dao.BankDAO  - ERROR: relation "custlogin" does not exist
+  Position: 22
+[main] 2021-07-24 23:37:21 INFO  com.bank.main.BankMain  - Internal Error Occured... Kindly contact SysAdmin
+[main] 2021-07-25 10:38:06 INFO  com.bank.main.BankMain  - Welcome to Syed's Banking App
+[main] 2021-07-25 10:38:06 INFO  com.bank.main.BankMain  - ==================================
+[main] 2021-07-25 10:38:06 INFO  com.bank.main.BankMain  - 
+Bank Menu
+[main] 2021-07-25 10:38:06 INFO  com.bank.main.BankMain  - 1)Login
+[main] 2021-07-25 10:38:06 INFO  com.bank.main.BankMain  - 2)Register as a Customer
+[main] 2021-07-25 10:38:06 INFO  com.bank.main.BankMain  - 3)EXIT
+[main] 2021-07-25 10:38:06 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-3
+[main] 2021-07-25 10:38:12 INFO  com.bank.main.BankMain  - 
+1)Login as Employee
+[main] 2021-07-25 10:38:12 INFO  com.bank.main.BankMain  - 
+2)Login as Customer
+[main] 2021-07-25 10:38:12 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-2
+[main] 2021-07-25 10:38:15 INFO  com.bank.main.BankMain  - 
+Welcome to Customer Login Screen
+[main] 2021-07-25 10:38:15 INFO  com.bank.main.BankMain  - 
+ Enter Username:
+[main] 2021-07-25 10:38:19 INFO  com.bank.main.BankMain  - 
+ Enter Password:
+[main] 2021-07-25 10:38:21 WARN  com.bank.dao.BankDAO  - The column index is out of range: 1, number of columns: 0.
+[main] 2021-07-25 10:38:21 INFO  com.bank.main.BankMain  - Internal Error Occured... Kindly contact SysAdmin
+[main] 2021-07-25 10:39:20 INFO  com.bank.main.BankMain  - Welcome to Syed's Banking App
+[main] 2021-07-25 10:39:20 INFO  com.bank.main.BankMain  - ==================================
+[main] 2021-07-25 10:39:20 INFO  com.bank.main.BankMain  - 
+Bank Menu
+[main] 2021-07-25 10:39:20 INFO  com.bank.main.BankMain  - 1)Login
+[main] 2021-07-25 10:39:20 INFO  com.bank.main.BankMain  - 2)Register as a Customer
+[main] 2021-07-25 10:39:20 INFO  com.bank.main.BankMain  - 3)EXIT
+[main] 2021-07-25 10:39:20 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-3
+[main] 2021-07-25 10:39:21 INFO  com.bank.main.BankMain  - 
+1)Login as Employee
+[main] 2021-07-25 10:39:21 INFO  com.bank.main.BankMain  - 
+2)Login as Customer
+[main] 2021-07-25 10:39:21 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-2
+[main] 2021-07-25 10:39:22 INFO  com.bank.main.BankMain  - 
+Welcome to Customer Login Screen
+[main] 2021-07-25 10:39:22 INFO  com.bank.main.BankMain  - 
+ Enter Username:
+[main] 2021-07-25 10:39:26 INFO  com.bank.main.BankMain  - 
+ Enter Password:
+[main] 2021-07-25 10:39:28 WARN  com.bank.dao.BankDAO  - The column index is out of range: 1, number of columns: 0.
+[main] 2021-07-25 10:39:28 INFO  com.bank.main.BankMain  - Internal Error Occured... Kindly contact SysAdmin
+[main] 2021-07-25 10:41:04 INFO  com.bank.main.BankMain  - Welcome to Syed's Banking App
+[main] 2021-07-25 10:41:04 INFO  com.bank.main.BankMain  - ==================================
+[main] 2021-07-25 10:41:04 INFO  com.bank.main.BankMain  - 
+Bank Menu
+[main] 2021-07-25 10:41:04 INFO  com.bank.main.BankMain  - 1)Login
+[main] 2021-07-25 10:41:04 INFO  com.bank.main.BankMain  - 2)Register as a Customer
+[main] 2021-07-25 10:41:04 INFO  com.bank.main.BankMain  - 3)EXIT
+[main] 2021-07-25 10:41:04 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-3
+[main] 2021-07-25 10:41:08 INFO  com.bank.main.BankMain  - 
+1)Login as Employee
+[main] 2021-07-25 10:41:08 INFO  com.bank.main.BankMain  - 
+2)Login as Customer
+[main] 2021-07-25 10:41:08 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-2
+[main] 2021-07-25 10:41:09 INFO  com.bank.main.BankMain  - 
+Welcome to Customer Login Screen
+[main] 2021-07-25 10:41:09 INFO  com.bank.main.BankMain  - 
+ Enter Username:
+[main] 2021-07-25 10:41:13 INFO  com.bank.main.BankMain  - 
+ Enter Password:
+[main] 2021-07-25 10:41:15 WARN  com.bank.dao.BankDAO  - The column index is out of range: 1, number of columns: 0.
+[main] 2021-07-25 10:41:15 INFO  com.bank.main.BankMain  - Internal Error Occured... Kindly contact SysAdmin
+[main] 2021-07-25 10:49:33 INFO  com.bank.main.BankMain  - Welcome to Syed's Banking App
+[main] 2021-07-25 10:49:33 INFO  com.bank.main.BankMain  - ==================================
+[main] 2021-07-25 10:49:33 INFO  com.bank.main.BankMain  - 
+Bank Menu
+[main] 2021-07-25 10:49:33 INFO  com.bank.main.BankMain  - 1)Login
+[main] 2021-07-25 10:49:33 INFO  com.bank.main.BankMain  - 2)Register as a Customer
+[main] 2021-07-25 10:49:33 INFO  com.bank.main.BankMain  - 3)EXIT
+[main] 2021-07-25 10:49:33 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-3
+[main] 2021-07-25 10:49:36 INFO  com.bank.main.BankMain  - 
+1)Login as Employee
+[main] 2021-07-25 10:49:36 INFO  com.bank.main.BankMain  - 
+2)Login as Customer
+[main] 2021-07-25 10:49:36 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-2
+[main] 2021-07-25 10:49:37 INFO  com.bank.main.BankMain  - 
+Welcome to Customer Login Screen
+[main] 2021-07-25 10:49:37 INFO  com.bank.main.BankMain  - 
+ Enter Username:
+[main] 2021-07-25 10:49:48 INFO  com.bank.main.BankMain  - 
+ Enter Password:
+[main] 2021-07-25 10:49:50 WARN  com.bank.dao.BankDAO  - The column index is out of range: 1, number of columns: 0.
+[main] 2021-07-25 10:49:50 INFO  com.bank.main.BankMain  - Internal Error Occured... Kindly contact SysAdmin
+[main] 2021-07-25 10:51:22 INFO  com.bank.main.BankMain  - Welcome to Syed's Banking App
+[main] 2021-07-25 10:51:22 INFO  com.bank.main.BankMain  - ==================================
+[main] 2021-07-25 10:51:22 INFO  com.bank.main.BankMain  - 
+Bank Menu
+[main] 2021-07-25 10:51:22 INFO  com.bank.main.BankMain  - 1)Login
+[main] 2021-07-25 10:51:22 INFO  com.bank.main.BankMain  - 2)Register as a Customer
+[main] 2021-07-25 10:51:22 INFO  com.bank.main.BankMain  - 3)EXIT
+[main] 2021-07-25 10:51:22 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-3
+[main] 2021-07-25 10:51:24 INFO  com.bank.main.BankMain  - 
+1)Login as Employee
+[main] 2021-07-25 10:51:24 INFO  com.bank.main.BankMain  - 
+2)Login as Customer
+[main] 2021-07-25 10:51:24 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-2
+[main] 2021-07-25 10:51:25 INFO  com.bank.main.BankMain  - 
+Welcome to Customer Login Screen
+[main] 2021-07-25 10:51:25 INFO  com.bank.main.BankMain  - 
+ Enter Username:
+[main] 2021-07-25 10:51:27 INFO  com.bank.main.BankMain  - 
+ Enter Password:
+[main] 2021-07-25 10:51:29 INFO  com.bank.main.BankMain  - Employee Customer Successfully
+
+[main] 2021-07-25 10:51:29 INFO  com.bank.main.BankMain  - Welcome neha5121
+[main] 2021-07-25 10:51:29 INFO  com.bank.main.BankMain  - 
+1)Open Account
+[main] 2021-07-25 10:51:29 INFO  com.bank.main.BankMain  - 
+2)Transfer Amount
+[main] 2021-07-25 10:51:29 INFO  com.bank.main.BankMain  - 
+3)Withdraw Amount
+[main] 2021-07-25 10:51:29 INFO  com.bank.main.BankMain  - 
+4)Deposit Amount
+[main] 2021-07-25 10:51:29 INFO  com.bank.main.BankMain  - 
+5)View statement
+[main] 2021-07-25 10:51:29 INFO  com.bank.main.BankMain  - 
+6)Logout
+[main] 2021-07-25 10:51:29 INFO  com.bank.main.BankMain  - 
+Enter Your Choice 1-6
+[main] 2021-07-25 10:51:37 INFO  com.bank.main.BankMain  - 
+Logout Successfully............
+[main] 2021-07-25 10:51:37 INFO  com.bank.main.BankMain  - 
+Going to Main Menu............
+
+[main] 2021-07-25 10:51:37 INFO  com.bank.main.BankMain  - Welcome to Syed's Banking App
+[main] 2021-07-25 10:51:37 INFO  com.bank.main.BankMain  - ==================================
+[main] 2021-07-25 10:51:37 INFO  com.bank.main.BankMain  - 
+Bank Menu
+[main] 2021-07-25 10:51:37 INFO  com.bank.main.BankMain  - 1)Login
+[main] 2021-07-25 10:51:37 INFO  com.bank.main.BankMain  - 2)Register as a Customer
+[main] 2021-07-25 10:51:37 INFO  com.bank.main.BankMain  - 3)EXIT
+[main] 2021-07-25 10:51:37 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-3
+[main] 2021-07-25 10:51:39 INFO  com.bank.main.BankMain  - 
+1)Login as Employee
+[main] 2021-07-25 10:51:39 INFO  com.bank.main.BankMain  - 
+2)Login as Customer
+[main] 2021-07-25 10:51:39 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-2
+[main] 2021-07-25 10:51:40 INFO  com.bank.main.BankMain  - 
+Welcome to Customer Login Screen
+[main] 2021-07-25 10:51:40 INFO  com.bank.main.BankMain  - 
+ Enter Username:
+[main] 2021-07-25 10:51:43 INFO  com.bank.main.BankMain  - 
+ Enter Password:
+[main] 2021-07-25 10:51:46 INFO  com.bank.main.BankMain  - Invalid Details..
+[main] 2021-07-25 10:51:46 INFO  com.bank.main.BankMain  - Welcome to Syed's Banking App
+[main] 2021-07-25 10:51:46 INFO  com.bank.main.BankMain  - ==================================
+[main] 2021-07-25 10:51:46 INFO  com.bank.main.BankMain  - 
+Bank Menu
+[main] 2021-07-25 10:51:46 INFO  com.bank.main.BankMain  - 1)Login
+[main] 2021-07-25 10:51:46 INFO  com.bank.main.BankMain  - 2)Register as a Customer
+[main] 2021-07-25 10:51:46 INFO  com.bank.main.BankMain  - 3)EXIT
+[main] 2021-07-25 10:51:46 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-3
+[main] 2021-07-25 10:51:54 INFO  com.bank.main.BankMain  - 
+1)Login as Employee
+[main] 2021-07-25 10:51:54 INFO  com.bank.main.BankMain  - 
+2)Login as Customer
+[main] 2021-07-25 10:51:54 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-2
+[main] 2021-07-25 10:51:55 INFO  com.bank.main.BankMain  - 
+Welcome to Customer Login Screen
+[main] 2021-07-25 10:51:55 INFO  com.bank.main.BankMain  - 
+ Enter Username:
+[main] 2021-07-25 10:51:57 INFO  com.bank.main.BankMain  - 
+ Enter Password:
+[main] 2021-07-25 10:51:59 INFO  com.bank.main.BankMain  - Employee Customer Successfully
+
+[main] 2021-07-25 10:51:59 INFO  com.bank.main.BankMain  - Welcome ff123
+[main] 2021-07-25 10:51:59 INFO  com.bank.main.BankMain  - 
+1)Open Account
+[main] 2021-07-25 10:51:59 INFO  com.bank.main.BankMain  - 
+2)Transfer Amount
+[main] 2021-07-25 10:51:59 INFO  com.bank.main.BankMain  - 
+3)Withdraw Amount
+[main] 2021-07-25 10:51:59 INFO  com.bank.main.BankMain  - 
+4)Deposit Amount
+[main] 2021-07-25 10:51:59 INFO  com.bank.main.BankMain  - 
+5)View statement
+[main] 2021-07-25 10:51:59 INFO  com.bank.main.BankMain  - 
+6)Logout
+[main] 2021-07-25 10:51:59 INFO  com.bank.main.BankMain  - 
+Enter Your Choice 1-6
+[main] 2021-07-25 10:52:01 INFO  com.bank.main.BankMain  - 
+Logout Successfully............
+[main] 2021-07-25 10:52:01 INFO  com.bank.main.BankMain  - 
+Going to Main Menu............
+
+[main] 2021-07-25 10:52:01 INFO  com.bank.main.BankMain  - Welcome to Syed's Banking App
+[main] 2021-07-25 10:52:01 INFO  com.bank.main.BankMain  - ==================================
+[main] 2021-07-25 10:52:01 INFO  com.bank.main.BankMain  - 
+Bank Menu
+[main] 2021-07-25 10:52:01 INFO  com.bank.main.BankMain  - 1)Login
+[main] 2021-07-25 10:52:01 INFO  com.bank.main.BankMain  - 2)Register as a Customer
+[main] 2021-07-25 10:52:01 INFO  com.bank.main.BankMain  - 3)EXIT
+[main] 2021-07-25 10:52:01 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-3
+[main] 2021-07-25 10:52:08 INFO  com.bank.main.BankMain  - 
+1)Login as Employee
+[main] 2021-07-25 10:52:08 INFO  com.bank.main.BankMain  - 
+2)Login as Customer
+[main] 2021-07-25 10:52:08 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-2
+[main] 2021-07-25 10:52:08 INFO  com.bank.main.BankMain  - 
+Welcome to Customer Login Screen
+[main] 2021-07-25 10:52:08 INFO  com.bank.main.BankMain  - 
+ Enter Username:
+[main] 2021-07-25 10:52:12 INFO  com.bank.main.BankMain  - 
+ Enter Password:
+[main] 2021-07-25 10:52:14 INFO  com.bank.main.BankMain  - Employee Customer Successfully
+
+[main] 2021-07-25 10:52:14 INFO  com.bank.main.BankMain  - Welcome mud4
+[main] 2021-07-25 10:52:14 INFO  com.bank.main.BankMain  - 
+1)Open Account
+[main] 2021-07-25 10:52:14 INFO  com.bank.main.BankMain  - 
+2)Transfer Amount
+[main] 2021-07-25 10:52:14 INFO  com.bank.main.BankMain  - 
+3)Withdraw Amount
+[main] 2021-07-25 10:52:14 INFO  com.bank.main.BankMain  - 
+4)Deposit Amount
+[main] 2021-07-25 10:52:14 INFO  com.bank.main.BankMain  - 
+5)View statement
+[main] 2021-07-25 10:52:14 INFO  com.bank.main.BankMain  - 
+6)Logout
+[main] 2021-07-25 10:52:14 INFO  com.bank.main.BankMain  - 
+Enter Your Choice 1-6
+[main] 2021-07-25 10:52:17 INFO  com.bank.main.BankMain  - Hello mud4 please Enter the Amount to Deposit(min 500)
+
+[main] 2021-07-25 10:52:20 INFO  com.bank.main.BankMain  - 
+Amount 500.0 Successfully deposited into your Account with UserName  = mud4
+[main] 2021-07-25 10:52:20 INFO  com.bank.main.BankMain  - Transaction [tid=42, ttype=Deposit, openingbalance=4800.0, tamount=500.0, tdate=2021-07-25, closingbalance=5300.0, custUserName=mud4]
+[main] 2021-07-25 10:52:20 INFO  com.bank.main.BankMain  - Welcome mud4
+[main] 2021-07-25 10:52:20 INFO  com.bank.main.BankMain  - 
+1)Open Account
+[main] 2021-07-25 10:52:20 INFO  com.bank.main.BankMain  - 
+2)Transfer Amount
+[main] 2021-07-25 10:52:20 INFO  com.bank.main.BankMain  - 
+3)Withdraw Amount
+[main] 2021-07-25 10:52:20 INFO  com.bank.main.BankMain  - 
+4)Deposit Amount
+[main] 2021-07-25 10:52:20 INFO  com.bank.main.BankMain  - 
+5)View statement
+[main] 2021-07-25 10:52:20 INFO  com.bank.main.BankMain  - 
+6)Logout
+[main] 2021-07-25 10:52:20 INFO  com.bank.main.BankMain  - 
+Enter Your Choice 1-6
+[main] 2021-07-25 10:52:25 INFO  com.bank.main.BankMain  - Transaction [tid=42, ttype=Deposit, openingbalance=4800.0, tamount=500.0, tdate=2021-07-25, closingbalance=5300.0, custUserName=mud4]
+[main] 2021-07-25 10:52:25 INFO  com.bank.main.BankMain  - Transaction [tid=40, ttype=Withdraw, openingbalance=5500.0, tamount=700.0, tdate=2021-07-23, closingbalance=4800.0, custUserName=mud4]
+[main] 2021-07-25 10:52:25 INFO  com.bank.main.BankMain  - Transaction [tid=39, ttype=Deposit, openingbalance=500.0, tamount=5000.0, tdate=2021-07-23, closingbalance=5500.0, custUserName=mud4]
+[main] 2021-07-25 10:52:25 INFO  com.bank.main.BankMain  - Transaction [tid=37, ttype=Withdraw, openingbalance=1000.0, tamount=500.0, tdate=2021-07-23, closingbalance=500.0, custUserName=mud4]
+[main] 2021-07-25 10:52:25 INFO  com.bank.main.BankMain  - Transaction [tid=36, ttype=Withdraw, openingbalance=4000.0, tamount=3000.0, tdate=2021-07-23, closingbalance=1000.0, custUserName=mud4]
+[main] 2021-07-25 10:52:25 INFO  com.bank.main.BankMain  - Transaction [tid=35, ttype=Deposit, openingbalance=1000.0, tamount=3000.0, tdate=2021-07-23, closingbalance=4000.0, custUserName=mud4]
+[main] 2021-07-25 10:52:25 INFO  com.bank.main.BankMain  - Welcome mud4
+[main] 2021-07-25 10:52:25 INFO  com.bank.main.BankMain  - 
+1)Open Account
+[main] 2021-07-25 10:52:25 INFO  com.bank.main.BankMain  - 
+2)Transfer Amount
+[main] 2021-07-25 10:52:25 INFO  com.bank.main.BankMain  - 
+3)Withdraw Amount
+[main] 2021-07-25 10:52:25 INFO  com.bank.main.BankMain  - 
+4)Deposit Amount
+[main] 2021-07-25 10:52:25 INFO  com.bank.main.BankMain  - 
+5)View statement
+[main] 2021-07-25 10:52:25 INFO  com.bank.main.BankMain  - 
+6)Logout
+[main] 2021-07-25 10:52:25 INFO  com.bank.main.BankMain  - 
+Enter Your Choice 1-6
+[main] 2021-07-25 10:52:27 INFO  com.bank.main.BankMain  - Hello mud4
+
+[main] 2021-07-25 10:52:27 INFO  com.bank.main.BankMain  - Enter Creditor Username
+[main] 2021-07-25 10:52:34 INFO  com.bank.main.BankMain  - Enter the Amount to Transfer
+[main] 2021-07-25 10:52:39 INFO  com.bank.main.BankMain  - 
+Amount 500.0 Successfully Withdrawed from your Account with UserName  = mud4
+[main] 2021-07-25 10:52:39 INFO  com.bank.main.BankMain  - Transaction [tid=43, ttype=Withdraw, openingbalance=5300.0, tamount=500.0, tdate=2021-07-25, closingbalance=4800.0, custUserName=mud4]
+[main] 2021-07-25 10:52:39 INFO  com.bank.main.BankMain  - 
+
+[main] 2021-07-25 10:52:39 INFO  com.bank.main.BankMain  - 
+Amount 500.0 Successfully Transfered from your Account to UserName  = neha5121
+[main] 2021-07-25 10:52:39 INFO  com.bank.main.BankMain  - 
+ Amount Transfered SuccessFully!!!
+[main] 2021-07-25 10:52:39 INFO  com.bank.main.BankMain  - Welcome mud4
+[main] 2021-07-25 10:52:39 INFO  com.bank.main.BankMain  - 
+1)Open Account
+[main] 2021-07-25 10:52:39 INFO  com.bank.main.BankMain  - 
+2)Transfer Amount
+[main] 2021-07-25 10:52:39 INFO  com.bank.main.BankMain  - 
+3)Withdraw Amount
+[main] 2021-07-25 10:52:39 INFO  com.bank.main.BankMain  - 
+4)Deposit Amount
+[main] 2021-07-25 10:52:39 INFO  com.bank.main.BankMain  - 
+5)View statement
+[main] 2021-07-25 10:52:39 INFO  com.bank.main.BankMain  - 
+6)Logout
+[main] 2021-07-25 10:52:39 INFO  com.bank.main.BankMain  - 
+Enter Your Choice 1-6
+[main] 2021-07-25 10:58:00 INFO  com.bank.main.BankMain  - Welcome to Syed's Banking App
+[main] 2021-07-25 10:58:00 INFO  com.bank.main.BankMain  - ==================================
+[main] 2021-07-25 10:58:00 INFO  com.bank.main.BankMain  - 
+Bank Menu
+[main] 2021-07-25 10:58:00 INFO  com.bank.main.BankMain  - 1)Login
+[main] 2021-07-25 10:58:00 INFO  com.bank.main.BankMain  - 2)Register as a Customer
+[main] 2021-07-25 10:58:00 INFO  com.bank.main.BankMain  - 3)EXIT
+[main] 2021-07-25 10:58:00 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-3
+[main] 2021-07-25 10:58:04 INFO  com.bank.main.BankMain  - 
+1)Login as Employee
+[main] 2021-07-25 10:58:04 INFO  com.bank.main.BankMain  - 
+2)Login as Customer
+[main] 2021-07-25 10:58:04 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-2
+[main] 2021-07-25 10:58:04 INFO  com.bank.main.BankMain  - 
+Welcome to Employee Login Screen
+[main] 2021-07-25 10:58:04 INFO  com.bank.main.BankMain  - ==================================
+[main] 2021-07-25 10:58:04 INFO  com.bank.main.BankMain  - 
+Enter Username:
+[main] 2021-07-25 10:58:07 INFO  com.bank.main.BankMain  - 
+Enter Password:
+[main] 2021-07-25 10:58:08 INFO  com.bank.main.BankMain  - Employee Login Successfully
+[main] 2021-07-25 10:58:08 INFO  com.bank.main.BankMain  - 
+Welcome syed123
+
+[main] 2021-07-25 10:58:08 INFO  com.bank.main.BankMain  - 
+1)Open Account
+[main] 2021-07-25 10:58:08 INFO  com.bank.main.BankMain  - 
+2)Approve or Reject an Account
+[main] 2021-07-25 10:58:08 INFO  com.bank.main.BankMain  - 
+3)View All Customer Personal Details
+[main] 2021-07-25 10:58:08 INFO  com.bank.main.BankMain  - 
+4)View Customer Account Details
+[main] 2021-07-25 10:58:08 INFO  com.bank.main.BankMain  - 
+5)View Transaction of Customers
+[main] 2021-07-25 10:58:08 INFO  com.bank.main.BankMain  - 
+6)Logout
+[main] 2021-07-25 10:58:08 INFO  com.bank.main.BankMain  - 
+Enter Your Choice 1-6
+[main] 2021-07-25 10:58:10 INFO  com.bank.main.BankMain  - Transaction [tid=1, ttype=Deposit, openingbalance=500.0, tamount=500.0, tdate=2021-07-18, closingbalance=1000.0, custUserName=saif123]
+[main] 2021-07-25 10:58:10 INFO  com.bank.main.BankMain  - Transaction [tid=2, ttype=Withdraw, openingbalance=1000.0, tamount=100.0, tdate=2021-07-18, closingbalance=900.0, custUserName=saif123]
+[main] 2021-07-25 10:58:10 INFO  com.bank.main.BankMain  - Transaction [tid=3, ttype=Deposit, openingbalance=900.0, tamount=500.0, tdate=2021-07-18, closingbalance=1400.0, custUserName=saif123]
+[main] 2021-07-25 10:58:10 INFO  com.bank.main.BankMain  - Transaction [tid=4, ttype=Deposit, openingbalance=1400.0, tamount=500.0, tdate=2021-07-18, closingbalance=1900.0, custUserName=saif123]
+[main] 2021-07-25 10:58:10 INFO  com.bank.main.BankMain  - Transaction [tid=5, ttype=Withdraw, openingbalance=1900.0, tamount=100.0, tdate=2021-07-18, closingbalance=1800.0, custUserName=saif123]
+[main] 2021-07-25 10:58:10 INFO  com.bank.main.BankMain  - Transaction [tid=6, ttype=Withdraw, openingbalance=1800.0, tamount=100.0, tdate=2021-07-18, closingbalance=1700.0, custUserName=saif123]
+[main] 2021-07-25 10:58:10 INFO  com.bank.main.BankMain  - Transaction [tid=7, ttype=Deposit, openingbalance=1200.0, tamount=300.0, tdate=2021-07-18, closingbalance=1500.0, custUserName=zayn123]
+[main] 2021-07-25 10:58:10 INFO  com.bank.main.BankMain  - Transaction [tid=8, ttype=Withdraw, openingbalance=1500.0, tamount=300.0, tdate=2021-07-18, closingbalance=1200.0, custUserName=zayn123]
+[main] 2021-07-25 10:58:10 INFO  com.bank.main.BankMain  - Transaction [tid=9, ttype=credited, openingbalance=1700.0, tamount=300.0, tdate=2021-07-18, closingbalance=2000.0, custUserName=saif123]
+[main] 2021-07-25 10:58:10 INFO  com.bank.main.BankMain  - Transaction [tid=10, ttype=credited, openingbalance=2000.0, tamount=2.0E7, tdate=2021-07-18, closingbalance=2.0002E7, custUserName=saif123]
+[main] 2021-07-25 10:58:10 INFO  com.bank.main.BankMain  - Transaction [tid=11, ttype=Deposit, openingbalance=700.0, tamount=300.0, tdate=2021-07-18, closingbalance=1000.0, custUserName=neha5121]
+[main] 2021-07-25 10:58:10 INFO  com.bank.main.BankMain  - Transaction [tid=12, ttype=Withdraw, openingbalance=1000.0, tamount=200.0, tdate=2021-07-18, closingbalance=800.0, custUserName=neha5121]
+[main] 2021-07-25 10:58:10 INFO  com.bank.main.BankMain  - Transaction [tid=13, ttype=Withdraw, openingbalance=800.0, tamount=100.0, tdate=2021-07-18, closingbalance=700.0, custUserName=neha5121]
+[main] 2021-07-25 10:58:10 INFO  com.bank.main.BankMain  - Transaction [tid=14, ttype=Withdraw, openingbalance=700.0, tamount=500.0, tdate=2021-07-18, closingbalance=200.0, custUserName=neha5121]
+[main] 2021-07-25 10:58:10 INFO  com.bank.main.BankMain  - Transaction [tid=15, ttype=credited, openingbalance=2.0002E7, tamount=500.0, tdate=2021-07-18, closingbalance=2.00025E7, custUserName=saif123]
+[main] 2021-07-25 10:58:10 INFO  com.bank.main.BankMain  - Transaction [tid=16, ttype=Deposit, openingbalance=200.0, tamount=500.0, tdate=2021-07-19, closingbalance=700.0, custUserName=neha5121]
+[main] 2021-07-25 10:58:10 INFO  com.bank.main.BankMain  - Transaction [tid=17, ttype=Withdraw, openingbalance=700.0, tamount=500.0, tdate=2021-07-19, closingbalance=200.0, custUserName=neha5121]
+[main] 2021-07-25 10:58:10 INFO  com.bank.main.BankMain  - Transaction [tid=18, ttype=Withdraw, openingbalance=200.0, tamount=-1.0, tdate=2021-07-19, closingbalance=201.0, custUserName=neha5121]
+[main] 2021-07-25 10:58:10 INFO  com.bank.main.BankMain  - Transaction [tid=19, ttype=Withdraw, openingbalance=201.0, tamount=7000.0, tdate=2021-07-19, closingbalance=6799.0, custUserName=neha5121]
+[main] 2021-07-25 10:58:10 INFO  com.bank.main.BankMain  - Transaction [tid=20, ttype=credited, openingbalance=2.00025E7, tamount=7000.0, tdate=2021-07-19, closingbalance=2.00095E7, custUserName=saif123]
+[main] 2021-07-25 10:58:10 INFO  com.bank.main.BankMain  - Transaction [tid=21, ttype=Withdraw, openingbalance=6799.0, tamount=10000.0, tdate=2021-07-19, closingbalance=3201.0, custUserName=neha5121]
+[main] 2021-07-25 10:58:10 INFO  com.bank.main.BankMain  - Transaction [tid=22, ttype=credited, openingbalance=2.00095E7, tamount=10000.0, tdate=2021-07-19, closingbalance=2.00195E7, custUserName=saif123]
+[main] 2021-07-25 10:58:10 INFO  com.bank.main.BankMain  - Transaction [tid=23, ttype=Withdraw, openingbalance=3201.0, tamount=200000.0, tdate=2021-07-19, closingbalance=196799.0, custUserName=neha5121]
+[main] 2021-07-25 10:58:10 INFO  com.bank.main.BankMain  - Transaction [tid=24, ttype=Withdraw, openingbalance=1000.0, tamount=500.0, tdate=2021-07-19, closingbalance=500.0, custUserName=neha5121]
+[main] 2021-07-25 10:58:10 INFO  com.bank.main.BankMain  - Transaction [tid=25, ttype=credited, openingbalance=1200.0, tamount=500.0, tdate=2021-07-19, closingbalance=1700.0, custUserName=zayn123]
+[main] 2021-07-25 10:58:10 INFO  com.bank.main.BankMain  - Transaction [tid=26, ttype=Deposit, openingbalance=500.0, tamount=200.0, tdate=2021-07-19, closingbalance=700.0, custUserName=neha5121]
+[main] 2021-07-25 10:58:10 INFO  com.bank.main.BankMain  - Transaction [tid=27, ttype=Withdraw, openingbalance=700.0, tamount=100.0, tdate=2021-07-19, closingbalance=600.0, custUserName=neha5121]
+[main] 2021-07-25 10:58:10 INFO  com.bank.main.BankMain  - Transaction [tid=28, ttype=Withdraw, openingbalance=600.0, tamount=700.0, tdate=2021-07-19, closingbalance=100.0, custUserName=neha5121]
+[main] 2021-07-25 10:58:10 INFO  com.bank.main.BankMain  - Transaction [tid=29, ttype=Deposit, openingbalance=100.0, tamount=100.0, tdate=2021-07-19, closingbalance=200.0, custUserName=neha5121]
+[main] 2021-07-25 10:58:10 INFO  com.bank.main.BankMain  - Transaction [tid=30, ttype=Deposit, openingbalance=200.0, tamount=500.0, tdate=2021-07-19, closingbalance=700.0, custUserName=neha5121]
+[main] 2021-07-25 10:58:10 INFO  com.bank.main.BankMain  - Transaction [tid=31, ttype=Withdraw, openingbalance=700.0, tamount=300.0, tdate=2021-07-19, closingbalance=400.0, custUserName=neha5121]
+[main] 2021-07-25 10:58:10 INFO  com.bank.main.BankMain  - Transaction [tid=32, ttype=Deposit, openingbalance=400.0, tamount=500.0, tdate=2021-07-19, closingbalance=900.0, custUserName=neha5121]
+[main] 2021-07-25 10:58:10 INFO  com.bank.main.BankMain  - Transaction [tid=33, ttype=Withdraw, openingbalance=900.0, tamount=500.0, tdate=2021-07-19, closingbalance=400.0, custUserName=neha5121]
+[main] 2021-07-25 10:58:10 INFO  com.bank.main.BankMain  - Transaction [tid=34, ttype=Deposit, openingbalance=400.0, tamount=500.0, tdate=2021-07-19, closingbalance=900.0, custUserName=neha5121]
+[main] 2021-07-25 10:58:10 INFO  com.bank.main.BankMain  - Transaction [tid=35, ttype=Deposit, openingbalance=1000.0, tamount=3000.0, tdate=2021-07-23, closingbalance=4000.0, custUserName=mud4]
+[main] 2021-07-25 10:58:10 INFO  com.bank.main.BankMain  - Transaction [tid=36, ttype=Withdraw, openingbalance=4000.0, tamount=3000.0, tdate=2021-07-23, closingbalance=1000.0, custUserName=mud4]
+[main] 2021-07-25 10:58:10 INFO  com.bank.main.BankMain  - Transaction [tid=37, ttype=Withdraw, openingbalance=1000.0, tamount=500.0, tdate=2021-07-23, closingbalance=500.0, custUserName=mud4]
+[main] 2021-07-25 10:58:10 INFO  com.bank.main.BankMain  - Transaction [tid=38, ttype=credited, openingbalance=2.00195E7, tamount=500.0, tdate=2021-07-23, closingbalance=2.002E7, custUserName=saif123]
+[main] 2021-07-25 10:58:10 INFO  com.bank.main.BankMain  - Transaction [tid=39, ttype=Deposit, openingbalance=500.0, tamount=5000.0, tdate=2021-07-23, closingbalance=5500.0, custUserName=mud4]
+[main] 2021-07-25 10:58:10 INFO  com.bank.main.BankMain  - Transaction [tid=40, ttype=Withdraw, openingbalance=5500.0, tamount=700.0, tdate=2021-07-23, closingbalance=4800.0, custUserName=mud4]
+[main] 2021-07-25 10:58:10 INFO  com.bank.main.BankMain  - Transaction [tid=41, ttype=credited, openingbalance=900.0, tamount=700.0, tdate=2021-07-23, closingbalance=1600.0, custUserName=neha5121]
+[main] 2021-07-25 10:58:10 INFO  com.bank.main.BankMain  - Transaction [tid=42, ttype=Deposit, openingbalance=4800.0, tamount=500.0, tdate=2021-07-25, closingbalance=5300.0, custUserName=mud4]
+[main] 2021-07-25 10:58:10 INFO  com.bank.main.BankMain  - Transaction [tid=43, ttype=Withdraw, openingbalance=5300.0, tamount=500.0, tdate=2021-07-25, closingbalance=4800.0, custUserName=mud4]
+[main] 2021-07-25 10:58:10 INFO  com.bank.main.BankMain  - Transaction [tid=44, ttype=credited, openingbalance=1600.0, tamount=500.0, tdate=2021-07-25, closingbalance=2100.0, custUserName=neha5121]
+[main] 2021-07-25 10:58:10 INFO  com.bank.main.BankMain  - 
+Welcome syed123
+
+[main] 2021-07-25 10:58:10 INFO  com.bank.main.BankMain  - 
+1)Open Account
+[main] 2021-07-25 10:58:10 INFO  com.bank.main.BankMain  - 
+2)Approve or Reject an Account
+[main] 2021-07-25 10:58:10 INFO  com.bank.main.BankMain  - 
+3)View All Customer Personal Details
+[main] 2021-07-25 10:58:10 INFO  com.bank.main.BankMain  - 
+4)View Customer Account Details
+[main] 2021-07-25 10:58:10 INFO  com.bank.main.BankMain  - 
+5)View Transaction of Customers
+[main] 2021-07-25 10:58:10 INFO  com.bank.main.BankMain  - 
+6)Logout
+[main] 2021-07-25 10:58:10 INFO  com.bank.main.BankMain  - 
+Enter Your Choice 1-6
+[main] 2021-07-25 10:58:12 INFO  com.bank.main.BankMain  - 
+Welcome syed123
+
+[main] 2021-07-25 10:58:12 INFO  com.bank.main.BankMain  - 
+1)Open Account
+[main] 2021-07-25 10:58:12 INFO  com.bank.main.BankMain  - 
+2)Approve or Reject an Account
+[main] 2021-07-25 10:58:12 INFO  com.bank.main.BankMain  - 
+3)View All Customer Personal Details
+[main] 2021-07-25 10:58:12 INFO  com.bank.main.BankMain  - 
+4)View Customer Account Details
+[main] 2021-07-25 10:58:12 INFO  com.bank.main.BankMain  - 
+5)View Transaction of Customers
+[main] 2021-07-25 10:58:12 INFO  com.bank.main.BankMain  - 
+6)Logout
+[main] 2021-07-25 10:58:12 INFO  com.bank.main.BankMain  - 
+Enter Your Choice 1-6
+[main] 2021-07-25 10:58:16 INFO  com.bank.main.BankMain  - Account [custFname = zayn, custUserName = zayn123, openingbalance = 1700.0, Account Creation Date = 2021-07-18]
+[main] 2021-07-25 10:58:16 INFO  com.bank.main.BankMain  - Account [custFname = Saif, custUserName = saif123, openingbalance = 2.002E7, Account Creation Date = 2021-07-18]
+[main] 2021-07-25 10:58:16 INFO  com.bank.main.BankMain  - Account [custFname = Muddassir, custUserName = mud4, openingbalance = 4800.0, Account Creation Date = 2021-07-23]
+[main] 2021-07-25 10:58:16 INFO  com.bank.main.BankMain  - Account [custFname = neha, custUserName = neha5121, openingbalance = 2100.0, Account Creation Date = 2021-07-18]
+[main] 2021-07-25 10:58:16 INFO  com.bank.main.BankMain  - 
+Welcome syed123
+
+[main] 2021-07-25 10:58:16 INFO  com.bank.main.BankMain  - 
+1)Open Account
+[main] 2021-07-25 10:58:16 INFO  com.bank.main.BankMain  - 
+2)Approve or Reject an Account
+[main] 2021-07-25 10:58:16 INFO  com.bank.main.BankMain  - 
+3)View All Customer Personal Details
+[main] 2021-07-25 10:58:16 INFO  com.bank.main.BankMain  - 
+4)View Customer Account Details
+[main] 2021-07-25 10:58:16 INFO  com.bank.main.BankMain  - 
+5)View Transaction of Customers
+[main] 2021-07-25 10:58:16 INFO  com.bank.main.BankMain  - 
+6)Logout
+[main] 2021-07-25 10:58:16 INFO  com.bank.main.BankMain  - 
+Enter Your Choice 1-6
+[main] 2021-07-25 10:58:19 INFO  com.bank.main.BankMain  - Transaction [tid=1, ttype=Deposit, openingbalance=500.0, tamount=500.0, tdate=2021-07-18, closingbalance=1000.0, custUserName=saif123]
+[main] 2021-07-25 10:58:19 INFO  com.bank.main.BankMain  - Transaction [tid=2, ttype=Withdraw, openingbalance=1000.0, tamount=100.0, tdate=2021-07-18, closingbalance=900.0, custUserName=saif123]
+[main] 2021-07-25 10:58:19 INFO  com.bank.main.BankMain  - Transaction [tid=3, ttype=Deposit, openingbalance=900.0, tamount=500.0, tdate=2021-07-18, closingbalance=1400.0, custUserName=saif123]
+[main] 2021-07-25 10:58:19 INFO  com.bank.main.BankMain  - Transaction [tid=4, ttype=Deposit, openingbalance=1400.0, tamount=500.0, tdate=2021-07-18, closingbalance=1900.0, custUserName=saif123]
+[main] 2021-07-25 10:58:19 INFO  com.bank.main.BankMain  - Transaction [tid=5, ttype=Withdraw, openingbalance=1900.0, tamount=100.0, tdate=2021-07-18, closingbalance=1800.0, custUserName=saif123]
+[main] 2021-07-25 10:58:19 INFO  com.bank.main.BankMain  - Transaction [tid=6, ttype=Withdraw, openingbalance=1800.0, tamount=100.0, tdate=2021-07-18, closingbalance=1700.0, custUserName=saif123]
+[main] 2021-07-25 10:58:19 INFO  com.bank.main.BankMain  - Transaction [tid=7, ttype=Deposit, openingbalance=1200.0, tamount=300.0, tdate=2021-07-18, closingbalance=1500.0, custUserName=zayn123]
+[main] 2021-07-25 10:58:19 INFO  com.bank.main.BankMain  - Transaction [tid=8, ttype=Withdraw, openingbalance=1500.0, tamount=300.0, tdate=2021-07-18, closingbalance=1200.0, custUserName=zayn123]
+[main] 2021-07-25 10:58:19 INFO  com.bank.main.BankMain  - Transaction [tid=9, ttype=credited, openingbalance=1700.0, tamount=300.0, tdate=2021-07-18, closingbalance=2000.0, custUserName=saif123]
+[main] 2021-07-25 10:58:19 INFO  com.bank.main.BankMain  - Transaction [tid=10, ttype=credited, openingbalance=2000.0, tamount=2.0E7, tdate=2021-07-18, closingbalance=2.0002E7, custUserName=saif123]
+[main] 2021-07-25 10:58:19 INFO  com.bank.main.BankMain  - Transaction [tid=11, ttype=Deposit, openingbalance=700.0, tamount=300.0, tdate=2021-07-18, closingbalance=1000.0, custUserName=neha5121]
+[main] 2021-07-25 10:58:19 INFO  com.bank.main.BankMain  - Transaction [tid=12, ttype=Withdraw, openingbalance=1000.0, tamount=200.0, tdate=2021-07-18, closingbalance=800.0, custUserName=neha5121]
+[main] 2021-07-25 10:58:19 INFO  com.bank.main.BankMain  - Transaction [tid=13, ttype=Withdraw, openingbalance=800.0, tamount=100.0, tdate=2021-07-18, closingbalance=700.0, custUserName=neha5121]
+[main] 2021-07-25 10:58:19 INFO  com.bank.main.BankMain  - Transaction [tid=14, ttype=Withdraw, openingbalance=700.0, tamount=500.0, tdate=2021-07-18, closingbalance=200.0, custUserName=neha5121]
+[main] 2021-07-25 10:58:19 INFO  com.bank.main.BankMain  - Transaction [tid=15, ttype=credited, openingbalance=2.0002E7, tamount=500.0, tdate=2021-07-18, closingbalance=2.00025E7, custUserName=saif123]
+[main] 2021-07-25 10:58:19 INFO  com.bank.main.BankMain  - Transaction [tid=16, ttype=Deposit, openingbalance=200.0, tamount=500.0, tdate=2021-07-19, closingbalance=700.0, custUserName=neha5121]
+[main] 2021-07-25 10:58:19 INFO  com.bank.main.BankMain  - Transaction [tid=17, ttype=Withdraw, openingbalance=700.0, tamount=500.0, tdate=2021-07-19, closingbalance=200.0, custUserName=neha5121]
+[main] 2021-07-25 10:58:19 INFO  com.bank.main.BankMain  - Transaction [tid=18, ttype=Withdraw, openingbalance=200.0, tamount=-1.0, tdate=2021-07-19, closingbalance=201.0, custUserName=neha5121]
+[main] 2021-07-25 10:58:19 INFO  com.bank.main.BankMain  - Transaction [tid=19, ttype=Withdraw, openingbalance=201.0, tamount=7000.0, tdate=2021-07-19, closingbalance=6799.0, custUserName=neha5121]
+[main] 2021-07-25 10:58:19 INFO  com.bank.main.BankMain  - Transaction [tid=20, ttype=credited, openingbalance=2.00025E7, tamount=7000.0, tdate=2021-07-19, closingbalance=2.00095E7, custUserName=saif123]
+[main] 2021-07-25 10:58:19 INFO  com.bank.main.BankMain  - Transaction [tid=21, ttype=Withdraw, openingbalance=6799.0, tamount=10000.0, tdate=2021-07-19, closingbalance=3201.0, custUserName=neha5121]
+[main] 2021-07-25 10:58:19 INFO  com.bank.main.BankMain  - Transaction [tid=22, ttype=credited, openingbalance=2.00095E7, tamount=10000.0, tdate=2021-07-19, closingbalance=2.00195E7, custUserName=saif123]
+[main] 2021-07-25 10:58:19 INFO  com.bank.main.BankMain  - Transaction [tid=23, ttype=Withdraw, openingbalance=3201.0, tamount=200000.0, tdate=2021-07-19, closingbalance=196799.0, custUserName=neha5121]
+[main] 2021-07-25 10:58:19 INFO  com.bank.main.BankMain  - Transaction [tid=24, ttype=Withdraw, openingbalance=1000.0, tamount=500.0, tdate=2021-07-19, closingbalance=500.0, custUserName=neha5121]
+[main] 2021-07-25 10:58:19 INFO  com.bank.main.BankMain  - Transaction [tid=25, ttype=credited, openingbalance=1200.0, tamount=500.0, tdate=2021-07-19, closingbalance=1700.0, custUserName=zayn123]
+[main] 2021-07-25 10:58:19 INFO  com.bank.main.BankMain  - Transaction [tid=26, ttype=Deposit, openingbalance=500.0, tamount=200.0, tdate=2021-07-19, closingbalance=700.0, custUserName=neha5121]
+[main] 2021-07-25 10:58:19 INFO  com.bank.main.BankMain  - Transaction [tid=27, ttype=Withdraw, openingbalance=700.0, tamount=100.0, tdate=2021-07-19, closingbalance=600.0, custUserName=neha5121]
+[main] 2021-07-25 10:58:19 INFO  com.bank.main.BankMain  - Transaction [tid=28, ttype=Withdraw, openingbalance=600.0, tamount=700.0, tdate=2021-07-19, closingbalance=100.0, custUserName=neha5121]
+[main] 2021-07-25 10:58:19 INFO  com.bank.main.BankMain  - Transaction [tid=29, ttype=Deposit, openingbalance=100.0, tamount=100.0, tdate=2021-07-19, closingbalance=200.0, custUserName=neha5121]
+[main] 2021-07-25 10:58:19 INFO  com.bank.main.BankMain  - Transaction [tid=30, ttype=Deposit, openingbalance=200.0, tamount=500.0, tdate=2021-07-19, closingbalance=700.0, custUserName=neha5121]
+[main] 2021-07-25 10:58:19 INFO  com.bank.main.BankMain  - Transaction [tid=31, ttype=Withdraw, openingbalance=700.0, tamount=300.0, tdate=2021-07-19, closingbalance=400.0, custUserName=neha5121]
+[main] 2021-07-25 10:58:19 INFO  com.bank.main.BankMain  - Transaction [tid=32, ttype=Deposit, openingbalance=400.0, tamount=500.0, tdate=2021-07-19, closingbalance=900.0, custUserName=neha5121]
+[main] 2021-07-25 10:58:19 INFO  com.bank.main.BankMain  - Transaction [tid=33, ttype=Withdraw, openingbalance=900.0, tamount=500.0, tdate=2021-07-19, closingbalance=400.0, custUserName=neha5121]
+[main] 2021-07-25 10:58:19 INFO  com.bank.main.BankMain  - Transaction [tid=34, ttype=Deposit, openingbalance=400.0, tamount=500.0, tdate=2021-07-19, closingbalance=900.0, custUserName=neha5121]
+[main] 2021-07-25 10:58:19 INFO  com.bank.main.BankMain  - Transaction [tid=35, ttype=Deposit, openingbalance=1000.0, tamount=3000.0, tdate=2021-07-23, closingbalance=4000.0, custUserName=mud4]
+[main] 2021-07-25 10:58:19 INFO  com.bank.main.BankMain  - Transaction [tid=36, ttype=Withdraw, openingbalance=4000.0, tamount=3000.0, tdate=2021-07-23, closingbalance=1000.0, custUserName=mud4]
+[main] 2021-07-25 10:58:19 INFO  com.bank.main.BankMain  - Transaction [tid=37, ttype=Withdraw, openingbalance=1000.0, tamount=500.0, tdate=2021-07-23, closingbalance=500.0, custUserName=mud4]
+[main] 2021-07-25 10:58:19 INFO  com.bank.main.BankMain  - Transaction [tid=38, ttype=credited, openingbalance=2.00195E7, tamount=500.0, tdate=2021-07-23, closingbalance=2.002E7, custUserName=saif123]
+[main] 2021-07-25 10:58:19 INFO  com.bank.main.BankMain  - Transaction [tid=39, ttype=Deposit, openingbalance=500.0, tamount=5000.0, tdate=2021-07-23, closingbalance=5500.0, custUserName=mud4]
+[main] 2021-07-25 10:58:19 INFO  com.bank.main.BankMain  - Transaction [tid=40, ttype=Withdraw, openingbalance=5500.0, tamount=700.0, tdate=2021-07-23, closingbalance=4800.0, custUserName=mud4]
+[main] 2021-07-25 10:58:19 INFO  com.bank.main.BankMain  - Transaction [tid=41, ttype=credited, openingbalance=900.0, tamount=700.0, tdate=2021-07-23, closingbalance=1600.0, custUserName=neha5121]
+[main] 2021-07-25 10:58:19 INFO  com.bank.main.BankMain  - Transaction [tid=42, ttype=Deposit, openingbalance=4800.0, tamount=500.0, tdate=2021-07-25, closingbalance=5300.0, custUserName=mud4]
+[main] 2021-07-25 10:58:19 INFO  com.bank.main.BankMain  - Transaction [tid=43, ttype=Withdraw, openingbalance=5300.0, tamount=500.0, tdate=2021-07-25, closingbalance=4800.0, custUserName=mud4]
+[main] 2021-07-25 10:58:19 INFO  com.bank.main.BankMain  - Transaction [tid=44, ttype=credited, openingbalance=1600.0, tamount=500.0, tdate=2021-07-25, closingbalance=2100.0, custUserName=neha5121]
+[main] 2021-07-25 10:58:19 INFO  com.bank.main.BankMain  - 
+Welcome syed123
+
+[main] 2021-07-25 10:58:19 INFO  com.bank.main.BankMain  - 
+1)Open Account
+[main] 2021-07-25 10:58:19 INFO  com.bank.main.BankMain  - 
+2)Approve or Reject an Account
+[main] 2021-07-25 10:58:19 INFO  com.bank.main.BankMain  - 
+3)View All Customer Personal Details
+[main] 2021-07-25 10:58:19 INFO  com.bank.main.BankMain  - 
+4)View Customer Account Details
+[main] 2021-07-25 10:58:19 INFO  com.bank.main.BankMain  - 
+5)View Transaction of Customers
+[main] 2021-07-25 10:58:19 INFO  com.bank.main.BankMain  - 
+6)Logout
+[main] 2021-07-25 10:58:19 INFO  com.bank.main.BankMain  - 
+Enter Your Choice 1-6
+[main] 2021-07-25 10:58:20 INFO  com.bank.main.BankMain  - 
+Logout Successfully............
+
+[main] 2021-07-25 10:58:20 INFO  com.bank.main.BankMain  - 
+Going to Main Menu............
+[main] 2021-07-25 10:58:20 INFO  com.bank.main.BankMain  - Welcome to Syed's Banking App
+[main] 2021-07-25 10:58:20 INFO  com.bank.main.BankMain  - ==================================
+[main] 2021-07-25 10:58:20 INFO  com.bank.main.BankMain  - 
+Bank Menu
+[main] 2021-07-25 10:58:20 INFO  com.bank.main.BankMain  - 1)Login
+[main] 2021-07-25 10:58:20 INFO  com.bank.main.BankMain  - 2)Register as a Customer
+[main] 2021-07-25 10:58:20 INFO  com.bank.main.BankMain  - 3)EXIT
+[main] 2021-07-25 10:58:20 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-3

@@ -10,24 +10,26 @@ import com.bank.service.BankLoginService;
 public class BankLoginServiceImpl implements BankLoginService{
 	private BankDAO bankDAO=new BankDAOImpl();
 	@Override
-	public Bank employeeLogin(Bank bank) throws BusinessException {
-		if(bank.getEmpUsername()!=null && bank.getEmpPassword()!=null) {
-			bank = bankDAO.employeeLogin(bank);
+	public boolean isValidemployeeCredentials(Bank bank) throws BusinessException{
+		boolean b = false;
+		if(bank!=null && bank.getEmpUsername()!=null && bank.getEmpPassword()!=null) {
+			b = bankDAO.isValidEmployeeCredentials(bank);
 		}
 		else {
-			throw new BusinessException("Invalid3 Details...");
+			throw new BusinessException("Invalid3 Username and Password");
 		}
-		return bank;
+		return b;
 	}
 	@Override
-	public Customer customerLogin(Customer customer) throws BusinessException {
+	public boolean isValidCustomerCredentials(Customer customer) throws BusinessException{
+		boolean b = false;
 		if(customer.getCustUserName()!=null && customer.getCustPassword()!=null) {
-			customer = bankDAO.customerLogin(customer);
+			b = bankDAO.isValidCustomerCredentials(customer);
 		}
 		else {
 			throw new BusinessException("Invalid Details...");
 		}
-		return customer;
+		return b;
 	}
 	
 

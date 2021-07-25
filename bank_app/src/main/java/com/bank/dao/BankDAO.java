@@ -15,7 +15,8 @@ public interface BankDAO {
 	public Bank openCustomerAccount(Bank bank) throws BusinessException;
 	public List<Bank> getAllCustomerDetails()throws BusinessException;
 	//Bank login service
-	public Bank employeeLogin(Bank bank) throws BusinessException;
+	
+	public boolean isValidEmployeeCredentials(Bank bank) throws BusinessException;
 	//Bank Customer service
 	public Customer customerLogin(Customer customer) throws BusinessException;
 	//deposit
@@ -32,4 +33,5 @@ public interface BankDAO {
 	public List<Transaction> getAllCustomerTransactionDetails() throws BusinessException;
 	//transfer amount
 	public Transaction transferAmountByCustDetails(String creditorUsername)throws BusinessException;
+	public boolean isValidCustomerCredentials(Customer customer) throws BusinessException;
 }

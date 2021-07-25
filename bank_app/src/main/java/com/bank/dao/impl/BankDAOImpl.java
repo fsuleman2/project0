@@ -109,20 +109,24 @@ public class BankDAOImpl implements BankDAO{
 	}
 
 	@Override
-	public Bank employeeLogin(Bank bank) throws BusinessException {
+	public boolean isValidEmployeeCredentials(Bank bank) throws BusinessException {
+		boolean b = false;
 		try(Connection connection = PostgresConnection.getConnection()){
-			String sql="select empusername,emppassword from employeedetails";
+			String sql="select empusername from employeedetails where empusername =? and emppassword = ?";
 			PreparedStatement preparedStatement = connection.prepareStatement(sql);
+			preparedStatement.setString(1, bank.getEmpUsername());
+			preparedStatement.setString(2, bank.getEmpPassword());
 			ResultSet resultSet = preparedStatement.executeQuery();
 			if(resultSet.next()) {
-				bank.setEmpUsername(resultSet.getString("empusername"));
-				bank.setEmpPassword(resultSet.getString("emppassword"));
+				b=true;
+			}else {
+				throw new BusinessException("Invaid Login Credentials");
 			}
 		} catch (ClassNotFoundException | SQLException e) {
 			log.warn(e.getMessage());
 			throw new BusinessException("Internal Error Occured... Kindly contact SysAdmin");
 		}
-		return bank;
+		return b;
 	}
 
 	@Override
@@ -336,4 +340,25 @@ public class BankDAOImpl implements BankDAO{
 		// TODO Auto-generated method stub
 		return null;
 	}
+
+	@Override
+	public boolean isValidCustomerCredentials(Customer customer) throws BusinessException {
+		boolean b = false;
+		try(Connection connection = PostgresConnection.getConnection()){
+			String sql="select username from custlogindetails where username =? and password =?";
+			PreparedStatement preparedStatement = connection.prepareStatement(sql);
+			preparedStatement.setString(1, customer.getCustUserName());
+			preparedStatement.setString(2,customer.getCustPassword());
+			ResultSet resultSet = preparedStatement.executeQuery();
+			if(resultSet.next()) {
+				b=true;
+			}
+		} catch (ClassNotFoundException | SQLException e) {
+			log.warn(e.getMessage());
+			throw new BusinessException("Internal Error Occured... Kindly contact SysAdmin");
+		}
+		return b;
+	}
+
+
 }
