@@ -60,7 +60,7 @@ public class BankMain {
 						bank = new Bank(empUsername, empPassword);
 						try {
 							bankLoginServiceForEmp = new BankLoginServiceImpl();
-							if (bankLoginServiceForEmp.isValidemployeeCredentials(bank)) {
+							if (bankLoginServiceForEmp.isValidEmployeeCredentials(bank)) {
 								log.info("Employee Login Successfully");
 								int ch2 = 0;
 								do {

@@ -130,23 +130,6 @@ public class BankDAOImpl implements BankDAO{
 	}
 
 	@Override
-	public Customer customerLogin(Customer customer) throws BusinessException {
-		try(Connection connection = PostgresConnection.getConnection()){
-			String sql="select username,password from custlogindetails";
-			PreparedStatement preparedStatement = connection.prepareStatement(sql);
-			ResultSet resultSet = preparedStatement.executeQuery();
-			while(resultSet.next()) {
-				customer.setCustUserName(resultSet.getString("username"));
-				customer.setCustPassword(resultSet.getString("password"));
-			}
-		} catch (ClassNotFoundException | SQLException e) {
-			log.warn(e.getMessage());
-			throw new BusinessException("Internal Error Occured... Kindly contact SysAdmin");
-		}
-		return customer;
-	}
-
-	@Override
 	public Transaction depositAmount(Transaction transaction) throws BusinessException {
 		try(Connection connection = PostgresConnection.getConnection()){
 			String sql = "insert into custtransaction(ttype,openingbalance,tamount,closingbalance,custusername) values(?,?,?,?,?)";
@@ -329,11 +312,7 @@ public class BankDAOImpl implements BankDAO{
 		return null;
 	}
 
-	@Override
-	public Customer getPasswordByUserId(String userId) throws BusinessException {
-		// TODO Auto-generated method stub
-		return null;
-	}
+
 
 	@Override
 	public Transaction transferAmountByCustDetails(String creditorUsername) throws BusinessException {
@@ -358,6 +337,12 @@ public class BankDAOImpl implements BankDAO{
 			throw new BusinessException("Internal Error Occured... Kindly contact SysAdmin");
 		}
 		return b;
+	}
+
+	@Override
+	public List<Transaction> getTransactionDetailsByTid(int tid) throws BusinessException {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 

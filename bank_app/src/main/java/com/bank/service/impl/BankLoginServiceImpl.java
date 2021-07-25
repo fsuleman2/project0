@@ -10,7 +10,7 @@ import com.bank.service.BankLoginService;
 public class BankLoginServiceImpl implements BankLoginService{
 	private BankDAO bankDAO=new BankDAOImpl();
 	@Override
-	public boolean isValidemployeeCredentials(Bank bank) throws BusinessException{
+	public boolean isValidEmployeeCredentials(Bank bank) throws BusinessException{
 		boolean b = false;
 		if(bank!=null && bank.getEmpUsername()!=null && bank.getEmpPassword()!=null) {
 			b = bankDAO.isValidEmployeeCredentials(bank);
@@ -31,8 +31,4 @@ public class BankLoginServiceImpl implements BankLoginService{
 		}
 		return b;
 	}
-	
-
-	
-
 }
