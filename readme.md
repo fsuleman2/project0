@@ -14,7 +14,7 @@ Syed's Banking Management App is an Console Based Java Application Which allows 
   # Installation
   1. Clone the git repository
   ```
-  https://github.com/fsuleman2/project0.git
+  https://github.com/fsuleman2/revature-project0.git
   
   ```
   2. Extract the .zip file and Open it in  Spring Boot
