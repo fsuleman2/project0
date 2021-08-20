@@ -67,7 +67,21 @@ foreign key (custusername) references custacctdetails(custusername));
   
  ## Over all View of Syed's Bank App
   <img src="https://github.com/fsuleman2/project0/blob/master/SYEDS_BANK_APP.png" width=800px height=400px><br>
-  
+ 
+## Screenshots
+ <img src="https://github.com/fsuleman2/revature-project0/blob/master/screenshots/s1.PNG"><br>
+ <img src="https://github.com/fsuleman2/revature-project0/blob/master/screenshots/s2.PNG"><br>
+ <img src="https://github.com/fsuleman2/revature-project0/blob/master/screenshots/s3.PNG"><br>
+ <img src="https://github.com/fsuleman2/revature-project0/blob/master/screenshots/s4.PNG"><br>
+ <img src="https://github.com/fsuleman2/revature-project0/blob/master/screenshots/s5.PNG"><br>
+ <img src="https://github.com/fsuleman2/revature-project0/blob/master/screenshots/s6.PNG"><br>
+ <img src="https://github.com/fsuleman2/revature-project0/blob/master/screenshots/s7.PNG"><br>
+ <img src="https://github.com/fsuleman2/revature-project0/blob/master/screenshots/s8.PNG"><br>
+ <img src="https://github.com/fsuleman2/revature-project0/blob/master/screenshots/s9.PNG"><br>
+ <img src="https://github.com/fsuleman2/revature-project0/blob/master/screenshots/s10.PNG"><br>
+ <img src="https://github.com/fsuleman2/revature-project0/blob/master/screenshots/s12.PNG"><br>
+ <br><br>
+  <a href="https://github.com/fsuleman2/revature-project0/blob/master/screenshots">For more ScreenShot Cick here</a>
   
   
 # Contributing
