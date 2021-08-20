@@ -1,6 +1,6 @@
 # Revatute Project  0
 ## Syed's Banking Management App
-Syed's Banking Management App is an Console Based Java Application Which allows Users to Open an account, Transfer funds to Different Accounts, Deposit Amount, Withdraw Amount and also provide facility to view previous transactions.
+Syed's Banking Management is a console-based application that simulates banking operations. A customer can apply for an account, view their balance, transfer amount from his account to another customer account and can make withdrawals and deposits. An employee  view account balances for their customers, view customer details and much more.
 
 <h3>Technologies & Tools Used <h3>
   1. Java <br>
