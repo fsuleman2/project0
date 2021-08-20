@@ -41404,3 +41404,306 @@ Bank Menu
 [main] 2021-07-25 11:21:44 INFO  com.bank.main.BankMain  - 3)EXIT
 [main] 2021-07-25 11:21:44 INFO  com.bank.main.BankMain  - 
 Enter your Choice 1-3
+[main] 2021-08-06 17:08:22 INFO  com.bank.main.BankMain  - Welcome to Syed's Banking App
+[main] 2021-08-06 17:08:22 INFO  com.bank.main.BankMain  - ==================================
+[main] 2021-08-06 17:08:22 INFO  com.bank.main.BankMain  - 
+Bank Menu
+[main] 2021-08-06 17:08:22 INFO  com.bank.main.BankMain  - 1)Login
+[main] 2021-08-06 17:08:22 INFO  com.bank.main.BankMain  - 2)Register as a Customer
+[main] 2021-08-06 17:08:22 INFO  com.bank.main.BankMain  - 3)EXIT
+[main] 2021-08-06 17:08:22 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-3
+[main] 2021-08-06 17:08:25 INFO  com.bank.main.BankMain  - 
+1)Login as Employee
+[main] 2021-08-06 17:08:25 INFO  com.bank.main.BankMain  - 
+2)Login as Customer
+[main] 2021-08-06 17:08:25 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-2
+[main] 2021-08-06 17:08:26 INFO  com.bank.main.BankMain  - 
+Welcome to Employee Login Screen
+[main] 2021-08-06 17:08:26 INFO  com.bank.main.BankMain  - ==================================
+[main] 2021-08-06 17:08:26 INFO  com.bank.main.BankMain  - 
+Enter Username:
+[main] 2021-08-06 17:08:28 INFO  com.bank.main.BankMain  - 
+Enter Password:
+[main] 2021-08-06 17:08:29 WARN  com.bank.dao.BankDAO  - FATAL: password authentication failed for user "postgres"
+[main] 2021-08-06 17:08:29 WARN  com.bank.main.BankMain  - Internal Error Occured... Kindly contact SysAdmin
+[main] 2021-08-06 17:12:45 INFO  com.bank.main.BankMain  - Welcome to Syed's Banking App
+[main] 2021-08-06 17:12:45 INFO  com.bank.main.BankMain  - ==================================
+[main] 2021-08-06 17:12:45 INFO  com.bank.main.BankMain  - 
+Bank Menu
+[main] 2021-08-06 17:12:45 INFO  com.bank.main.BankMain  - 1)Login
+[main] 2021-08-06 17:12:45 INFO  com.bank.main.BankMain  - 2)Register as a Customer
+[main] 2021-08-06 17:12:45 INFO  com.bank.main.BankMain  - 3)EXIT
+[main] 2021-08-06 17:12:45 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-3
+[main] 2021-08-06 17:13:18 INFO  com.bank.main.BankMain  - Thanks for using our App.. See you soon. :)
+[main] 2021-08-07 10:54:45 INFO  com.bank.main.BankMain  - Welcome to Syed's Banking App
+[main] 2021-08-07 10:54:45 INFO  com.bank.main.BankMain  - ==================================
+[main] 2021-08-07 10:54:45 INFO  com.bank.main.BankMain  - 
+Bank Menu
+[main] 2021-08-07 10:54:45 INFO  com.bank.main.BankMain  - 1)Login
+[main] 2021-08-07 10:54:45 INFO  com.bank.main.BankMain  - 2)Register as a Customer
+[main] 2021-08-07 10:54:45 INFO  com.bank.main.BankMain  - 3)EXIT
+[main] 2021-08-07 10:54:45 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-3
+[main] 2021-08-07 10:55:09 INFO  com.bank.main.BankMain  - Welcome to Syed's Banking App
+[main] 2021-08-07 10:55:09 INFO  com.bank.main.BankMain  - ==================================
+[main] 2021-08-07 10:55:09 INFO  com.bank.main.BankMain  - 
+Bank Menu
+[main] 2021-08-07 10:55:09 INFO  com.bank.main.BankMain  - 1)Login
+[main] 2021-08-07 10:55:09 INFO  com.bank.main.BankMain  - 2)Register as a Customer
+[main] 2021-08-07 10:55:09 INFO  com.bank.main.BankMain  - 3)EXIT
+[main] 2021-08-07 10:55:09 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-3
+[main] 2021-08-07 10:55:13 INFO  com.bank.main.BankMain  - 
+1)Login as Employee
+[main] 2021-08-07 10:55:13 INFO  com.bank.main.BankMain  - 
+2)Login as Customer
+[main] 2021-08-07 10:55:13 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-2
+[main] 2021-08-07 10:55:15 INFO  com.bank.main.BankMain  - 
+Welcome to Employee Login Screen
+[main] 2021-08-07 10:55:15 INFO  com.bank.main.BankMain  - ==================================
+[main] 2021-08-07 10:55:15 INFO  com.bank.main.BankMain  - 
+Enter Username:
+[main] 2021-08-07 10:55:19 INFO  com.bank.main.BankMain  - 
+Enter Password:
+[main] 2021-08-07 10:55:21 INFO  com.bank.main.BankMain  - Employee Login Successfully
+[main] 2021-08-07 10:55:21 INFO  com.bank.main.BankMain  - 
+Welcome syed123
+
+[main] 2021-08-07 10:55:21 INFO  com.bank.main.BankMain  - 
+1)Open Account
+[main] 2021-08-07 10:55:21 INFO  com.bank.main.BankMain  - 
+2)Approve or Reject an Account
+[main] 2021-08-07 10:55:21 INFO  com.bank.main.BankMain  - 
+3)View All Customer Personal Details
+[main] 2021-08-07 10:55:21 INFO  com.bank.main.BankMain  - 
+4)View Customer Account Details
+[main] 2021-08-07 10:55:21 INFO  com.bank.main.BankMain  - 
+5)View Transaction of Customers
+[main] 2021-08-07 10:55:21 INFO  com.bank.main.BankMain  - 
+6)Logout
+[main] 2021-08-07 10:55:21 INFO  com.bank.main.BankMain  - 
+Enter Your Choice 1-6
+[main] 2021-08-07 10:55:24 INFO  com.bank.main.BankMain  - Account [custFname = Anmol, custUserName = anmol123, openingbalance = 911.0, Account Creation Date = 2021-08-05]
+[main] 2021-08-07 10:55:24 INFO  com.bank.main.BankMain  - Account [custFname = Mohan, custUserName = mohan123, openingbalance = 500.0, Account Creation Date = 2021-08-06]
+[main] 2021-08-07 10:55:24 INFO  com.bank.main.BankMain  - Account [custFname = Amit, custUserName = amit123, openingbalance = 500.0, Account Creation Date = 2021-08-06]
+[main] 2021-08-07 10:55:24 INFO  com.bank.main.BankMain  - Account [custFname = Salman, custUserName = salman123, openingbalance = 1500.0, Account Creation Date = 2021-08-06]
+[main] 2021-08-07 10:55:24 INFO  com.bank.main.BankMain  - Account [custFname = yml, custUserName = y123, openingbalance = 500.0, Account Creation Date = 2021-08-06]
+[main] 2021-08-07 10:55:24 INFO  com.bank.main.BankMain  - 
+Welcome syed123
+
+[main] 2021-08-07 10:55:24 INFO  com.bank.main.BankMain  - 
+1)Open Account
+[main] 2021-08-07 10:55:24 INFO  com.bank.main.BankMain  - 
+2)Approve or Reject an Account
+[main] 2021-08-07 10:55:24 INFO  com.bank.main.BankMain  - 
+3)View All Customer Personal Details
+[main] 2021-08-07 10:55:24 INFO  com.bank.main.BankMain  - 
+4)View Customer Account Details
+[main] 2021-08-07 10:55:24 INFO  com.bank.main.BankMain  - 
+5)View Transaction of Customers
+[main] 2021-08-07 10:55:24 INFO  com.bank.main.BankMain  - 
+6)Logout
+[main] 2021-08-07 10:55:24 INFO  com.bank.main.BankMain  - 
+Enter Your Choice 1-6
+[main] 2021-08-07 10:55:27 INFO  com.bank.main.BankMain  - 
+Logout Successfully............
+
+[main] 2021-08-07 10:55:27 INFO  com.bank.main.BankMain  - 
+Going to Main Menu............
+[main] 2021-08-07 10:55:27 INFO  com.bank.main.BankMain  - Welcome to Syed's Banking App
+[main] 2021-08-07 10:55:27 INFO  com.bank.main.BankMain  - ==================================
+[main] 2021-08-07 10:55:27 INFO  com.bank.main.BankMain  - 
+Bank Menu
+[main] 2021-08-07 10:55:27 INFO  com.bank.main.BankMain  - 1)Login
+[main] 2021-08-07 10:55:27 INFO  com.bank.main.BankMain  - 2)Register as a Customer
+[main] 2021-08-07 10:55:27 INFO  com.bank.main.BankMain  - 3)EXIT
+[main] 2021-08-07 10:55:27 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-3
+[main] 2021-08-20 21:13:31 INFO  com.bank.main.BankMain  - Welcome to Syed's Banking App
+[main] 2021-08-20 21:13:31 INFO  com.bank.main.BankMain  - ==================================
+[main] 2021-08-20 21:13:31 INFO  com.bank.main.BankMain  - 
+Bank Menu
+[main] 2021-08-20 21:13:31 INFO  com.bank.main.BankMain  - 1)Login
+[main] 2021-08-20 21:13:31 INFO  com.bank.main.BankMain  - 2)Register as a Customer
+[main] 2021-08-20 21:13:31 INFO  com.bank.main.BankMain  - 3)EXIT
+[main] 2021-08-20 21:13:31 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-3
+[main] 2021-08-20 21:13:52 INFO  com.bank.main.BankMain  - Welcome to Syed's Banking App
+[main] 2021-08-20 21:13:52 INFO  com.bank.main.BankMain  - ==================================
+[main] 2021-08-20 21:13:52 INFO  com.bank.main.BankMain  - 
+Bank Menu
+[main] 2021-08-20 21:13:52 INFO  com.bank.main.BankMain  - 1)Login
+[main] 2021-08-20 21:13:52 INFO  com.bank.main.BankMain  - 2)Register as a Customer
+[main] 2021-08-20 21:13:52 INFO  com.bank.main.BankMain  - 3)EXIT
+[main] 2021-08-20 21:13:52 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-3
+[main] 2021-08-20 21:13:54 INFO  com.bank.main.BankMain  - 
+1)Login as Employee
+[main] 2021-08-20 21:13:54 INFO  com.bank.main.BankMain  - 
+2)Login as Customer
+[main] 2021-08-20 21:13:54 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-2
+[main] 2021-08-20 21:13:56 INFO  com.bank.main.BankMain  - 
+Welcome to Customer Login Screen
+[main] 2021-08-20 21:13:56 INFO  com.bank.main.BankMain  - 
+ Enter Username:
+[main] 2021-08-20 21:14:06 INFO  com.bank.main.BankMain  - 
+ Enter Password:
+[main] 2021-08-20 21:14:11 INFO  com.bank.main.BankMain  - Invalid Details..
+[main] 2021-08-20 21:14:11 INFO  com.bank.main.BankMain  - Welcome to Syed's Banking App
+[main] 2021-08-20 21:14:11 INFO  com.bank.main.BankMain  - ==================================
+[main] 2021-08-20 21:14:11 INFO  com.bank.main.BankMain  - 
+Bank Menu
+[main] 2021-08-20 21:14:11 INFO  com.bank.main.BankMain  - 1)Login
+[main] 2021-08-20 21:14:11 INFO  com.bank.main.BankMain  - 2)Register as a Customer
+[main] 2021-08-20 21:14:11 INFO  com.bank.main.BankMain  - 3)EXIT
+[main] 2021-08-20 21:14:11 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-3
+[main] 2021-08-20 21:14:18 INFO  com.bank.main.BankMain  - 
+1)Login as Employee
+[main] 2021-08-20 21:14:18 INFO  com.bank.main.BankMain  - 
+2)Login as Customer
+[main] 2021-08-20 21:14:18 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-2
+[main] 2021-08-20 21:14:20 INFO  com.bank.main.BankMain  - 
+Welcome to Customer Login Screen
+[main] 2021-08-20 21:14:20 INFO  com.bank.main.BankMain  - 
+ Enter Username:
+[main] 2021-08-20 21:14:26 INFO  com.bank.main.BankMain  - 
+ Enter Password:
+[main] 2021-08-20 21:14:31 INFO  com.bank.main.BankMain  - Invalid Details..
+[main] 2021-08-20 21:14:31 INFO  com.bank.main.BankMain  - Welcome to Syed's Banking App
+[main] 2021-08-20 21:14:31 INFO  com.bank.main.BankMain  - ==================================
+[main] 2021-08-20 21:14:31 INFO  com.bank.main.BankMain  - 
+Bank Menu
+[main] 2021-08-20 21:14:31 INFO  com.bank.main.BankMain  - 1)Login
+[main] 2021-08-20 21:14:31 INFO  com.bank.main.BankMain  - 2)Register as a Customer
+[main] 2021-08-20 21:14:31 INFO  com.bank.main.BankMain  - 3)EXIT
+[main] 2021-08-20 21:14:31 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-3
+[main] 2021-08-20 21:14:46 INFO  com.bank.main.BankMain  - 
+1)Login as Employee
+[main] 2021-08-20 21:14:46 INFO  com.bank.main.BankMain  - 
+2)Login as Customer
+[main] 2021-08-20 21:14:46 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-2
+[main] 2021-08-20 21:14:47 INFO  com.bank.main.BankMain  - 
+Welcome to Employee Login Screen
+[main] 2021-08-20 21:14:47 INFO  com.bank.main.BankMain  - ==================================
+[main] 2021-08-20 21:14:47 INFO  com.bank.main.BankMain  - 
+Enter Username:
+[main] 2021-08-20 21:14:49 INFO  com.bank.main.BankMain  - 
+Enter Password:
+[main] 2021-08-20 21:14:50 INFO  com.bank.main.BankMain  - Employee Login Successfully
+[main] 2021-08-20 21:14:50 INFO  com.bank.main.BankMain  - 
+Welcome syed123
+
+[main] 2021-08-20 21:14:50 INFO  com.bank.main.BankMain  - 
+1)Open Account
+[main] 2021-08-20 21:14:50 INFO  com.bank.main.BankMain  - 
+2)Approve or Reject an Account
+[main] 2021-08-20 21:14:50 INFO  com.bank.main.BankMain  - 
+3)View All Customer Personal Details
+[main] 2021-08-20 21:14:50 INFO  com.bank.main.BankMain  - 
+4)View Customer Account Details
+[main] 2021-08-20 21:14:50 INFO  com.bank.main.BankMain  - 
+5)View Transaction of Customers
+[main] 2021-08-20 21:14:50 INFO  com.bank.main.BankMain  - 
+6)Logout
+[main] 2021-08-20 21:14:50 INFO  com.bank.main.BankMain  - 
+Enter Your Choice 1-6
+[main] 2021-08-20 21:15:04 INFO  com.bank.main.BankMain  - Bank [custUserName=anmol123, custFame=Anmol, custLname=Gehlot, custGender=male, custDob=1960-02-09, custMobileno=8121795121, custPan=JKPQW1234P, custCity=dsds, custState=dsds, initialAmount=500.0]
+[main] 2021-08-20 21:15:04 INFO  com.bank.main.BankMain  - Bank [custUserName=salman123, custFame=Salman, custLname=khan, custGender=male, custDob=1960-02-09, custMobileno=6301199221, custPan=JIOPK1234J, custCity=Hyderbad, custState=TS, initialAmount=500.0]
+[main] 2021-08-20 21:15:04 INFO  com.bank.main.BankMain  - Bank [custUserName=mohan123, custFame=Mohan, custLname=Kumar, custGender=male, custDob=1960-02-09, custMobileno=7878654012, custPan=RTOPK1234P, custCity=Nellore, custState=Andhra Pradesh, initialAmount=500.0]
+[main] 2021-08-20 21:15:04 INFO  com.bank.main.BankMain  - Bank [custUserName=amit123, custFame=Amit, custLname=Bhagat, custGender=male, custDob=1960-02-09, custMobileno=7867901122, custPan=TYUIO1234L, custCity=Hyd, custState=TS, initialAmount=500.0]
+[main] 2021-08-20 21:15:04 INFO  com.bank.main.BankMain  - Bank [custUserName=y123, custFame=yml, custLname=xyz, custGender=male, custDob=1960-02-09, custMobileno=6060606060, custPan=ASDFG1234O, custCity=dfdf, custState=dfdf, initialAmount=500.0]
+[main] 2021-08-20 21:15:04 INFO  com.bank.main.BankMain  - Bank [custUserName=SulemanSyed123, custFame=Suleman, custLname=Syed, custGender=Male, custDob=1998-06-06, custMobileno=6512123212, custPan=HIJKL123P, custCity=New Delhi, custState=NCT, initialAmount=500.0]
+[main] 2021-08-20 21:15:04 INFO  com.bank.main.BankMain  - 
+Welcome syed123
+
+[main] 2021-08-20 21:15:04 INFO  com.bank.main.BankMain  - 
+1)Open Account
+[main] 2021-08-20 21:15:04 INFO  com.bank.main.BankMain  - 
+2)Approve or Reject an Account
+[main] 2021-08-20 21:15:04 INFO  com.bank.main.BankMain  - 
+3)View All Customer Personal Details
+[main] 2021-08-20 21:15:04 INFO  com.bank.main.BankMain  - 
+4)View Customer Account Details
+[main] 2021-08-20 21:15:04 INFO  com.bank.main.BankMain  - 
+5)View Transaction of Customers
+[main] 2021-08-20 21:15:04 INFO  com.bank.main.BankMain  - 
+6)Logout
+[main] 2021-08-20 21:15:04 INFO  com.bank.main.BankMain  - 
+Enter Your Choice 1-6
+[main] 2021-08-20 21:15:21 INFO  com.bank.main.BankMain  - 
+Logout Successfully............
+
+[main] 2021-08-20 21:15:21 INFO  com.bank.main.BankMain  - 
+Going to Main Menu............
+[main] 2021-08-20 21:15:21 INFO  com.bank.main.BankMain  - Welcome to Syed's Banking App
+[main] 2021-08-20 21:15:21 INFO  com.bank.main.BankMain  - ==================================
+[main] 2021-08-20 21:15:21 INFO  com.bank.main.BankMain  - 
+Bank Menu
+[main] 2021-08-20 21:15:21 INFO  com.bank.main.BankMain  - 1)Login
+[main] 2021-08-20 21:15:21 INFO  com.bank.main.BankMain  - 2)Register as a Customer
+[main] 2021-08-20 21:15:21 INFO  com.bank.main.BankMain  - 3)EXIT
+[main] 2021-08-20 21:15:21 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-3
+[main] 2021-08-20 21:15:23 INFO  com.bank.main.BankMain  - 
+1)Login as Employee
+[main] 2021-08-20 21:15:23 INFO  com.bank.main.BankMain  - 
+2)Login as Customer
+[main] 2021-08-20 21:15:23 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-2
+[main] 2021-08-20 21:15:24 INFO  com.bank.main.BankMain  - 
+Welcome to Customer Login Screen
+[main] 2021-08-20 21:15:24 INFO  com.bank.main.BankMain  - 
+ Enter Username:
+[main] 2021-08-20 21:15:27 INFO  com.bank.main.BankMain  - 
+ Enter Password:
+[main] 2021-08-20 21:15:32 INFO  com.bank.main.BankMain  - Invalid Details..
+[main] 2021-08-20 21:15:32 INFO  com.bank.main.BankMain  - Welcome to Syed's Banking App
+[main] 2021-08-20 21:15:32 INFO  com.bank.main.BankMain  - ==================================
+[main] 2021-08-20 21:15:32 INFO  com.bank.main.BankMain  - 
+Bank Menu
+[main] 2021-08-20 21:15:32 INFO  com.bank.main.BankMain  - 1)Login
+[main] 2021-08-20 21:15:32 INFO  com.bank.main.BankMain  - 2)Register as a Customer
+[main] 2021-08-20 21:15:32 INFO  com.bank.main.BankMain  - 3)EXIT
+[main] 2021-08-20 21:15:32 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-3
+[main] 2021-08-20 21:16:03 INFO  com.bank.main.BankMain  - 
+1)Login as Employee
+[main] 2021-08-20 21:16:03 INFO  com.bank.main.BankMain  - 
+2)Login as Customer
+[main] 2021-08-20 21:16:03 INFO  com.bank.main.BankMain  - 
+Enter your Choice 1-2
+[main] 2021-08-20 21:16:06 INFO  com.bank.main.BankMain  - 
+Welcome to Customer Login Screen
+[main] 2021-08-20 21:16:06 INFO  com.bank.main.BankMain  - 
+ Enter Username:
+[main] 2021-08-20 21:16:10 INFO  com.bank.main.BankMain  - 
+ Enter Password:
+[main] 2021-08-20 21:16:14 INFO  com.bank.main.BankMain  - Employee Customer Successfully
+
+[main] 2021-08-20 21:16:14 INFO  com.bank.main.BankMain  - Welcome sulemanSyed123
+[main] 2021-08-20 21:16:14 INFO  com.bank.main.BankMain  - 
+1)Open Account
+[main] 2021-08-20 21:16:14 INFO  com.bank.main.BankMain  - 
+2)Transfer Amount
+[main] 2021-08-20 21:16:14 INFO  com.bank.main.BankMain  - 
+3)Withdraw Amount
+[main] 2021-08-20 21:16:14 INFO  com.bank.main.BankMain  - 
+4)Deposit Amount
+[main] 2021-08-20 21:16:14 INFO  com.bank.main.BankMain  - 
+5)View statement
+[main] 2021-08-20 21:16:14 INFO  com.bank.main.BankMain  - 
+6)Logout
+[main] 2021-08-20 21:16:14 INFO  com.bank.main.BankMain  - 
+Enter Your Choice 1-6
+[main] 2021-08-20 21:16:16 INFO  com.bank.main.BankMain  - Hello sulemanSyed123 please Enter the Amount to Deposit(min 500)
+
+[main] 2021-08-20 21:16:20 INFO  com.bank.main.BankMain  - Invalid UserName 
